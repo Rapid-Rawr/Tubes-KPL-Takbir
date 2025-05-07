@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\kuislami.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|solutionrelative:kuislami\\kuislami.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|solutionrelative:kuislami\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Kuislami",
+              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Kuislami.csproj",
+              "RelativeDocumentMoniker": "Kuislami\\Kuislami.csproj",
+              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Kuislami.csproj",
+              "RelativeToolTip": "Kuislami\\Kuislami.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T14:08:17.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Program.cs",
               "RelativeDocumentMoniker": "Kuislami\\Program.cs",
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Program.cs",
               "RelativeToolTip": "Kuislami\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T14:07:35.716Z",
               "EditorCaption": ""
