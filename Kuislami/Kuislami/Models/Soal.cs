@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kuislami.Models
+namespace Quiz.Models
 {
-    class Soal
+    class soal
     {
-        public int id { get; set; }
-        //public string tipe { get; set; } // pilgan / true false
-        public string pertanyaan { get; set; }
-        public List<string> opsi { get; set; } 
-        public string jawaban { get; set; }
+        public int Id { get; set; }
+        public string Pertanyaan { get; set; }
+        public List<string> pilihan { get; set; }
+        public int Jawaban { get; set; } 
     }
 }

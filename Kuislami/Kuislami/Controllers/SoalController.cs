@@ -1,71 +1,105 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-//using Newtonsoft.Json;
-using System.IO;
-using Kuislami.Models;
-using System.Xml;
+using Quiz.Models;
 
-namespace Kuislami.Controllers
+namespace Quiz.Controllers
 {
-    class SoalController
+    class soalController
     {
-        private string filePath = "soal.json";
-        private List<Soal> daftarSoal;
+        public List<soal> Soal { get; private set; } = new();
+        private string FilePath = "soalQuiz.json";
 
-        public SoalController()
-        {
-            daftarSoal = LoadSoal();
-        }
 
-        public List<Soal> GetAllSoal()
-        {
-            return daftarSoal;
-        }
+        private Dictionary<string, Action> CommandTable;
 
-        public Soal GetById(int id)
+        public soalController()
         {
-            return daftarSoal.Find(s => s.id == id);
-        }
+            LoadSoal();
 
-        public void TambahSoal(Soal soal)
-        {
-            soal.id = daftarSoal.Count > 0 ? daftarSoal[^1].id + 1 : 1;
-            daftarSoal.Add(soal);
-            SimpanKeFile();
-        }
-
-        public bool HapusSoal(int id)
-        {
-            var target = daftarSoal.Find(s => s.id == id);
-            if (target != null)
+            // inisialisasi table driven
+            CommandTable = new Dictionary<string, Action>(StringComparer.OrdinalIgnoreCase)
             {
-                daftarSoal.Remove(target);
-                SimpanKeFile();
-                return true;
-            }
-            return false;
+                { "view", ViewAllSoal },
+                { "delete", DeleteSoalByInput },
+                { "save", SaveSoal },
+                { "exit", () => Environment.Exit(0) }
+            };
         }
 
-        public void SimpanKeFile()
+        public void LoadSoal()
         {
-            //var json = JsonConvert.SerializeObject(daftarSoal, Formatting.Indented);
-            var json = JsonSerializer.Serialize(daftarSoal, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(filePath, json);
-        }
-
-        private List<Soal> LoadSoal()
-        {
-            if (!File.Exists(filePath))
+            if (File.Exists(FilePath))
             {
-                return new List<Soal>();
+                var json = File.ReadAllText(FilePath);
+                var data = JsonSerializer.Deserialize<List<soal>>(json);
+                if (data != null)
+                    Soal = data;
             }
+            Console.WriteLine($"Jumlah soal terbaca: {Soal.Count}");
+        }
 
-            string json = File.ReadAllText(filePath);
-            //return JsonConvert.DeserializeObject<List<Soal>>(json) ?? new List<Soal>();
-            return JsonSerializer.Deserialize<List<Soal>>(json) ?? new List<Soal>();
+        public void SaveSoal()
+        {
+            var json = JsonSerializer.Serialize(Soal, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(FilePath, json);
+            Console.WriteLine("Soal berhasil disimpan.");
+        }
+
+        public void AddSoal(soal q)
+        {
+            q.Id = Soal.Count > 0 ? Soal.Max(s => s.Id) + 1 : 1;
+            Soal.Add(q);
+            SaveSoal();
+        }
+
+        public void DeleteSoal(int id)
+        {
+            var soal = Soal.FirstOrDefault(s => s.Id == id);
+            if (soal != null)
+            {
+                Soal.Remove(soal);
+                Console.WriteLine("Soal berhasil dihapus.");
+            }
+            else
+            {
+                Console.WriteLine("Soal tidak ditemukan.");
+            }
+        }
+
+        public void ViewAllSoal()
+        {
+            foreach (var s in Soal)
+            {
+                Console.WriteLine($"[{s.Id}] {s.Pertanyaan}");
+                for (int i = 0; i < s.pilihan.Count; i++)
+                    Console.WriteLine($"{i + 1}. {s.pilihan[i]}");
+                Console.WriteLine();
+            }
+        }
+
+        // hapus soal berdasarkan input id
+        private void DeleteSoalByInput()
+        {
+            Console.Write("Masukkan ID soal yang ingin dihapus: ");
+            if (int.TryParse(Console.ReadLine(), out int id))
+            {
+                DeleteSoal(id);
+            }
+            else
+            {
+                Console.WriteLine("Input tidak valid.");
+            }
+        }
+
+        // pemroses command menggunakan table driven method
+        public void ExecuteCommand(string command)
+        {
+            if (CommandTable.TryGetValue(command, out Action action))
+                action();
+            else
+                Console.WriteLine("Perintah tidak dikenali.");
         }
     }
 }
+
+

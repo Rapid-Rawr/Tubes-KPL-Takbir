@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\",
+  "WorkspaceRootPath": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\kuislami.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|d:\\kuliah\\semester 4\\konstruksi rpl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|solutionrelative:kuislami\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|d:\\kuliah\\semester 4\\konstruksi rpl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\kuislami.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|solutionrelative:kuislami\\kuislami.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|solutionrelative:kuislami\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|d:\\kuliah\\semester 4\\konstruksi rpl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|solutionrelative:kuislami\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|d:\\kuliah\\semester 4\\konstruksi rpl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\models\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|solutionrelative:kuislami\\models\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|d:\\kuliah\\semester 4\\konstruksi rpl\\tubes\\tubes-kpl-takbir\\kuislami\\kuislami\\controllers\\soalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B781B8-F201-4349-861D-B0D7FCE73001}|Kuislami\\Kuislami.csproj|solutionrelative:kuislami\\controllers\\soalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +30,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Kuislami",
-              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Kuislami.csproj",
+              "DocumentIndex": 4,
+              "Title": "SoalController.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Controllers\\SoalController.cs",
+              "RelativeDocumentMoniker": "Kuislami\\Controllers\\SoalController.cs",
+              "ToolTip": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Controllers\\SoalController.cs",
+              "RelativeToolTip": "Kuislami\\Controllers\\SoalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:33:36.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Soal.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Models\\Soal.cs",
+              "RelativeDocumentMoniker": "Kuislami\\Models\\Soal.cs",
+              "ToolTip": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Models\\Soal.cs",
+              "RelativeToolTip": "Kuislami\\Models\\Soal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:19:33.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Kuislami\\Models\\User.cs",
+              "ToolTip": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Models\\User.cs",
+              "RelativeToolTip": "Kuislami\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:22:39.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Kuislami.csproj",
+              "DocumentMoniker": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Kuislami.csproj",
               "RelativeDocumentMoniker": "Kuislami\\Kuislami.csproj",
-              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Kuislami.csproj",
+              "ToolTip": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Kuislami.csproj",
               "RelativeToolTip": "Kuislami\\Kuislami.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -35,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Program.cs",
+              "DocumentMoniker": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Program.cs",
               "RelativeDocumentMoniker": "Kuislami\\Program.cs",
-              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Program.cs",
+              "ToolTip": "D:\\Kuliah\\Semester 4\\Konstruksi RPL\\Tubes\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\Program.cs",
               "RelativeToolTip": "Kuislami\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T14:07:35.716Z",
               "EditorCaption": ""
