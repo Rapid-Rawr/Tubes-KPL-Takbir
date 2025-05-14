@@ -1,0 +1,15 @@
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\bin\Debug\net8.0\Kerangka.exe
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\bin\Debug\net8.0\Kerangka.deps.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\bin\Debug\net8.0\Kerangka.runtimeconfig.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\bin\Debug\net8.0\Kerangka.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\bin\Debug\net8.0\Kerangka.pdb
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\Kerangka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\Kerangka.AssemblyInfoInputs.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\Kerangka.AssemblyInfo.cs
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\Kerangka.csproj.CoreCompileInputs.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\Kerangka.sourcelink.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\Kerangka.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\refint\Kerangka.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\Kerangka.pdb
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\Kerangka.genruntimeconfig.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\AutoMata\Kerangka\Kerangka\obj\Debug\net8.0\ref\Kerangka.dll

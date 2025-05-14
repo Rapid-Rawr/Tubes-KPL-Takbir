@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\AutoMata\\Kerangka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7621BD-8ED3-4872-8E5D-C3EBB35851E5}|Kerangka\\Kerangka.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\automata\\kerangka\\kerangka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7621BD-8ED3-4872-8E5D-C3EBB35851E5}|Kerangka\\Kerangka.csproj|solutionrelative:kerangka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\AutoMata\\Kerangka\\Kerangka\\Program.cs",
+              "RelativeDocumentMoniker": "Kerangka\\Program.cs",
+              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\AutoMata\\Kerangka\\Kerangka\\Program.cs*",
+              "RelativeToolTip": "Kerangka\\Program.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:27:41.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
