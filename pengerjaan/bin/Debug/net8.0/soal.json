@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "How many values can a single byte represent?",
+    "jawaban": "256",
+    "opsi": [
+      "8",
+      "1024",
+      "256",
+      "1"
+    ]
+  },
+  {
+    "id": 2,
+    "pertanyaan": "What does the Prt Sc button do?",
+    "jawaban": "Captures what&#039;s on the screen and copies it to your clipboard",
+    "opsi": [
+      "Closes all windows",
+      "Saves a .png file of what&#039;s on the screen in your screenshots folder in photos",
+      "Nothing",
+      "Captures what&#039;s on the screen and copies it to your clipboard"
+    ]
+  },
+  {
+    "id": 3,
+    "pertanyaan": "In any programming language, what is the most common way to iterate through an array?",
+    "jawaban": "&#039;For&#039; loops",
+    "opsi": [
+      "&#039;While&#039; loops",
+      "&#039;Do-while&#039; loops",
+      "&#039;For&#039; loops",
+      "&#039;If&#039; Statements"
+    ]
+  },
+  {
+    "id": 4,
+    "pertanyaan": "When Gmail first launched, how much storage did it provide for your email?",
+    "jawaban": "1GB",
+    "opsi": [
+      "512MB",
+      "5GB",
+      "Unlimited",
+      "1GB"
+    ]
+  },
+  {
+    "id": 5,
+    "pertanyaan": "What does the computer software acronym JVM stand for?",
+    "jawaban": "Java Virtual Machine",
+    "opsi": [
+      "Java Visual Machine",
+      "Java Virtual Machine",
+      "Java Vendor Machine",
+      "Just Virtual Machine"
+    ]
+  },
+  {
+    "id": 6,
+    "pertanyaan": "In computing, what does LAN stand for?",
+    "jawaban": "Local Area Network",
+    "opsi": [
+      "Local Area Network",
+      "Land Address Navigation",
+      "Light Access Node",
+      "Long Antenna Node"
+    ]
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+    "jawaban": "Apple",
+    "opsi": [
+      "Commodore",
+      "Microsoft",
+      "Apple",
+      "Atari"
+    ]
+  },
+  {
+    "id": 8,
+    "pertanyaan": "What does LTS stand for in the software market?",
+    "jawaban": "Long Term Support",
+    "opsi": [
+      "Long Taco Service",
+      "Ludicrous Turbo Speed",
+      "Long Term Support",
+      "Ludicrous Transfer Speed"
+    ]
+  },
+  {
+    "id": 9,
+    "pertanyaan": "What is the code name for the mobile operating system Android 7.0?",
+    "jawaban": "Nougat",
+    "opsi": [
+      "Nougat",
+      "Jelly Bean",
+      "Ice Cream Sandwich",
+      "Marshmallow"
+    ]
+  },
+  {
+    "id": 10,
+    "pertanyaan": "On Twitter, what was the original character limit for a Tweet?",
+    "jawaban": "140",
+    "opsi": [
+      "100",
+      "120",
+      "160",
+      "140"
+    ]
+  }
+]
