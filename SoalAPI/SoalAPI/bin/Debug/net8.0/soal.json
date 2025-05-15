@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "In what year did the Great Northern War, between Russia and Sweden, end?",
+    "opsi": [
+      "1724",
+      "1721",
+      "1726",
+      "1727"
+    ],
+    "jawaban": "1721"
+  },
+  {
+    "id": 2,
+    "pertanyaan": "In what year did the Wall Street Crash take place?",
+    "opsi": [
+      "1930",
+      "1925",
+      "1932",
+      "1929"
+    ],
+    "jawaban": "1929"
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Which of the following was Brazil was a former colony under?",
+    "opsi": [
+      "Portugal",
+      "France",
+      "The Netherlands",
+      "Spain"
+    ],
+    "jawaban": "Portugal"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "King Henry VIII was the second monarch of which European royal house?",
+    "opsi": [
+      "Tudor",
+      "Stuart",
+      "Lancaster",
+      "York"
+    ],
+    "jawaban": "Tudor"
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Which of the following countries was not an axis power during World War II?",
+    "opsi": [
+      " Soviet Union",
+      "Japan",
+      "Italy",
+      "Germany"
+    ],
+    "jawaban": " Soviet Union"
+  }
+]

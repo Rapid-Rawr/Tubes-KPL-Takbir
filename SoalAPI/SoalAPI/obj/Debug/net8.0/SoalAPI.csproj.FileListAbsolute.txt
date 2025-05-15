@@ -1,0 +1,17 @@
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\bin\Debug\net8.0\SoalAPI.exe
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\bin\Debug\net8.0\SoalAPI.deps.json
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\bin\Debug\net8.0\SoalAPI.runtimeconfig.json
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\bin\Debug\net8.0\SoalAPI.dll
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\bin\Debug\net8.0\SoalAPI.pdb
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.csproj.AssemblyReference.cache
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.AssemblyInfoInputs.cache
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.AssemblyInfo.cs
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.csproj.CoreCompileInputs.cache
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.csproj.Up2Date
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.dll
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\refint\SoalAPI.dll
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.pdb
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\SoalAPI.genruntimeconfig.cache
+C:\Users\Zia\source\CLO2\SoalAPI\SoalAPI\obj\Debug\net8.0\ref\SoalAPI.dll
