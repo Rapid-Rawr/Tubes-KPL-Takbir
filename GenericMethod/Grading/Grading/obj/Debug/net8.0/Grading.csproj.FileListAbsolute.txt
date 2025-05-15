@@ -1,0 +1,15 @@
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\bin\Debug\net8.0\Grading.exe
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\bin\Debug\net8.0\Grading.deps.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\bin\Debug\net8.0\Grading.runtimeconfig.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\bin\Debug\net8.0\Grading.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\bin\Debug\net8.0\Grading.pdb
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\Grading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\Grading.AssemblyInfoInputs.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\Grading.AssemblyInfo.cs
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\Grading.csproj.CoreCompileInputs.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\Grading.sourcelink.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\Grading.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\refint\Grading.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\Grading.pdb
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\Grading.genruntimeconfig.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Rapid Sheet\GenericMethod\Grading\Grading\obj\Debug\net8.0\ref\Grading.dll
