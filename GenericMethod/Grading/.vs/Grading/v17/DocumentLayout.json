@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Rapid Sheet\\GenericMethod\\Grading\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1B79B1A6-FF46-4B7F-B32A-C35CF37DCA4B}|Grading\\Grading.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\rapid sheet\\genericmethod\\grading\\grading\\grader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B79B1A6-FF46-4B7F-B32A-C35CF37DCA4B}|Grading\\Grading.csproj|solutionrelative:grading\\grader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1B79B1A6-FF46-4B7F-B32A-C35CF37DCA4B}|Grading\\Grading.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\rapid sheet\\genericmethod\\grading\\grading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B79B1A6-FF46-4B7F-B32A-C35CF37DCA4B}|Grading\\Grading.csproj|solutionrelative:grading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B79B1A6-FF46-4B7F-B32A-C35CF37DCA4B}|Grading\\Grading.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\rapid sheet\\genericmethod\\grading\\grading\\grader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B79B1A6-FF46-4B7F-B32A-C35CF37DCA4B}|Grading\\Grading.csproj|solutionrelative:grading\\grader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B79B1A6-FF46-4B7F-B32A-C35CF37DCA4B}|Grading\\Grading.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\rapid sheet\\genericmethod\\grading\\grading\\grading.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1B79B1A6-FF46-4B7F-B32A-C35CF37DCA4B}|Grading\\Grading.csproj|solutionrelative:grading\\grading.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +22,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Grader.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Rapid Sheet\\GenericMethod\\Grading\\Grading\\Grader.cs",
               "RelativeDocumentMoniker": "Grading\\Grader.cs",
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Rapid Sheet\\GenericMethod\\Grading\\Grading\\Grader.cs",
               "RelativeToolTip": "Grading\\Grader.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T03:00:59.526Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Grading",
+              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Rapid Sheet\\GenericMethod\\Grading\\Grading\\Grading.csproj",
+              "RelativeDocumentMoniker": "Grading\\Grading.csproj",
+              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Rapid Sheet\\GenericMethod\\Grading\\Grading\\Grading.csproj",
+              "RelativeToolTip": "Grading\\Grading.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T17:32:54.984Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Rapid Sheet\\GenericMethod\\Grading\\Grading\\Program.cs",
               "RelativeDocumentMoniker": "Grading\\Program.cs",
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\Rapid Sheet\\GenericMethod\\Grading\\Grading\\Program.cs",
               "RelativeToolTip": "Grading\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T03:00:15.72Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
             }
           ]
         }

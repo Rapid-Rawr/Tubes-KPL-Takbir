@@ -12,10 +12,7 @@ class Program
             int total = int.Parse("10");
 
             var grader = new Grader<int>();
-            Console.WriteLine( 
-            grader.Calculate(correct, total)
-                
-                );
+            Console.WriteLine(grader.Calculate(correct, total));
         }
         catch (Exception ex)
         {

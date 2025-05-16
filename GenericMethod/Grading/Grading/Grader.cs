@@ -3,10 +3,9 @@ using System.Collections.Generic;
 
 public class Grader<T>
 {
-    private readonly Dictionary<double, string> gradeTable = new()
+    private Dictionary<double, string> gradeTable = new()
     {
         { 85, "A" },
-        { 75, "B" },
         { 65, "C" },
         { 60, "D" },
         { 0, "E" }
