@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Text.Json;
 using Quiz.Models;
+using System.Net.Http;
+using System.Text.Json.Nodes;
+
 
 namespace Quiz.Controllers
 {
     class soalController
     {
         public List<soal> Soal { get; private set; } = new();
+        public List<soal> SoalApi { get; private set; } = new();
         private string FilePath = "soalQuiz.json";
 
 
@@ -15,12 +19,11 @@ namespace Quiz.Controllers
         public soalController()
         {
             LoadSoal();
-
             // inisialisasi table driven
             CommandTable = new Dictionary<string, Action>(StringComparer.OrdinalIgnoreCase)
             {
-                { "view", ViewAllSoal },
-                { "delete", DeleteSoalByInput },
+                { "view", ViewAllSoal }, //nanti view kategori soal
+                { "delete", DeleteSoalByInput }, 
                 { "save", SaveSoal },
                 { "exit", () => Environment.Exit(0) }
             };
@@ -35,7 +38,7 @@ namespace Quiz.Controllers
                 if (data != null)
                     Soal = data;
             }
-            Console.WriteLine($"Jumlah soal terbaca: {Soal.Count}");
+            //Console.WriteLine($"Jumlah soal terbaca: {Soal.Count}");
         }
 
         public void SaveSoal()
@@ -99,6 +102,17 @@ namespace Quiz.Controllers
             else
                 Console.WriteLine("Perintah tidak dikenali.");
         }
+
+        public List<string> GetAllKategori()
+        {
+            return Soal.Select(s => s.Kategori).Distinct().ToList();
+        }
+
+        public List<soal> GetSoalByKategori(string kategori)
+        {
+            return Soal.Where(s => s.Kategori.Equals(kategori, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+
     }
 }
 

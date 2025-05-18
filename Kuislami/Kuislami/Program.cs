@@ -10,7 +10,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("\n===== Kuislami =====");
+            Console.WriteLine("\n===== Quiz =====");
             Console.WriteLine("1. Register");
             Console.WriteLine("2. Login");
             Console.WriteLine("3. Keluar");
@@ -39,7 +39,7 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("\n--- Menu Admin ---");
+            Console.WriteLine("\n==== Menu Admin ====");
             Console.WriteLine("1. Lihat Semua Soal");
             Console.WriteLine("2. Tambah Soal");
             Console.WriteLine("3. Hapus Soal");
@@ -79,33 +79,80 @@ class Program
         while (true)
         {
             Console.WriteLine("\n--- Menu Siswa ---");
-            Console.WriteLine("1. Mulai Kuis");
+            Console.WriteLine("1. Pilih Kategori dan Mulai Quiz");
             Console.WriteLine("2. Lihat Skor");
-            Console.WriteLine("3. Logout");
+            Console.WriteLine("3. Lihat Rank 1-3");
+            Console.WriteLine("4. Logout");
             Console.Write("Pilih: ");
             string? pilih = Console.ReadLine();
 
             if (pilih == "1")
             {
+                var kategoriList = soalCtrl.GetAllKategori();
+                if (kategoriList.Count == 0)
+                {
+                    Console.WriteLine("Belum ada soal tersedia.");
+                    continue;
+                }
+
+                Console.WriteLine("\nKategori tersedia:");
+                for (int i = 0; i < kategoriList.Count; i++)
+                    Console.WriteLine($"{i + 1}. {kategoriList[i]}");
+
+                Console.Write("Pilih kategori (angka): ");
+                if (!int.TryParse(Console.ReadLine(), out int indexKategori) || indexKategori < 1 || indexKategori > kategoriList.Count)
+                {
+                    Console.WriteLine("Pilihan kategori tidak valid.");
+                    continue;
+                }
+
+                string kategoriDipilih = kategoriList[indexKategori - 1];
+                var soalKategori = soalCtrl.GetSoalByKategori(kategoriDipilih);
+
+                if (soalKategori.Count == 0)
+                {
+                    Console.WriteLine("Belum ada soal dalam kategori ini.");
+                    continue;
+                }
+
+                Console.WriteLine($"\n--- Mulai Quiz: Kategori {kategoriDipilih} ---");
                 int skor = 0;
-                foreach (var soal in soalCtrl.Soal)
+                foreach (var soal in soalKategori)
                 {
                     Console.WriteLine($"\n{soal.Pertanyaan}");
                     for (int i = 0; i < soal.pilihan.Count; i++)
                         Console.WriteLine($"{i + 1}. {soal.pilihan[i]}");
 
                     Console.Write("Jawaban Anda (1-4): ");
-                    int jawaban = int.Parse(Console.ReadLine()!) - 1;
-                    if (jawaban == soal.Jawaban)
+                    if (int.TryParse(Console.ReadLine(), out int jawaban) && jawaban - 1 == soal.Jawaban)
                         skor++;
                 }
+
                 user.Skor = skor;
-                Console.WriteLine($"Skor Anda: {skor}/{soalCtrl.Soal.Count}");
+                Console.WriteLine($"\nSkor Anda: {skor}/{soalKategori.Count}");
             }
             else if (pilih == "2")
+            {
                 Console.WriteLine($"Skor terakhir Anda: {user.Skor}");
+            }
             else if (pilih == "3")
-                return;
+            {
+                var topUsers = userCtrl.GetTopUsers(3);
+                Console.WriteLine("\n--- Ranking Top 3 ---");
+                for (int i = 0; i < topUsers.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {topUsers[i].Username} - Skor: {topUsers[i].Skor}");
+                }
+            }
+            else if (pilih == "4")
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Pilihan tidak valid.");
+            }
         }
     }
+
 }

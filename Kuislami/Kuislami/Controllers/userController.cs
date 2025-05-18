@@ -29,11 +29,11 @@ namespace Quiz.Controllers
             Console.Write("Password: ");
             string password = Console.ReadLine()!;
 
-            //if (username == "admin" && password == "admin")
-            //{
-            //    currentUser = new user { Username = "admin", IsAdmin = true };
-            //    return true;
-            //}
+            if (username == "admin" && password == "admin")
+            {
+                currentUser = new user { Username = "admin", IsAdmin = true };
+                return true;
+            }
 
             var user = Users.FirstOrDefault(u => u.Username == username && u.Password == password);
             if (user != null)
@@ -45,6 +45,12 @@ namespace Quiz.Controllers
             Console.WriteLine("Login gagal.");
             return false;
         }
+
+        public List<user> GetTopUsers(int jumlah)
+        {
+            return User.OrderByDescending(u => u.Skor).Take(jumlah).ToList();
+        }
+
         public void Logout() => currentUser = null;
 
         public user? GetCurrentUser() => currentUser;

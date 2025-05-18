@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kuislami.Models
+namespace Quiz.Models
 {
-    class User
+    class user
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public string username { get; set; }
-        public string password { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public bool IsAdmin { get; set; } // "admin" atau "siswa"
+        public int Skor { get; set; } = 0;
+
     }
 }
