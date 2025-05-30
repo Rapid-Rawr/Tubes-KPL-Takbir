@@ -1,0 +1,20 @@
+[
+    {
+        "Username": "admin",
+        "Password": "admin",
+        "IsAdmin": true,
+        "Skor": 0
+    },
+    {
+        "Username": "siswa1",
+        "Password": "1234",
+        "IsAdmin": false,
+        "Skor": 0
+    },
+    {
+        "Username": "siswa2",
+        "Password": "abcd",
+        "IsAdmin": false,
+        "Skor": 0
+    }
+]
