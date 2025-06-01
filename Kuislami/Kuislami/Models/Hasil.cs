@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Kuislami.Models
 {
-    class user
+    public class Hasil
     {
         public string Username { get; set; }
-        public string Password { get; set; }
-        public bool IsAdmin { get; set; }
-        public int Skor { get; set; } // Tambahan
+        public string Kategori { get; set; }
+        public int TotalSoal { get; set; }
+        public int TotalBenar { get; set; }
     }
 }

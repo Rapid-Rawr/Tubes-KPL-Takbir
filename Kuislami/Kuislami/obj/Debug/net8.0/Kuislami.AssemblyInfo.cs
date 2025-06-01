@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kuislami")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e7b57b6aee8695d08c7f31c8f8539320db241ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69e2ab0b79e62677a8a7e8536a038dca3b5ef74d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kuislami")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kuislami")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

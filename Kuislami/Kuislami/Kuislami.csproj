@@ -11,4 +11,8 @@
     <Folder Include="DataFiles\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3" />
+  </ItemGroup>
+
 </Project>

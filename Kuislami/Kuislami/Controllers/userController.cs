@@ -1,58 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Quiz.Models;  
+using System.IO;
+using Newtonsoft.Json;
+using Kuislami.Models;
 
-namespace Quiz.Controllers
+namespace Kuislami.Controllers
 {
-    class userController
+    public  class userController
     {
-        private List<user> Users = new();
-        private user? currentUser = null;
+        private static string userFile = "users.json";
 
-        public void Register()
+        public  user Login()
         {
-            Console.Write("Masukkan username: ");
-            string username = Console.ReadLine()!;
-            Console.Write("Masukkan password: ");
-            string password = Console.ReadLine()!;
-            Users.Add(new user { Username = username, Password = password, IsAdmin = false });
-            Console.WriteLine("Registrasi berhasil!");
-        }
+            List<user> users = JsonConvert.DeserializeObject<List<user>>(File.ReadAllText(userFile));
 
-        public bool Login()
-        {
-            Console.Write("Username: ");
-            string username = Console.ReadLine()!;
-            Console.Write("Password: ");
-            string password = Console.ReadLine()!;
-
-            if (username == "admin" && password == "admin")
+            while (true)
             {
-                currentUser = new user { Username = "admin", IsAdmin = true };
-                return true;
+                Console.Write("Username: ");
+                string username = Console.ReadLine();
+
+                Console.Write("Password: ");
+                string password = Console.ReadLine();
+
+                user found = users.Find(u => u.Username == username && u.Password == password);
+                if (found != null)
+                {
+                    Console.WriteLine("✅ Login berhasil!\n");
+                    return found;
+                }
+
+                Console.WriteLine("❌ Username atau password salah. Coba lagi.\n");
             }
-
-            var user = Users.FirstOrDefault(u => u.Username == username && u.Password == password);
-            if (user != null)
-            {
-                currentUser = user;
-                return true;
-            }
-
-            Console.WriteLine("Login gagal.");
-            return false;
         }
-
-        public List<user> GetTopUsers(int jumlah)
-        {
-            return User.OrderByDescending(u => u.Skor).Take(jumlah).ToList();
-        }
-
-        public void Logout() => currentUser = null;
-
-        public user? GetCurrentUser() => currentUser;
     }
 }

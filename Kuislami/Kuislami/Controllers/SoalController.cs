@@ -1,119 +1,92 @@
 ﻿using System;
-using System.Text.Json;
+using System.Collections.Generic;
+using System.IO;
+using Newtonsoft.Json;
+using Kuislami.Models;
 using Quiz.Models;
-using System.Net.Http;
-using System.Text.Json.Nodes;
 
-
-namespace Quiz.Controllers
+namespace Kuislami.Controllers
 {
-    class soalController
+    public class SoalController
     {
-        public List<soal> Soal { get; private set; } = new();
-        public List<soal> SoalApi { get; private set; } = new();
-        private string FilePath = "soalQuiz.json";
+        private static string soalFile = "soalQuiz.json";
+        private static string hasilFile = "hasil.json";
 
-
-        private Dictionary<string, Action> CommandTable;
-
-        public soalController()
+        public static void MulaiKuis(user currentUser)
         {
-            LoadSoal();
-            // inisialisasi table driven
-            CommandTable = new Dictionary<string, Action>(StringComparer.OrdinalIgnoreCase)
+            List<Soal> soalList = JsonConvert.DeserializeObject<List<Soal>>(File.ReadAllText(soalFile));
+            if (soalList == null || soalList.Count == 0)
             {
-                { "view", ViewAllSoal }, //nanti view kategori soal
-                { "delete", DeleteSoalByInput }, 
-                { "save", SaveSoal },
-                { "exit", () => Environment.Exit(0) }
+                Console.WriteLine("Tidak ada soal yang tersedia.");
+                return;
+            }
+
+            string kategori = soalList[0].kategori;
+            int totalSoal = soalList.Count;
+            int totalBenar = 0;
+
+            for (int i = 0; i < soalList.Count; i++)
+            {
+                Console.Clear();
+                var soal = soalList[i];
+
+                Console.WriteLine($"Soal {i + 1}: {soal.pertanyaan}");
+                for (int j = 0; j < soal.opsi.Count; j++)
+                {
+                    Console.WriteLine($"{j + 1}. {soal.opsi[j]}");
+                }
+
+                Console.Write("\nJawaban Anda: ");
+                string input = Console.ReadLine();
+
+                try
+                {
+                    int pilihan = int.Parse(input);
+                    if (pilihan >= 1 && pilihan <= soal.opsi.Count)
+                    {
+                        if (soal.opsi[pilihan - 1] == soal.jawaban)
+                        {
+                            Console.WriteLine("✅ Benar!");
+                            totalBenar++;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"❌ Salah. Jawaban yang benar: {soal.jawaban}");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Pilihan tidak valid.");
+                    }
+                }
+                catch
+                {
+                    Console.WriteLine("Input tidak valid.");
+                }
+
+                Console.WriteLine("Tekan Enter untuk lanjut...");
+                Console.ReadLine();
+            }
+
+            // Simpan hasil
+            Hasil hasil = new Hasil
+            {
+                Username = currentUser.Username,
+                Kategori = kategori,
+                TotalSoal = totalSoal,
+                TotalBenar = totalBenar
             };
-        }
 
-        public void LoadSoal()
-        {
-            if (File.Exists(FilePath))
+            List<Hasil> hasilList = new();
+            if (File.Exists(hasilFile))
             {
-                var json = File.ReadAllText(FilePath);
-                var data = JsonSerializer.Deserialize<List<soal>>(json);
-                if (data != null)
-                    Soal = data;
+                hasilList = JsonConvert.DeserializeObject<List<Hasil>>(File.ReadAllText(hasilFile)) ?? new List<Hasil>();
             }
-            //Console.WriteLine($"Jumlah soal terbaca: {Soal.Count}");
-        }
 
-        public void SaveSoal()
-        {
-            var json = JsonSerializer.Serialize(Soal, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(FilePath, json);
-            Console.WriteLine("Soal berhasil disimpan.");
-        }
+            hasilList.Add(hasil);
+            File.WriteAllText(hasilFile, JsonConvert.SerializeObject(hasilList, Formatting.Indented));
 
-        public void AddSoal(soal q)
-        {
-            q.Id = Soal.Count > 0 ? Soal.Max(s => s.Id) + 1 : 1;
-            Soal.Add(q);
-            SaveSoal();
+            Console.WriteLine($"\n📄 Hasil kuis disimpan ke {hasilFile}");
         }
-
-        public void DeleteSoal(int id)
-        {
-            var soal = Soal.FirstOrDefault(s => s.Id == id);
-            if (soal != null)
-            {
-                Soal.Remove(soal);
-                Console.WriteLine("Soal berhasil dihapus.");
-            }
-            else
-            {
-                Console.WriteLine("Soal tidak ditemukan.");
-            }
-        }
-
-        public void ViewAllSoal()
-        {
-            foreach (var s in Soal)
-            {
-                Console.WriteLine($"[{s.Id}] {s.Pertanyaan}");
-                for (int i = 0; i < s.pilihan.Count; i++)
-                    Console.WriteLine($"{i + 1}. {s.pilihan[i]}");
-                Console.WriteLine();
-            }
-        }
-
-        // hapus soal berdasarkan input id
-        private void DeleteSoalByInput()
-        {
-            Console.Write("Masukkan ID soal yang ingin dihapus: ");
-            if (int.TryParse(Console.ReadLine(), out int id))
-            {
-                DeleteSoal(id);
-            }
-            else
-            {
-                Console.WriteLine("Input tidak valid.");
-            }
-        }
-
-        // pemroses command menggunakan table driven method
-        public void ExecuteCommand(string command)
-        {
-            if (CommandTable.TryGetValue(command, out Action action))
-                action();
-            else
-                Console.WriteLine("Perintah tidak dikenali.");
-        }
-
-        public List<string> GetAllKategori()
-        {
-            return Soal.Select(s => s.Kategori).Distinct().ToList();
-        }
-
-        public List<soal> GetSoalByKategori(string kategori)
-        {
-            return Soal.Where(s => s.Kategori.Equals(kategori, StringComparison.OrdinalIgnoreCase)).ToList();
-        }
-
     }
 }
-
-

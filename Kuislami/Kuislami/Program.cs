@@ -1,11 +1,16 @@
-﻿using Quiz.Controllers;
+﻿using Kuislami.Controllers;
+using Kuislami.Models;
+using Newtonsoft.Json;
 using Quiz.Models;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 class Program
 {
     static void Main()
     {
-        var soalCtrl = new soalController();
+        var soalCtrl = new SoalController();
         var userCtrl = new userController();
 
         while (true)
@@ -51,6 +56,8 @@ class Program
                 soalCtrl.ViewAllSoal();
             else if (pilih == "2")
             {
+                Console.Write("Kategori: ");
+                string kategori = Console.ReadLine()!;
                 Console.Write("Pertanyaan: ");
                 string pertanyaan = Console.ReadLine()!;
                 List<string> pilihan = new();
@@ -61,7 +68,7 @@ class Program
                 }
                 Console.Write("Nomor jawaban benar (1-4): ");
                 int benar = int.Parse(Console.ReadLine()!) - 1;
-                soalCtrl.AddSoal(new soal { Pertanyaan = pertanyaan, pilihan = pilihan, Jawaban = benar });
+                soalCtrl.AddSoal(new soal { Kategori = kategori, Pertanyaan = pertanyaan, pilihan = pilihan, Jawaban = benar });
             }
             else if (pilih == "3")
             {
@@ -130,6 +137,27 @@ class Program
 
                 user.Skor = skor;
                 Console.WriteLine($"\nSkor Anda: {skor}/{soalKategori.Count}");
+
+                // Simpan hasil ke hasil.json
+                List<Hasil> hasilList = new();
+                string hasilFile = "hasil.json";
+
+                if (File.Exists(hasilFile))
+                {
+                    var json = File.ReadAllText(hasilFile);
+                    hasilList = JsonConvert.DeserializeObject<List<Hasil>>(json) ?? new List<Hasil>();
+                }
+
+                hasilList.Add(new Hasil
+                {
+                    Username = user.Username,
+                    Kategori = kategoriDipilih,
+                    TotalSoal = soalKategori.Count,
+                    TotalBenar = skor
+                });
+
+                File.WriteAllText(hasilFile, JsonConvert.SerializeObject(hasilList, Formatting.Indented));
+                Console.WriteLine("📄 Hasil kuis disimpan.");
             }
             else if (pilih == "2")
             {
@@ -154,5 +182,4 @@ class Program
             }
         }
     }
-
 }
