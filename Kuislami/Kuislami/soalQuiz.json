@@ -1,0 +1,32 @@
+[
+    {
+        "Id": 1,
+        "Pertanyaan": "Siapakah nabi terakhir dalam agama Islam?",
+        "pilihan": [ "Nabi Musa", "Nabi Isa", "Nabi Ibrahim", "Nabi Muhammad" ],
+        "Jawaban": 3
+    },
+    {
+        "Id": 2,
+        "Pertanyaan": "Berapa jumlah rakaat salat Subuh?",
+        "pilihan": [ "2", "3", "4", "1" ],
+        "Jawaban": 0
+    },
+    {
+        "Id": 3,
+        "Pertanyaan": "Apa nama kitab suci umat Islam?",
+        "pilihan": [ "Taurat", "Zabur", "Injil", "Al-Qur'an" ],
+        "Jawaban": 3
+    },
+    {
+        "Id": 4,
+        "Pertanyaan": "Apa nama bulan puasa bagi umat Islam?",
+        "pilihan": [ "Syawal", "Ramadhan", "Muharram", "Dzulhijjah" ],
+        "Jawaban": 1
+    },
+    {
+        "id": 5,
+        "Pertanyaan": "Rukun Islam yang ke-2 adalah?",
+        "pilihan": [ "Zakat", "Puasa", "Salat", "Haji" ],
+        "jawaban": 2
+    }
+]

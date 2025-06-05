@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "The asteroid belt is located between which two planets?",
+    "opsi": [
+      "Earth and Mars",
+      "Mercury and Venus",
+      "Mars and Jupiter",
+      "Jupiter and Saturn"
+    ],
+    "jawaban": "Mars and Jupiter"
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Which type of rock is created by intense heat AND pressure?",
+    "opsi": [
+      "Diamond",
+      "Metamorphic",
+      "Sedimentary",
+      "Igneous"
+    ],
+    "jawaban": "Metamorphic"
+  },
+  {
+    "id": 3,
+    "pertanyaan": "What lies at the center of our galaxy?",
+    "opsi": [
+      "A quasar",
+      "A supernova",
+      "A black hole",
+      "A wormhole"
+    ],
+    "jawaban": "A black hole"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "71% of the Earth's surface is made up of",
+    "opsi": [
+      "Deserts",
+      "Forests",
+      "Water",
+      "Continents"
+    ],
+    "jawaban": "Water"
+  },
+  {
+    "id": 5,
+    "pertanyaan": "How many planets make up our Solar System?",
+    "opsi": [
+      "8",
+      "9",
+      "6",
+      "7"
+    ],
+    "jawaban": "8"
+  }
+]

@@ -5,14 +5,24 @@ namespace SoalAPI.Controller
 {
     class SoalController
     {
-        private string filePath = "soal.json";
+        private ModeSoal mode;
+        private string pathSoalAktif;
+        private string filePathAPI = "soalAPI.json";
+        private string filePathManual = "soalManual.json";
         private List<Soal> daftarSoal;
 
-        public SoalController()
+        public SoalController(ModeSoal modeOperasi)
         {
-            daftarSoal = LoadSoal();
+            mode = modeOperasi;
+            pathSoalAktif = mode == ModeSoal.API ? filePathAPI : filePathManual;
+            daftarSoal = LoadSoal(pathSoalAktif);
         }
 
+        public enum ModeSoal
+        {
+            Manual,
+            API
+        }
         public enum KategoriSoal
         {
             Komputer,
@@ -39,14 +49,14 @@ namespace SoalAPI.Controller
             }
         }
 
-        private List<Soal> LoadSoal()
+        private List<Soal> LoadSoal(string pathSoal)
         {
-            if (!File.Exists(filePath))
+            if (!File.Exists(pathSoal))
             {
                 return new List<Soal>();
             }
 
-            string json = File.ReadAllText(filePath);
+            string json = File.ReadAllText(pathSoal);
             var semuaSoal = JsonConvert.DeserializeObject<List<Soal>>(json) ?? new List<Soal>();
 
             var unikSoal = semuaSoal.GroupBy(s => s.pertanyaan).Select(g => g.First()).ToList();
@@ -54,7 +64,7 @@ namespace SoalAPI.Controller
             return unikSoal;
         }
 
-        public void TampilSemuaSoal()
+        public void TampilSoal()
         {
             if (daftarSoal.Count == 0)
             {
@@ -71,7 +81,7 @@ namespace SoalAPI.Controller
                 }
                 Console.WriteLine($"Jawaban: {soal.jawaban}");
                 Console.WriteLine(new string('-', 40));
-            }
+            } 
         }
 
         public async Task AmbilSoalBerdasarkanKategori(KategoriSoal kategori)
@@ -80,13 +90,12 @@ namespace SoalAPI.Controller
             await AmbilSoal(apiUrl, true);
         }
 
-        public void SimpanKeFile()
+        public void SimpanSoal(string pathSoal)
         {
             var json = JsonConvert.SerializeObject(daftarSoal, Formatting.Indented);
-            File.WriteAllText(filePath, json);
+            File.WriteAllText(pathSoal, json);
         }
 
-        //public async Task AmbilSoal(string apiUrl)
         public async Task AmbilSoal(string apiUrl, bool overwrite)
         {
             using (HttpClient client = new HttpClient())
@@ -105,7 +114,7 @@ namespace SoalAPI.Controller
                         if (overwrite)
                         {
                             daftarSoal.Clear();
-                            if (File.Exists(filePath)) File.Delete(filePath);
+                            if (File.Exists(filePathAPI)) File.Delete(filePathAPI);
                         }
 
                         int id = daftarSoal.Count > 0 ? daftarSoal[^1].id + 1 : 1;
@@ -131,7 +140,7 @@ namespace SoalAPI.Controller
                                 });
                             }
                         }
-                        SimpanKeFile();
+                        SimpanSoal(filePathAPI);
                         Console.WriteLine("Soal berhasil diambil dan disimpan");
                     }
                     else
@@ -144,6 +153,86 @@ namespace SoalAPI.Controller
                     Console.WriteLine($"Gagal mengambil soal dari API: {ex.Message}");
                 }
             }
+        }
+
+        public void TambahSoalManual()
+        {
+            Console.Write("Masukkan pertanyaan: ");
+            string pertanyaan = Console.ReadLine() ?? "";
+
+            Console.WriteLine("Masukkan 4 opsi jawaban:");
+            List<string> opsi = new();
+            for (int i = 1; i <= 4; i++)
+            {
+                Console.Write($"Opsi {i}: ");
+                opsi.Add(Console.ReadLine() ?? "");
+            }
+
+            Console.Write("Masukkan jawaban benar: ");
+            string jawaban = Console.ReadLine() ?? "";
+
+            int id = daftarSoal.Count > 0 ? daftarSoal[^1].id + 1 : 1;
+
+            daftarSoal.Add(new Soal
+            {
+                id = id,
+                pertanyaan = pertanyaan,
+                opsi = opsi,
+                jawaban = jawaban
+            });
+
+            SimpanSoal(filePathManual);
+            Console.WriteLine("Soal berhasil ditambahkan.");
+        }
+
+        public void EditSoalManual()
+        {
+            TampilSoal();
+            Console.Write("Masukkan ID soal yang ingin diedit: ");
+            if (int.TryParse(Console.ReadLine(), out int id))
+            {
+                var soal = daftarSoal.FirstOrDefault(s => s.id == id);
+                if (soal != null)
+                {
+                    Console.Write("Pertanyaan baru (kosongkan jika tidak ingin mengubah): ");
+                    string pertanyaanBaru = Console.ReadLine() ?? "";
+                    if (!string.IsNullOrWhiteSpace(pertanyaanBaru)) soal.pertanyaan = pertanyaanBaru;
+
+                    for (int i = 0; i < soal.opsi.Count; i++)
+                    {
+                        Console.Write($"Opsi {i + 1} (kosongkan jika tidak ingin mengubah): ");
+                        string opsiBaru = Console.ReadLine() ?? "";
+                        if (!string.IsNullOrWhiteSpace(opsiBaru)) soal.opsi[i] = opsiBaru;
+                    }
+
+                    Console.Write("Jawaban baru (kosongkan jika tidak ingin mengubah): ");
+                    string jawabanBaru = Console.ReadLine() ?? "";
+                    if (!string.IsNullOrWhiteSpace(jawabanBaru)) soal.jawaban = jawabanBaru;
+
+                    SimpanSoal(filePathManual);
+                    Console.WriteLine("Soal berhasil diedit.");
+                }
+                else Console.WriteLine("Soal tidak ditemukan.");
+            }
+            else Console.WriteLine("ID tidak valid.");
+        }
+
+        public void HapusSoalManual()
+        {
+            TampilSoal();
+            Console.Write("Masukkan ID soal yang ingin dihapus: ");
+            if (int.TryParse(Console.ReadLine(), out int id))
+            {
+                var soal = daftarSoal.FirstOrDefault(s => s.id == id);
+                if (soal != null)
+                {
+                    daftarSoal.Remove(soal);
+                    SimpanSoal(filePathManual);
+                    Console.WriteLine("Soal berhasil dihapus.");
+                }
+                else Console.WriteLine("Soal tidak ditemukan.");
+            }
+            else Console.WriteLine("ID tidak valid.");
         }
     }
 }
