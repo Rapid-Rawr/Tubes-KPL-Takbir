@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\GUI\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\GUI\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\GUI\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\GUI\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-        "packagesPath": "C:\\Users\\rafid\\.nuget\\packages\\",
-        "outputPath": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\GUI\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "projectPath": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "packagesPath": "C:\\Users\\Zia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

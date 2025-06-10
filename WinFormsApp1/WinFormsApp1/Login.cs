@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class Form2 : Form
+    public partial class Login : Form
     {
-        public Form2()
+        public Login()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void QuizzyLogo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
