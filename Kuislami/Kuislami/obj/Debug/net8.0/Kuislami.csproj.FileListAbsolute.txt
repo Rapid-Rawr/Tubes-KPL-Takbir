@@ -1,0 +1,16 @@
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\Kuislami.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\Kuislami.AssemblyInfoInputs.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\Kuislami.AssemblyInfo.cs
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\Kuislami.csproj.CoreCompileInputs.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\Kuislami.sourcelink.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\bin\Debug\net8.0\Kuislami.exe
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\bin\Debug\net8.0\Kuislami.deps.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\bin\Debug\net8.0\Kuislami.runtimeconfig.json
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\bin\Debug\net8.0\Kuislami.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\bin\Debug\net8.0\Kuislami.pdb
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\Kuislami.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\refint\Kuislami.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\Kuislami.pdb
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\Kuislami.genruntimeconfig.cache
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\obj\Debug\net8.0\ref\Kuislami.dll
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\Tubes\Kuislami\Kuislami\bin\Debug\net8.0\soalQuiz.json

@@ -8,11 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DataFiles\" />
+    <Compile Remove="DataFiles\**" />
+    <EmbeddedResource Remove="DataFiles\**" />
+    <None Remove="DataFiles\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3" />
+    <None Update="soalQuiz.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

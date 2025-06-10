@@ -1,36 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using Newtonsoft.Json;
-using Kuislami.Models;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Quiz.Models;  
 
-namespace Kuislami.Controllers
+namespace Quiz.Controllers
 {
-    public  class userController
+    class userController
     {
-        private static string userFile = "users.json";
+        private List<user> Users = new();
+        private user? currentUser = null;
 
-        public  user Login()
+        public void Register()
         {
-            List<user> users = JsonConvert.DeserializeObject<List<user>>(File.ReadAllText(userFile));
-
-            while (true)
-            {
-                Console.Write("Username: ");
-                string username = Console.ReadLine();
-
-                Console.Write("Password: ");
-                string password = Console.ReadLine();
-
-                user found = users.Find(u => u.Username == username && u.Password == password);
-                if (found != null)
-                {
-                    Console.WriteLine("✅ Login berhasil!\n");
-                    return found;
-                }
-
-                Console.WriteLine("❌ Username atau password salah. Coba lagi.\n");
-            }
+            Console.Write("Masukkan username: ");
+            string username = Console.ReadLine()!;
+            Console.Write("Masukkan password: ");
+            string password = Console.ReadLine()!;
+            Users.Add(new user { Username = username, Password = password, IsAdmin = false });
+            Console.WriteLine("Registrasi berhasil!");
         }
+
+        public bool Login()
+        {
+            Console.Write("Username: ");
+            string username = Console.ReadLine()!;
+            Console.Write("Password: ");
+            string password = Console.ReadLine()!;
+
+            if (username == "admin" && password == "admin")
+            {
+                currentUser = new user { Username = "admin", IsAdmin = true };
+                return true;
+            }
+
+            var user = Users.FirstOrDefault(u => u.Username == username && u.Password == password);
+            if (user != null)
+            {
+                currentUser = user;
+                return true;
+            }
+
+            Console.WriteLine("Login gagal.");
+            return false;
+        }
+
+        //public List<user> GetTopUsers(int jumlah)
+        //{
+        //    return User.OrderByDescending(u => u.Skor).Take(jumlah).ToList();
+        //}
+
+        public void Logout() => currentUser = null;
+
+        public user? GetCurrentUser() => currentUser;
     }
 }

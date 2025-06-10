@@ -1,16 +1,16 @@
-﻿using Kuislami.Controllers;
-using Kuislami.Models;
-using Newtonsoft.Json;
+﻿using Kuislami.Models;
+using Quiz.Controllers;
 using Quiz.Models;
-using System;
-using System.Collections.Generic;
-using System.IO;
+using System.Text.Json;
+
 
 class Program
 {
     static void Main()
     {
-        var soalCtrl = new SoalController();
+        var grader = new GradingController<int>();
+        Console.WriteLine(grader.Calculate(3, 5));
+        var soalCtrl = new soalController();
         var userCtrl = new userController();
 
         while (true)
@@ -56,8 +56,6 @@ class Program
                 soalCtrl.ViewAllSoal();
             else if (pilih == "2")
             {
-                Console.Write("Kategori: ");
-                string kategori = Console.ReadLine()!;
                 Console.Write("Pertanyaan: ");
                 string pertanyaan = Console.ReadLine()!;
                 List<string> pilihan = new();
@@ -68,7 +66,7 @@ class Program
                 }
                 Console.Write("Nomor jawaban benar (1-4): ");
                 int benar = int.Parse(Console.ReadLine()!) - 1;
-                soalCtrl.AddSoal(new soal { Kategori = kategori, Pertanyaan = pertanyaan, pilihan = pilihan, Jawaban = benar });
+                soalCtrl.AddSoal(new soal { Pertanyaan = pertanyaan, pilihan = pilihan, Jawaban = benar });
             }
             else if (pilih == "3")
             {
@@ -137,27 +135,6 @@ class Program
 
                 user.Skor = skor;
                 Console.WriteLine($"\nSkor Anda: {skor}/{soalKategori.Count}");
-
-                // Simpan hasil ke hasil.json
-                List<Hasil> hasilList = new();
-                string hasilFile = "hasil.json";
-
-                if (File.Exists(hasilFile))
-                {
-                    var json = File.ReadAllText(hasilFile);
-                    hasilList = JsonConvert.DeserializeObject<List<Hasil>>(json) ?? new List<Hasil>();
-                }
-
-                hasilList.Add(new Hasil
-                {
-                    Username = user.Username,
-                    Kategori = kategoriDipilih,
-                    TotalSoal = soalKategori.Count,
-                    TotalBenar = skor
-                });
-
-                File.WriteAllText(hasilFile, JsonConvert.SerializeObject(hasilList, Formatting.Indented));
-                Console.WriteLine("📄 Hasil kuis disimpan.");
             }
             else if (pilih == "2")
             {
@@ -182,4 +159,36 @@ class Program
             }
         }
     }
+
+
+
+
+    static void SaveHistory(int totalSoal, int totalBenar)
+        {
+            string path = "history.json";
+            List<QuizHistory> historyList = new();
+
+            if (File.Exists(path))
+            {
+                string existingJson = File.ReadAllText(path);
+                if (!string.IsNullOrWhiteSpace(existingJson))
+                {
+                    var existingData = JsonSerializer.Deserialize<List<QuizHistory>>(existingJson);
+                    if (existingData != null)
+                        historyList = existingData;
+                }
+            }
+
+            historyList.Add(new QuizHistory
+            {
+                TotalSoal = totalSoal,
+                TotalBenar = totalBenar
+            });
+
+            string newJson = JsonSerializer.Serialize(historyList, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(path, newJson);
+        }
+
+
+
 }

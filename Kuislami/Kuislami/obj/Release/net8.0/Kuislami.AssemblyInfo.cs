@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kuislami")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+465a44e0faceade4637964da16be822675329ea0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69e2ab0b79e62677a8a7e8536a038dca3b5ef74d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kuislami")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kuislami")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

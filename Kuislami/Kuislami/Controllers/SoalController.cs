@@ -1,92 +1,74 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using Newtonsoft.Json;
-using Kuislami.Models;
+using System.Text.Json;
 using Quiz.Models;
+using System.Net.Http;
+using System.Text.Json.Nodes;
 
-namespace Kuislami.Controllers
+
+namespace Quiz.Controllers
 {
-    public class SoalController
+    
+    public class soalController
     {
-        private static string soalFile = "soalQuiz.json";
-        private static string hasilFile = "hasil.json";
+        private List<soal> daftarSoal = new();
 
-        public static void MulaiKuis(user currentUser)
+        public soalController()
         {
-            List<Soal> soalList = JsonConvert.DeserializeObject<List<Soal>>(File.ReadAllText(soalFile));
-            if (soalList == null || soalList.Count == 0)
+            LoadSoalFromJson();
+        }
+
+        private void LoadSoalFromJson()
+        {
+            string filePath = "soalQuiz.json";
+            if (File.Exists(filePath))
             {
-                Console.WriteLine("Tidak ada soal yang tersedia.");
-                return;
+                string json = File.ReadAllText(filePath);
+                daftarSoal = JsonSerializer.Deserialize<List<soal>>(json) ?? new List<soal>();
             }
+        }
 
-            string kategori = soalList[0].kategori;
-            int totalSoal = soalList.Count;
-            int totalBenar = 0;
+        public List<string> GetAllKategori()
+        {
+            return new List<string> { "Umum" };
+        }
 
-            for (int i = 0; i < soalList.Count; i++)
+        public List<soal> GetSoalByKategori(string kategori)
+        {
+            return daftarSoal;
+        }
+
+        public void ViewAllSoal()
+        {
+            foreach (var s in daftarSoal)
             {
-                Console.Clear();
-                var soal = soalList[i];
-
-                Console.WriteLine($"Soal {i + 1}: {soal.pertanyaan}");
-                for (int j = 0; j < soal.opsi.Count; j++)
-                {
-                    Console.WriteLine($"{j + 1}. {soal.opsi[j]}");
-                }
-
-                Console.Write("\nJawaban Anda: ");
-                string input = Console.ReadLine();
-
-                try
-                {
-                    int pilihan = int.Parse(input);
-                    if (pilihan >= 1 && pilihan <= soal.opsi.Count)
-                    {
-                        if (soal.opsi[pilihan - 1] == soal.jawaban)
-                        {
-                            Console.WriteLine("✅ Benar!");
-                            totalBenar++;
-                        }
-                        else
-                        {
-                            Console.WriteLine($"❌ Salah. Jawaban yang benar: {soal.jawaban}");
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("Pilihan tidak valid.");
-                    }
-                }
-                catch
-                {
-                    Console.WriteLine("Input tidak valid.");
-                }
-
-                Console.WriteLine("Tekan Enter untuk lanjut...");
-                Console.ReadLine();
+                Console.WriteLine($"ID: {s.Id}, Pertanyaan: {s.Pertanyaan}");
             }
+        }
 
-            // Simpan hasil
-            Hasil hasil = new Hasil
-            {
-                Username = currentUser.Username,
-                Kategori = kategori,
-                TotalSoal = totalSoal,
-                TotalBenar = totalBenar
-            };
+        public void AddSoal(soal newSoal)
+        {
+            newSoal.Id = daftarSoal.Count > 0 ? daftarSoal.Max(s => s.Id) + 1 : 1;
+            daftarSoal.Add(newSoal);
+            SaveToJson();
+        }
 
-            List<Hasil> hasilList = new();
-            if (File.Exists(hasilFile))
+        public void DeleteSoal(int id)
+        {
+            var soalToRemove = daftarSoal.FirstOrDefault(s => s.Id == id);
+            if (soalToRemove != null)
             {
-                hasilList = JsonConvert.DeserializeObject<List<Hasil>>(File.ReadAllText(hasilFile)) ?? new List<Hasil>();
+                daftarSoal.Remove(soalToRemove);
+                SaveToJson();
             }
+        }
 
-            hasilList.Add(hasil);
-            File.WriteAllText(hasilFile, JsonConvert.SerializeObject(hasilList, Formatting.Indented));
-
-            Console.WriteLine($"\n📄 Hasil kuis disimpan ke {hasilFile}");
+        private void SaveToJson()
+        {
+            string json = JsonSerializer.Serialize(daftarSoal, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText("soalQuiz.json", json);
         }
     }
+
 }
+
+
