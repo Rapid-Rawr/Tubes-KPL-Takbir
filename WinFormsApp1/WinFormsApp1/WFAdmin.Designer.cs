@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             SideBarPanel = new Panel();
-            BtnLogout = new Button();
-            BtnToHistoriPengerjaan = new Button();
-            BtnToSoalInternet = new Button();
-            BtnToKelolaSoal = new Button();
+            btnLogout = new Button();
+            btnToHistoriPengerjaan = new Button();
+            btnToSoalInternet = new Button();
+            btnToKelolaSoal = new Button();
             QuizzyLogo = new PictureBox();
             QuizzyLabel = new Label();
             ContentPanel = new Panel();
@@ -43,10 +43,10 @@
             // SideBarPanel
             // 
             SideBarPanel.BackColor = Color.FromArgb(255, 227, 242);
-            SideBarPanel.Controls.Add(BtnLogout);
-            SideBarPanel.Controls.Add(BtnToHistoriPengerjaan);
-            SideBarPanel.Controls.Add(BtnToSoalInternet);
-            SideBarPanel.Controls.Add(BtnToKelolaSoal);
+            SideBarPanel.Controls.Add(btnLogout);
+            SideBarPanel.Controls.Add(btnToHistoriPengerjaan);
+            SideBarPanel.Controls.Add(btnToSoalInternet);
+            SideBarPanel.Controls.Add(btnToKelolaSoal);
             SideBarPanel.Controls.Add(QuizzyLogo);
             SideBarPanel.Controls.Add(QuizzyLabel);
             SideBarPanel.ForeColor = Color.Plum;
@@ -56,54 +56,54 @@
             SideBarPanel.Size = new Size(219, 491);
             SideBarPanel.TabIndex = 0;
             // 
-            // BtnLogout
+            // btnLogout
             // 
-            BtnLogout.BackColor = Color.MediumVioletRed;
-            BtnLogout.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnLogout.ForeColor = Color.White;
-            BtnLogout.Location = new Point(17, 218);
-            BtnLogout.Name = "BtnLogout";
-            BtnLogout.Size = new Size(185, 34);
-            BtnLogout.TabIndex = 0;
-            BtnLogout.Text = "Logout";
-            BtnLogout.UseVisualStyleBackColor = false;
+            btnLogout.BackColor = Color.MediumVioletRed;
+            btnLogout.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogout.ForeColor = Color.White;
+            btnLogout.Location = new Point(17, 218);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(185, 34);
+            btnLogout.TabIndex = 0;
+            btnLogout.Text = "Logout";
+            btnLogout.UseVisualStyleBackColor = false;
             // 
-            // BtnToHistoriPengerjaan
+            // btnToHistoriPengerjaan
             // 
-            BtnToHistoriPengerjaan.BackColor = Color.MediumVioletRed;
-            BtnToHistoriPengerjaan.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnToHistoriPengerjaan.ForeColor = Color.White;
-            BtnToHistoriPengerjaan.Location = new Point(17, 178);
-            BtnToHistoriPengerjaan.Name = "BtnToHistoriPengerjaan";
-            BtnToHistoriPengerjaan.Size = new Size(185, 34);
-            BtnToHistoriPengerjaan.TabIndex = 0;
-            BtnToHistoriPengerjaan.Text = "Lihat Histori Pengerjaan";
-            BtnToHistoriPengerjaan.UseVisualStyleBackColor = false;
+            btnToHistoriPengerjaan.BackColor = Color.MediumVioletRed;
+            btnToHistoriPengerjaan.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnToHistoriPengerjaan.ForeColor = Color.White;
+            btnToHistoriPengerjaan.Location = new Point(17, 178);
+            btnToHistoriPengerjaan.Name = "btnToHistoriPengerjaan";
+            btnToHistoriPengerjaan.Size = new Size(185, 34);
+            btnToHistoriPengerjaan.TabIndex = 0;
+            btnToHistoriPengerjaan.Text = "Lihat Histori Pengerjaan";
+            btnToHistoriPengerjaan.UseVisualStyleBackColor = false;
             // 
-            // BtnToSoalInternet
+            // btnToSoalInternet
             // 
-            BtnToSoalInternet.BackColor = Color.MediumVioletRed;
-            BtnToSoalInternet.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnToSoalInternet.ForeColor = Color.White;
-            BtnToSoalInternet.Location = new Point(17, 138);
-            BtnToSoalInternet.Name = "BtnToSoalInternet";
-            BtnToSoalInternet.Size = new Size(185, 34);
-            BtnToSoalInternet.TabIndex = 0;
-            BtnToSoalInternet.Text = "Lihat Soal Internet";
-            BtnToSoalInternet.UseVisualStyleBackColor = false;
+            btnToSoalInternet.BackColor = Color.MediumVioletRed;
+            btnToSoalInternet.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnToSoalInternet.ForeColor = Color.White;
+            btnToSoalInternet.Location = new Point(17, 138);
+            btnToSoalInternet.Name = "btnToSoalInternet";
+            btnToSoalInternet.Size = new Size(185, 34);
+            btnToSoalInternet.TabIndex = 0;
+            btnToSoalInternet.Text = "Lihat Soal Internet";
+            btnToSoalInternet.UseVisualStyleBackColor = false;
             // 
-            // BtnToKelolaSoal
+            // btnToKelolaSoal
             // 
-            BtnToKelolaSoal.BackColor = Color.MediumVioletRed;
-            BtnToKelolaSoal.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnToKelolaSoal.ForeColor = Color.White;
-            BtnToKelolaSoal.Location = new Point(17, 98);
-            BtnToKelolaSoal.Name = "BtnToKelolaSoal";
-            BtnToKelolaSoal.Size = new Size(185, 34);
-            BtnToKelolaSoal.TabIndex = 0;
-            BtnToKelolaSoal.Text = "Kelola Soal Lokal";
-            BtnToKelolaSoal.UseVisualStyleBackColor = false;
-            BtnToKelolaSoal.Click += button1_Click;
+            btnToKelolaSoal.BackColor = Color.MediumVioletRed;
+            btnToKelolaSoal.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnToKelolaSoal.ForeColor = Color.White;
+            btnToKelolaSoal.Location = new Point(17, 98);
+            btnToKelolaSoal.Name = "btnToKelolaSoal";
+            btnToKelolaSoal.Size = new Size(185, 34);
+            btnToKelolaSoal.TabIndex = 0;
+            btnToKelolaSoal.Text = "Kelola Soal Lokal";
+            btnToKelolaSoal.UseVisualStyleBackColor = false;
+            btnToKelolaSoal.Click += button1_Click;
             // 
             // QuizzyLogo
             // 
@@ -159,9 +159,9 @@
         private Label QuizzyLabel;
         private PictureBox QuizzyLogo;
         private Panel ContentPanel;
-        private Button BtnToKelolaSoal;
-        private Button BtnToHistoriPengerjaan;
-        private Button BtnToSoalInternet;
-        private Button BtnLogout;
+        private Button btnToKelolaSoal;
+        private Button btnToHistoriPengerjaan;
+        private Button btnToSoalInternet;
+        private Button btnLogout;
     }
 }

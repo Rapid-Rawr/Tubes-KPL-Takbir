@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            BtnLogout = new Button();
-            BtnToLeaderboard = new Button();
-            BtnToSkor = new Button();
-            BtnToQuiz = new Button();
+            btnLogout = new Button();
+            btnToLeaderboard = new Button();
+            btnToSkor = new Button();
+            btnToQuiz = new Button();
             QuizzyLogo = new PictureBox();
             QuizzyLabel = new Label();
             panel2 = new Panel();
@@ -43,10 +43,10 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(255, 227, 242);
-            panel1.Controls.Add(BtnLogout);
-            panel1.Controls.Add(BtnToLeaderboard);
-            panel1.Controls.Add(BtnToSkor);
-            panel1.Controls.Add(BtnToQuiz);
+            panel1.Controls.Add(btnLogout);
+            panel1.Controls.Add(btnToLeaderboard);
+            panel1.Controls.Add(btnToSkor);
+            panel1.Controls.Add(btnToQuiz);
             panel1.Controls.Add(QuizzyLogo);
             panel1.Controls.Add(QuizzyLabel);
             panel1.Location = new Point(0, 0);
@@ -54,53 +54,53 @@
             panel1.Size = new Size(219, 491);
             panel1.TabIndex = 0;
             // 
-            // BtnLogout
+            // btnLogout
             // 
-            BtnLogout.BackColor = Color.MediumVioletRed;
-            BtnLogout.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnLogout.ForeColor = Color.White;
-            BtnLogout.Location = new Point(17, 218);
-            BtnLogout.Name = "BtnLogout";
-            BtnLogout.Size = new Size(185, 34);
-            BtnLogout.TabIndex = 0;
-            BtnLogout.Text = "Logout";
-            BtnLogout.UseVisualStyleBackColor = false;
+            btnLogout.BackColor = Color.MediumVioletRed;
+            btnLogout.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogout.ForeColor = Color.White;
+            btnLogout.Location = new Point(17, 218);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(185, 34);
+            btnLogout.TabIndex = 0;
+            btnLogout.Text = "Logout";
+            btnLogout.UseVisualStyleBackColor = false;
             // 
-            // BtnToLeaderboard
+            // btnToLeaderboard
             // 
-            BtnToLeaderboard.BackColor = Color.MediumVioletRed;
-            BtnToLeaderboard.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnToLeaderboard.ForeColor = Color.White;
-            BtnToLeaderboard.Location = new Point(17, 178);
-            BtnToLeaderboard.Name = "BtnToLeaderboard";
-            BtnToLeaderboard.Size = new Size(185, 34);
-            BtnToLeaderboard.TabIndex = 0;
-            BtnToLeaderboard.Text = "Leaderboard";
-            BtnToLeaderboard.UseVisualStyleBackColor = false;
+            btnToLeaderboard.BackColor = Color.MediumVioletRed;
+            btnToLeaderboard.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnToLeaderboard.ForeColor = Color.White;
+            btnToLeaderboard.Location = new Point(17, 178);
+            btnToLeaderboard.Name = "btnToLeaderboard";
+            btnToLeaderboard.Size = new Size(185, 34);
+            btnToLeaderboard.TabIndex = 0;
+            btnToLeaderboard.Text = "Leaderboard";
+            btnToLeaderboard.UseVisualStyleBackColor = false;
             // 
-            // BtnToSkor
+            // btnToSkor
             // 
-            BtnToSkor.BackColor = Color.MediumVioletRed;
-            BtnToSkor.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnToSkor.ForeColor = Color.White;
-            BtnToSkor.Location = new Point(17, 138);
-            BtnToSkor.Name = "BtnToSkor";
-            BtnToSkor.Size = new Size(185, 34);
-            BtnToSkor.TabIndex = 0;
-            BtnToSkor.Text = "Lihat Skor";
-            BtnToSkor.UseVisualStyleBackColor = false;
+            btnToSkor.BackColor = Color.MediumVioletRed;
+            btnToSkor.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnToSkor.ForeColor = Color.White;
+            btnToSkor.Location = new Point(17, 138);
+            btnToSkor.Name = "btnToSkor";
+            btnToSkor.Size = new Size(185, 34);
+            btnToSkor.TabIndex = 0;
+            btnToSkor.Text = "Lihat Skor";
+            btnToSkor.UseVisualStyleBackColor = false;
             // 
-            // BtnToQuiz
+            // btnToQuiz
             // 
-            BtnToQuiz.BackColor = Color.MediumVioletRed;
-            BtnToQuiz.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnToQuiz.ForeColor = Color.White;
-            BtnToQuiz.Location = new Point(17, 98);
-            BtnToQuiz.Name = "BtnToQuiz";
-            BtnToQuiz.Size = new Size(185, 34);
-            BtnToQuiz.TabIndex = 0;
-            BtnToQuiz.Text = "Kerjakan Quiz";
-            BtnToQuiz.UseVisualStyleBackColor = false;
+            btnToQuiz.BackColor = Color.MediumVioletRed;
+            btnToQuiz.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnToQuiz.ForeColor = Color.White;
+            btnToQuiz.Location = new Point(17, 98);
+            btnToQuiz.Name = "btnToQuiz";
+            btnToQuiz.Size = new Size(185, 34);
+            btnToQuiz.TabIndex = 0;
+            btnToQuiz.Text = "Kerjakan Quiz";
+            btnToQuiz.UseVisualStyleBackColor = false;
             // 
             // QuizzyLogo
             // 
@@ -154,9 +154,9 @@
         private Panel panel2;
         private PictureBox QuizzyLogo;
         private Label QuizzyLabel;
-        private Button BtnToQuiz;
-        private Button BtnToSkor;
-        private Button BtnLogout;
-        private Button BtnToLeaderboard;
+        private Button btnToQuiz;
+        private Button btnToSkor;
+        private Button btnLogout;
+        private Button btnToLeaderboard;
     }
 }

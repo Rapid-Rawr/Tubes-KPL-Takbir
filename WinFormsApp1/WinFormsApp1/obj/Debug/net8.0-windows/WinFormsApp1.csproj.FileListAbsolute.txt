@@ -22,7 +22,6 @@ C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\bin\Debug\net
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
-C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.WFAdmin.resources
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.WFUser.resources
@@ -38,3 +37,8 @@ C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Login.resources
+C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.CardSoal.resources
+C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.LihatSoalLokal.resources
+C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Register.resources
+C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.FormSoal.resources
