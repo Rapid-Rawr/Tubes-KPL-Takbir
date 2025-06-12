@@ -26,5 +26,10 @@ namespace WinFormsApp1.Views.Forms
         {
 
         }
+
+        private void tbName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

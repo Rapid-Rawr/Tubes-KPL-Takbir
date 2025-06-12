@@ -51,9 +51,8 @@
             SideBarPanel.Controls.Add(QuizzyLabel);
             SideBarPanel.ForeColor = Color.Plum;
             SideBarPanel.Location = new Point(0, 0);
-            SideBarPanel.Margin = new Padding(2);
             SideBarPanel.Name = "SideBarPanel";
-            SideBarPanel.Size = new Size(219, 491);
+            SideBarPanel.Size = new Size(313, 818);
             SideBarPanel.TabIndex = 0;
             // 
             // btnLogout
@@ -61,9 +60,10 @@
             btnLogout.BackColor = Color.MediumVioletRed;
             btnLogout.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLogout.ForeColor = Color.White;
-            btnLogout.Location = new Point(17, 218);
+            btnLogout.Location = new Point(24, 363);
+            btnLogout.Margin = new Padding(4, 5, 4, 5);
             btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(185, 34);
+            btnLogout.Size = new Size(264, 57);
             btnLogout.TabIndex = 0;
             btnLogout.Text = "Logout";
             btnLogout.UseVisualStyleBackColor = false;
@@ -73,9 +73,10 @@
             btnToHistoriPengerjaan.BackColor = Color.MediumVioletRed;
             btnToHistoriPengerjaan.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnToHistoriPengerjaan.ForeColor = Color.White;
-            btnToHistoriPengerjaan.Location = new Point(17, 178);
+            btnToHistoriPengerjaan.Location = new Point(24, 297);
+            btnToHistoriPengerjaan.Margin = new Padding(4, 5, 4, 5);
             btnToHistoriPengerjaan.Name = "btnToHistoriPengerjaan";
-            btnToHistoriPengerjaan.Size = new Size(185, 34);
+            btnToHistoriPengerjaan.Size = new Size(264, 57);
             btnToHistoriPengerjaan.TabIndex = 0;
             btnToHistoriPengerjaan.Text = "Lihat Histori Pengerjaan";
             btnToHistoriPengerjaan.UseVisualStyleBackColor = false;
@@ -85,9 +86,10 @@
             btnToSoalInternet.BackColor = Color.MediumVioletRed;
             btnToSoalInternet.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnToSoalInternet.ForeColor = Color.White;
-            btnToSoalInternet.Location = new Point(17, 138);
+            btnToSoalInternet.Location = new Point(24, 230);
+            btnToSoalInternet.Margin = new Padding(4, 5, 4, 5);
             btnToSoalInternet.Name = "btnToSoalInternet";
-            btnToSoalInternet.Size = new Size(185, 34);
+            btnToSoalInternet.Size = new Size(264, 57);
             btnToSoalInternet.TabIndex = 0;
             btnToSoalInternet.Text = "Lihat Soal Internet";
             btnToSoalInternet.UseVisualStyleBackColor = false;
@@ -97,9 +99,10 @@
             btnToKelolaSoal.BackColor = Color.MediumVioletRed;
             btnToKelolaSoal.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnToKelolaSoal.ForeColor = Color.White;
-            btnToKelolaSoal.Location = new Point(17, 98);
+            btnToKelolaSoal.Location = new Point(24, 163);
+            btnToKelolaSoal.Margin = new Padding(4, 5, 4, 5);
             btnToKelolaSoal.Name = "btnToKelolaSoal";
-            btnToKelolaSoal.Size = new Size(185, 34);
+            btnToKelolaSoal.Size = new Size(264, 57);
             btnToKelolaSoal.TabIndex = 0;
             btnToKelolaSoal.Text = "Kelola Soal Lokal";
             btnToKelolaSoal.UseVisualStyleBackColor = false;
@@ -108,10 +111,9 @@
             // QuizzyLogo
             // 
             QuizzyLogo.Image = Properties.Resources.brain;
-            QuizzyLogo.Location = new Point(36, 22);
-            QuizzyLogo.Margin = new Padding(2);
+            QuizzyLogo.Location = new Point(51, 37);
             QuizzyLogo.Name = "QuizzyLogo";
-            QuizzyLogo.Size = new Size(41, 43);
+            QuizzyLogo.Size = new Size(59, 72);
             QuizzyLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             QuizzyLogo.TabIndex = 1;
             QuizzyLogo.TabStop = false;
@@ -121,10 +123,9 @@
             QuizzyLabel.AutoSize = true;
             QuizzyLabel.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             QuizzyLabel.ForeColor = Color.MediumVioletRed;
-            QuizzyLabel.Location = new Point(89, 29);
-            QuizzyLabel.Margin = new Padding(2, 0, 2, 0);
+            QuizzyLabel.Location = new Point(127, 48);
             QuizzyLabel.Name = "QuizzyLabel";
-            QuizzyLabel.Size = new Size(98, 29);
+            QuizzyLabel.Size = new Size(149, 43);
             QuizzyLabel.TabIndex = 0;
             QuizzyLabel.Text = "QUIZZY";
             QuizzyLabel.Click += label1_Click;
@@ -132,19 +133,20 @@
             // ContentPanel
             // 
             ContentPanel.BackColor = Color.White;
-            ContentPanel.Location = new Point(218, 0);
+            ContentPanel.Location = new Point(311, 0);
+            ContentPanel.Margin = new Padding(4, 5, 4, 5);
             ContentPanel.Name = "ContentPanel";
-            ContentPanel.Size = new Size(596, 491);
+            ContentPanel.Size = new Size(851, 818);
             ContentPanel.TabIndex = 1;
+            ContentPanel.Paint += ContentPanel_Paint;
             // 
             // WFAdmin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(814, 491);
+            ClientSize = new Size(1163, 818);
             Controls.Add(ContentPanel);
             Controls.Add(SideBarPanel);
-            Margin = new Padding(2);
             Name = "WFAdmin";
             Text = "Form2";
             SideBarPanel.ResumeLayout(false);

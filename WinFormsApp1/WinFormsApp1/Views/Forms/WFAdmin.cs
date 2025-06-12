@@ -42,5 +42,9 @@ namespace WinFormsApp1.Views.Forms
             ViewsHelper.GantiKontenPanel(ContentPanel, kelolaSoal);
         }
 
+        private void ContentPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
