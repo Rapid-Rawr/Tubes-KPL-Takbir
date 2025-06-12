@@ -16,6 +16,7 @@ namespace WinFormsApp1.Controllers
 
             int nilaiSatuan = 100 / totalSoal;
             return nilaiSatuan*soalBenar;
+            return nilaiSatuan * soalBenar;
         }
 
         // Method untuk dapatkan data leaderboard dari file JSON
