@@ -62,7 +62,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(240, 254);
+            label2.Location = new Point(348, 296);
             label2.Name = "label2";
             label2.Size = new Size(466, 30);
             label2.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(403, 319);
+            label3.Location = new Point(511, 361);
             label3.Name = "label3";
             label3.Size = new Size(128, 30);
             label3.TabIndex = 3;
@@ -83,7 +83,7 @@
             button1.BackColor = Color.ForestGreen;
             button1.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(394, 513);
+            button1.Location = new Point(502, 555);
             button1.Name = "button1";
             button1.Size = new Size(151, 57);
             button1.TabIndex = 5;
@@ -95,7 +95,7 @@
             label4.BackColor = Color.MediumVioletRed;
             label4.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.Control;
-            label4.Location = new Point(427, 363);
+            label4.Location = new Point(535, 405);
             label4.Name = "label4";
             label4.Size = new Size(77, 45);
             label4.TabIndex = 6;
@@ -113,7 +113,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "Grading";
-            Size = new Size(948, 702);
+            Size = new Size(1185, 874);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

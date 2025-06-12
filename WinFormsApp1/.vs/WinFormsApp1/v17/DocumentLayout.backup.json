@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\views\\forms\\grading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\grading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\views\\forms\\grading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\grading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\views\\controls\\grading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\grading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\winformsapp1\\views\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\views\\forms\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\winformsapp1\\views\\forms\\wfuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -45,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\controllers\\soalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controllers\\soalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\views\\forms\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\kuliah\\sem-4\\konstruksi pl\\tubes\\tubesdummy\\winformsapp1\\winformsapp1\\utilities\\viewshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,11 +133,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "FormSoal.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\FormSoal.cs",
@@ -155,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "KelolaSoalLokal.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
@@ -169,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "WFAdmin.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFAdmin.cs",
@@ -182,6 +178,18 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grading.cs [Design]",
+              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\Grading.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\Grading.cs",
+              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\Grading.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\Grading.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:50:32.584Z",
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:3:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
             },
@@ -191,19 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Grading.cs [Design]",
-              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Grading.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Grading.cs",
-              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Grading.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Grading.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T12:53:02.971Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Login.cs",
@@ -215,15 +211,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Grading.cs",
-              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Grading.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Grading.cs",
-              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Grading.cs",
-              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Grading.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
+              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "WinFormsApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T13:16:50.053Z",
+              "WhenOpened": "2025-06-11T16:35:08.417Z",
               "EditorCaption": ""
             },
             {
@@ -235,21 +231,7 @@
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:18:05Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
-              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeToolTip": "WinFormsApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:35:08.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:18:05Z"
             },
             {
               "$type": "Bookmark",
@@ -264,8 +246,7 @@
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:17:29.137Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-11T16:17:29.137Z"
             },
             {
               "$type": "Document",
@@ -276,8 +257,7 @@
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:16:46.288Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-11T16:16:46.288Z"
             },
             {
               "$type": "Document",
@@ -301,8 +281,7 @@
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\CardSoal.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\CardSoal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T15:58:49.672Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-11T15:58:49.672Z"
             },
             {
               "$type": "Document",
@@ -313,8 +292,7 @@
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\FormSoal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:09:36.966Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-11T16:09:36.966Z"
             },
             {
               "$type": "Document",
@@ -326,12 +304,11 @@
               "RelativeToolTip": "WinFormsApp1\\Controllers\\SoalController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAowKoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:21:44.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:21:44.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "ViewsHelper.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Utilities\\ViewsHelper.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Utilities\\ViewsHelper.cs",
@@ -339,12 +316,11 @@
               "RelativeToolTip": "WinFormsApp1\\Utilities\\ViewsHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:29:49.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:29:49.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Login.cs",
@@ -352,12 +328,11 @@
               "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Login.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAvwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:15:45.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:15:45.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "WinFormsApp1\\Properties\\Resources.resx",
@@ -369,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "JsonHelper.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Utilities\\JsonHelper.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Utilities\\JsonHelper.cs",
@@ -377,24 +352,22 @@
               "RelativeToolTip": "WinFormsApp1\\Utilities\\JsonHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:31:20.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:31:20.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "KelolaSoalLokal.cs [Design]",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:14:23.604Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-11T16:14:23.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "soalManual.json",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\bin\\Debug\\net8.0-windows\\soalManual.json",
               "RelativeDocumentMoniker": "WinFormsApp1\\bin\\Debug\\net8.0-windows\\soalManual.json",
@@ -406,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "FormSoal.Designer.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\FormSoal.Designer.cs",
@@ -414,24 +387,22 @@
               "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\FormSoal.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:12:37.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:12:37.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "FormSoal.resx",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.resx",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\FormSoal.resx",
               "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.resx",
               "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\FormSoal.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-06-11T21:42:31.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T21:42:31.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "soalManual.json",
               "DocumentMoniker": "C:\\Users\\Zia\\source\\CLO2\\SoalAPI\\SoalAPI\\bin\\Debug\\net8.0\\soalManual.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Users\\Zia\\source\\CLO2\\SoalAPI\\SoalAPI\\bin\\Debug\\net8.0\\soalManual.json",
@@ -443,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "WFAdmin.Designer.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFAdmin.Designer.cs",
@@ -451,12 +422,11 @@
               "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFAdmin.Designer.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAIBQwAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:17:27.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:17:27.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "KelolaSoalLokal.Designer.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.Designer.cs",
@@ -464,12 +434,11 @@
               "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:14:43.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:14:43.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Login.Designer.cs",
@@ -482,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Soal.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Models\\Soal.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Models\\Soal.cs",
@@ -494,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "WFUser.Designer.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFUser.Designer.cs",
@@ -502,12 +471,11 @@
               "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFUser.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:18:26.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:18:26.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "WFUser.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFUser.cs",
@@ -519,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Register.Designer.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Register.Designer.cs",
@@ -527,12 +495,11 @@
               "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Register.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:17:08.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:17:08.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "Register.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Register.cs",
@@ -540,12 +507,11 @@
               "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Register.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T16:16:53.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:16:53.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "CardSoal.Designer.cs",
               "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\CardSoal.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\CardSoal.Designer.cs",
@@ -553,8 +519,7 @@
               "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\CardSoal.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T15:58:53.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T15:58:53.354Z"
             }
           ]
         }
