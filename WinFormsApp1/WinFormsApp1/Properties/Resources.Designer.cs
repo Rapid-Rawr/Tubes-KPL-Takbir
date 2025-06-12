@@ -69,25 +69,5 @@ namespace WinFormsApp1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap brain1_1 {
-            get {
-                object obj = ResourceManager.GetObject("brain1 1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Cuplikan_layar_2025_06_10_152532 {
-            get {
-                object obj = ResourceManager.GetObject("Cuplikan layar 2025-06-10 152532", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

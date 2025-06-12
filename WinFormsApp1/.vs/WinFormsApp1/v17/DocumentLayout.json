@@ -3,87 +3,119 @@
   "WorkspaceRootPath": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\controllers\\soalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controllers\\soalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\controls\\formsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\formsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\models\\triviaapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\models\\triviaapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\views\\controls\\formsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\formsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\models\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\models\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\views\\controls\\kelolasoallokal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\kelolasoallokal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\controllers\\gradingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controllers\\gradingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\forms\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\controls\\kelolasoallokal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\kelolasoallokal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\wfuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\wfuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\controls\\cardsoal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\cardsoal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\controls\\cardsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\cardsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\controls\\formsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\formsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\controls\\lihatsoallokal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\lihatsoallokal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\winformsapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\winformsapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\controls\\lihatsoallokal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\lihatsoallokal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\controls\\lihatsoallokal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controls\\lihatsoallokal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\bin\\Debug\\net8.0-windows\\soalManual.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinFormsApp1\\bin\\Debug\\net8.0-windows\\soalManual.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\wfadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\wfadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\controllers\\soalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controllers\\soalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\bin\\Debug\\net8.0\\history.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\views\\forms\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\wfadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\controls\\formsoal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\formsoal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\controls\\formsoal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\formsoal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zia\\source\\CLO2\\SoalAPI\\SoalAPI\\bin\\Debug\\net8.0\\soalManual.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\forms\\wfadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\wfadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\controls\\kelolasoallokal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\kelolasoallokal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\forms\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\utilities\\viewshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\utilities\\viewshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\utilities\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\utilities\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\views\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\models\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\models\\soal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\forms\\wfuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\wfuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\views\\forms\\wfuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\wfuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\forms\\wfuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\wfuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\views\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\forms\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\controls\\cardsoal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\cardsoal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\zia\\source\\uas\\tubes-kpl-takbir\\winformsapp1\\winformsapp1\\views\\controls\\cardsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\cardsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\winformsapp1\\views\\controls\\cardsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E92DE514-60FC-4B86-981E-17102B029DCE}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\controls\\cardsoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,272 +125,365 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WFUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WFUser.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\WFUser.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WFUser.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\WFUser.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "WFAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFAdmin.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFAdmin.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T12:33:35.311Z",
+              "WhenOpened": "2025-06-11T16:17:34.514Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WFAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WFAdmin.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\WFAdmin.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WFAdmin.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\WFAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T13:09:03.785Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SoalController.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controllers\\SoalController.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controllers\\SoalController.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controllers\\SoalController.cs",
-              "RelativeToolTip": "WinFormsApp1\\Controllers\\SoalController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAPMAAAABAAAAAAAAAA==",
+              "Title": "FormSoal.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\FormSoal.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\FormSoal.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwCAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:00:00.789Z",
+              "WhenOpened": "2025-06-11T16:09:40.662Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KelolaSoalLokal.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:14:26.763Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "soalManual.json",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\bin\\Debug\\net8.0-windows\\soalManual.json",
+              "RelativeDocumentMoniker": "WinFormsApp1\\bin\\Debug\\net8.0-windows\\soalManual.json",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\bin\\Debug\\net8.0-windows\\soalManual.json",
+              "RelativeToolTip": "WinFormsApp1\\bin\\Debug\\net8.0-windows\\soalManual.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T01:44:22.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Soal.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Models\\Soal.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Models\\Soal.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Models\\Soal.cs",
-              "RelativeToolTip": "WinFormsApp1\\Models\\Soal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Title": "KelolaSoalLokal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:59:12.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:14:23.604Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TriviaApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Models\\TriviaApiResponse.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Models\\TriviaApiResponse.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Models\\TriviaApiResponse.cs",
-              "RelativeToolTip": "WinFormsApp1\\Models\\TriviaApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:40:13.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GradingController.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controllers\\GradingController.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controllers\\GradingController.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controllers\\GradingController.cs",
-              "RelativeToolTip": "WinFormsApp1\\Controllers\\GradingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:15:40.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CardSoal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\CardSoal.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CardSoal.Designer.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\CardSoal.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\Controls\\CardSoal.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:27:14.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "FormSoal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\FormSoal.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\FormSoal.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\FormSoal.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Controls\\FormSoal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\FormSoal.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\FormSoal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:07:41.465Z",
+              "WhenOpened": "2025-06-11T16:09:36.966Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CardSoal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\CardSoal.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\CardSoal.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\CardSoal.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Controls\\CardSoal.cs [Design]",
+              "Title": "SoalController.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controllers\\SoalController.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controllers\\SoalController.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controllers\\SoalController.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controllers\\SoalController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAKoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:27:39.021Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LihatSoalLokal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\LihatSoalLokal.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\LihatSoalLokal.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\LihatSoalLokal.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Controls\\LihatSoalLokal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:23:14.772Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WinFormsApp1.csproj",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-              "RelativeDocumentMoniker": "WinFormsApp1\\WinFormsApp1.csproj",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-              "RelativeToolTip": "WinFormsApp1\\WinFormsApp1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-11T07:09:59.703Z",
+              "WhenOpened": "2025-06-11T16:21:44.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LihatSoalLokal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\LihatSoalLokal.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\LihatSoalLokal.Designer.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\LihatSoalLokal.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\Controls\\LihatSoalLokal.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:24:18.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Login.Designer.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Login.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\Login.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T17:55:27.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Login.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Login.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T17:55:21.982Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LihatSoalLokal.resx",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\LihatSoalLokal.resx",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controls\\LihatSoalLokal.resx",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Controls\\LihatSoalLokal.resx",
-              "RelativeToolTip": "WinFormsApp1\\Controls\\LihatSoalLokal.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-06-11T09:15:22.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Register.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Register.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Register.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Register.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Register.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:10:30.986Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WFAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WFAdmin.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\WFAdmin.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WFAdmin.cs",
-              "RelativeToolTip": "WinFormsApp1\\WFAdmin.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIBJwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T14:54:15.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
               "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Program.cs",
               "RelativeToolTip": "WinFormsApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T08:14:21.499Z",
+              "WhenOpened": "2025-06-11T16:35:08.417Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WFAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFAdmin.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:17:29.137Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormSoal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\FormSoal.Designer.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\FormSoal.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:12:37.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormSoal.resx",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.resx",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\FormSoal.resx",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\FormSoal.resx",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\FormSoal.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-11T21:42:31.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "soalManual.json",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\CLO2\\SoalAPI\\SoalAPI\\bin\\Debug\\net8.0\\soalManual.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\CLO2\\SoalAPI\\SoalAPI\\bin\\Debug\\net8.0\\soalManual.json",
+              "ToolTip": "C:\\Users\\Zia\\source\\CLO2\\SoalAPI\\SoalAPI\\bin\\Debug\\net8.0\\soalManual.json",
+              "RelativeToolTip": "..\\..\\..\\CLO2\\SoalAPI\\SoalAPI\\bin\\Debug\\net8.0\\soalManual.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T19:00:10.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WFAdmin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFAdmin.Designer.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFAdmin.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFAdmin.Designer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:17:27.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KelolaSoalLokal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.Designer.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\KelolaSoalLokal.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:14:43.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:15:51.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ViewsHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Utilities\\ViewsHelper.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Utilities\\ViewsHelper.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Utilities\\ViewsHelper.cs",
+              "RelativeToolTip": "WinFormsApp1\\Utilities\\ViewsHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:29:49.952Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Login.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Login.cs",
-              "RelativeToolTip": "WinFormsApp1\\Login.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Utilities\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Utilities\\JsonHelper.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Utilities\\JsonHelper.cs",
+              "RelativeToolTip": "WinFormsApp1\\Utilities\\JsonHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T18:10:55.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:31:20.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:15:38.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Soal.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Models\\Soal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Models\\Soal.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Models\\Soal.cs",
+              "RelativeToolTip": "WinFormsApp1\\Models\\Soal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:59:25.492Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "WFAdmin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WFAdmin.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\WFAdmin.Designer.cs",
-              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\WFAdmin.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\WFAdmin.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Title": "WFUser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFUser.Designer.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFUser.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T11:53:55.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T16:18:26.707Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "history.json",
-              "DocumentMoniker": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\bin\\Debug\\net8.0\\history.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\bin\\Debug\\net8.0\\history.json",
-              "ToolTip": "C:\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\bin\\Debug\\net8.0\\history.json",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Kuliah\\SEM-4\\Konstruksi PL\\Tubes\\tubesDummy\\Tubes-KPL-Takbir\\Kuislami\\Kuislami\\bin\\Debug\\net8.0\\history.json",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-10T08:50:26.582Z"
+              "Title": "WFUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFUser.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:18:05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WFUser.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\WFUser.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\WFUser.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\WFUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:18:16.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Register.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Register.Designer.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Register.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:17:08.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Register.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:16:53.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Register.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Register.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:16:46.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Forms\\Login.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Forms\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:15:45.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CardSoal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\CardSoal.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\CardSoal.Designer.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\CardSoal.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\CardSoal.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:58:53.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CardSoal.cs",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\CardSoal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\CardSoal.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\CardSoal.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\CardSoal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:59:08.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CardSoal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\CardSoal.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Controls\\CardSoal.cs",
+              "ToolTip": "C:\\Users\\Zia\\source\\UAS\\Tubes-KPL-Takbir\\WinFormsApp1\\WinFormsApp1\\Views\\Controls\\CardSoal.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Controls\\CardSoal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:58:49.672Z"
             }
           ]
         }

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Which planet is known as the \"Red Planet\"",
+    "opsi": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ],
+    "jawaban": "Mars"
+  },
+  {
+    "id": 2,
+    "pertanyaan": "What is the capital city of France?",
+    "opsi": [
+      "Rome",
+      "Berlin",
+      "Madrid",
+      "Paris"
+    ],
+    "jawaban": "Paris"
+  }
+]

@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using WinFormsApp1.Models;
+using WinFormsApp1.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1.Controllers
 {
-    class SoalController
+    public class SoalController
     {
         private ModeSoal mode;
         private string pathSoalAktif;
@@ -62,8 +63,7 @@ namespace WinFormsApp1.Controllers
                 return new List<Soal>();
             }
 
-            string json = File.ReadAllText(pathSoal);
-            var semuaSoal = JsonConvert.DeserializeObject<List<Soal>>(json) ?? new List<Soal>();
+            var semuaSoal = JsonHelper.LoadFromFile<List<Soal>>(pathSoal) ?? new List<Soal>();
 
             var unikSoal = semuaSoal.GroupBy(s => s.pertanyaan).Select(g => g.First()).ToList();
 
@@ -96,10 +96,9 @@ namespace WinFormsApp1.Controllers
             await AmbilSoal(apiUrl, true);
         }
 
-        public void SimpanSoal(string pathSoal)
+        public void SimpanSoal()
         {
-            var json = JsonConvert.SerializeObject(daftarSoal, Formatting.Indented);
-            File.WriteAllText(pathSoal, json);
+            JsonHelper.SaveToFile(pathSoalAktif, daftarSoal);
         }
 
         public async Task AmbilSoal(string apiUrl, bool overwrite)
@@ -146,7 +145,7 @@ namespace WinFormsApp1.Controllers
                                 });
                             }
                         }
-                        SimpanSoal(filePathAPI);
+                        SimpanSoal();
                         Console.WriteLine("Soal berhasil diambil dan disimpan");
                     }
                     else
@@ -161,21 +160,13 @@ namespace WinFormsApp1.Controllers
             }
         }
 
-        public void TambahSoalManual()
+        public void TambahSoalManual(string pertanyaanSoal, List<string> opsiSoal, string jawabanSoal)
         {
-            Console.Write("Masukkan pertanyaan: ");
-            string pertanyaan = Console.ReadLine() ?? "";
+            string pertanyaan = pertanyaanSoal;
 
-            Console.WriteLine("Masukkan 4 opsi jawaban:");
-            List<string> opsi = new();
-            for (int i = 1; i <= 4; i++)
-            {
-                Console.Write($"Opsi {i}: ");
-                opsi.Add(Console.ReadLine() ?? "");
-            }
+            List<string> opsi = opsiSoal;
 
-            Console.Write("Masukkan jawaban benar: ");
-            string jawaban = Console.ReadLine() ?? "";
+            string jawaban = jawabanSoal;
 
             int id = daftarSoal.Count > 0 ? daftarSoal[^1].id + 1 : 1;
 
@@ -187,8 +178,7 @@ namespace WinFormsApp1.Controllers
                 jawaban = jawaban
             });
 
-            SimpanSoal(filePathManual);
-            Console.WriteLine("Soal berhasil ditambahkan.");
+            SimpanSoal();
         }
 
         public void EditSoalManual()
@@ -215,7 +205,7 @@ namespace WinFormsApp1.Controllers
                     string jawabanBaru = Console.ReadLine() ?? "";
                     if (!string.IsNullOrWhiteSpace(jawabanBaru)) soal.jawaban = jawabanBaru;
 
-                    SimpanSoal(filePathManual);
+                    SimpanSoal();
                     Console.WriteLine("Soal berhasil diedit.");
                 }
                 else Console.WriteLine("Soal tidak ditemukan.");
@@ -233,7 +223,7 @@ namespace WinFormsApp1.Controllers
                 if (soal != null)
                 {
                     daftarSoal.Remove(soal);
-                    SimpanSoal(filePathManual);
+                    SimpanSoal();
                     Console.WriteLine("Soal berhasil dihapus.");
                 }
                 else Console.WriteLine("Soal tidak ditemukan.");
