@@ -141,7 +141,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "WFUser";
-            Text = "WFUser";
+            Text = "User";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)QuizzyLogo).EndInit();

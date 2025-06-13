@@ -151,6 +151,7 @@
             Controls.Add(QuizzyLogo);
             Controls.Add(QuizzyLabel);
             Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)QuizzyLogo).EndInit();
             ResumeLayout(false);

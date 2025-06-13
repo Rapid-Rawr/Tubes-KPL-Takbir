@@ -20,5 +20,16 @@
       "Paris"
     ],
     "jawaban": "Paris"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "1+2",
+    "opsi": [
+      "2",
+      "23",
+      "3",
+      "22"
+    ],
+    "jawaban": "3"
   }
 ]

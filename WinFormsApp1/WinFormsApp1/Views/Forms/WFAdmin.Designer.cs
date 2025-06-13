@@ -91,6 +91,7 @@
             btnToSoalInternet.TabIndex = 0;
             btnToSoalInternet.Text = "Lihat Soal Internet";
             btnToSoalInternet.UseVisualStyleBackColor = false;
+            btnToSoalInternet.Click += btnToSoalInternet_Click;
             // 
             // btnToKelolaSoal
             // 
@@ -146,7 +147,8 @@
             Controls.Add(SideBarPanel);
             Margin = new Padding(2);
             Name = "WFAdmin";
-            Text = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Admin";
             SideBarPanel.ResumeLayout(false);
             SideBarPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)QuizzyLogo).EndInit();

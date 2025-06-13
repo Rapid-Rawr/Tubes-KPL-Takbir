@@ -73,6 +73,7 @@
             tbSoal.Name = "tbSoal";
             tbSoal.Size = new Size(540, 21);
             tbSoal.TabIndex = 3;
+            tbSoal.TextChanged += tbSoal_TextChanged;
             // 
             // labelOpsi
             // 

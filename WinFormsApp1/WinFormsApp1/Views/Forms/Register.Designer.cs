@@ -150,6 +150,7 @@
             Controls.Add(QuizzyLogo);
             Controls.Add(QuizzyLabel);
             Name = "Register";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Register";
             ((System.ComponentModel.ISupportInitialize)QuizzyLogo).EndInit();
             ResumeLayout(false);

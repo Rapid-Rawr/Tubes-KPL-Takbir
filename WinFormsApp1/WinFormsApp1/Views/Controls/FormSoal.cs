@@ -37,25 +37,30 @@ namespace WinFormsApp1.Views.Controls
         private void button1_Click(object sender, EventArgs e)
         {
             // btnSimpan
+            string pertanyaan = tbSoal.Text.Trim();
+            List<string> opsi = new List<string>
+            {
+                tbA.Text.Trim(),
+                tbB.Text.Trim(),
+                tbC.Text.Trim(),
+                tbD.Text.Trim()
+            };
+            string jawaban = tbJawaban.Text.Trim();
+
             if (mode == ModeFormSoal.Tambah)
             {
-                string pertanyaan = tbSoal.Text.Trim();
-                List<string> opsi = new List<string>
-                {
-                    tbA.Text.Trim(),
-                    tbB.Text.Trim(),
-                    tbC.Text.Trim(),
-                    tbD.Text.Trim()
-                };
-                string jawaban = tbJawaban.Text.Trim();
-
                 controller.TambahSoalManual(pertanyaan, opsi, jawaban);
                 MessageBox.Show("Soal berhasil ditambahkan");
-
-                var kembaliKeKelola = new KelolaSoalLokal(controller);
-                kembaliKeKelola.ContentDiganti += (s, uc) => ContentDiganti?.Invoke(this, uc);
-                ContentDiganti?.Invoke(this, kembaliKeKelola);
             }
+            else if (mode == ModeFormSoal.Edit && soalYangDiedit != null)
+            {
+                controller.EditSoalManual(soalYangDiedit.id, pertanyaan, opsi, jawaban);
+                MessageBox.Show("Soal berhasil diedit");
+            }
+
+            var kembali = new KelolaSoalLokal(controller);
+            kembali.ContentDiganti += (s, uc) => ContentDiganti?.Invoke(this, uc);
+            ContentDiganti?.Invoke(this, kembali);
         }
 
         private void FormSoal_Load(object sender, EventArgs e)
@@ -72,6 +77,11 @@ namespace WinFormsApp1.Views.Controls
         }
 
         private void labelTambahEdit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbSoal_TextChanged(object sender, EventArgs e)
         {
 
         }

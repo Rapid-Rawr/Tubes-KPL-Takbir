@@ -25,3 +25,4 @@ C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
 C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Controls.KelolaSoalLokal.resources
+C:\Users\Zia\source\UAS\Tubes-KPL-Takbir\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Controls.LihatSoalInternet.resources

@@ -62,10 +62,12 @@
             // 
             flowLayoutSoalLokal.AutoScroll = true;
             flowLayoutSoalLokal.Controls.Add(panel1);
-            flowLayoutSoalLokal.Location = new Point(28, 84);
+            flowLayoutSoalLokal.FlowDirection = FlowDirection.TopDown;
+            flowLayoutSoalLokal.Location = new Point(21, 79);
             flowLayoutSoalLokal.Name = "flowLayoutSoalLokal";
-            flowLayoutSoalLokal.Size = new Size(540, 378);
+            flowLayoutSoalLokal.Size = new Size(554, 389);
             flowLayoutSoalLokal.TabIndex = 2;
+            flowLayoutSoalLokal.WrapContents = false;
             flowLayoutSoalLokal.Paint += flowLayoutSoalLokal_Paint;
             // 
             // panel1
@@ -75,7 +77,7 @@
             panel1.Size = new Size(0, 0);
             panel1.TabIndex = 0;
             // 
-            // LihatSoalLokal
+            // KelolaSoalLokal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -83,7 +85,7 @@
             Controls.Add(flowLayoutSoalLokal);
             Controls.Add(btnTambahSoal);
             Controls.Add(labelSoalLokal);
-            Name = "LihatSoalLokal";
+            Name = "KelolaSoalLokal";
             Size = new Size(596, 491);
             flowLayoutSoalLokal.ResumeLayout(false);
             ResumeLayout(false);

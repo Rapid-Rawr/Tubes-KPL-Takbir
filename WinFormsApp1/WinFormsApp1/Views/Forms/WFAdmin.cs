@@ -10,18 +10,20 @@ using System.Windows.Forms;
 using WinFormsApp1.Views.Controls;
 using WinFormsApp1.Utilities;
 using WinFormsApp1.Controllers;
+using static WinFormsApp1.Controllers.SoalController;
 
 namespace WinFormsApp1.Views.Forms
 {
     public partial class WFAdmin : Form
     {
-        //private SoalController controller = new SoalController(SoalController.ModeSoal.Manual);
-        private SoalController controller;
+        private SoalController controllerManual;
+        private SoalController controllerAPI;
 
         public WFAdmin()
         {
             InitializeComponent();
-            controller = new SoalController(SoalController.ModeSoal.Manual);
+            controllerManual = new SoalController(ModeSoal.Manual);
+            controllerAPI = new SoalController(ModeSoal.API);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -35,12 +37,23 @@ namespace WinFormsApp1.Views.Forms
             ShowKelolaSoal();
         }
 
+        private void btnToSoalInternet_Click(object sender, EventArgs e)
+        {
+            ShowSoalInternet();
+        }
+
         private void ShowKelolaSoal()
         {
-            var kelolaSoal = new KelolaSoalLokal(controller);
+            var kelolaSoal = new KelolaSoalLokal(controllerManual);
             kelolaSoal.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(ContentPanel, uc);
             ViewsHelper.GantiKontenPanel(ContentPanel, kelolaSoal);
         }
 
+        private void ShowSoalInternet()
+        {
+            var soalInternet = new LihatSoalInternet(controllerAPI);
+            soalInternet.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(ContentPanel, uc);
+            ViewsHelper.GantiKontenPanel(ContentPanel, soalInternet);
+        }
     }
 }
