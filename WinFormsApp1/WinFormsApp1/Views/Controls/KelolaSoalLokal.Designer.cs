@@ -39,9 +39,10 @@
             // 
             labelSoalLokal.AutoSize = true;
             labelSoalLokal.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelSoalLokal.Location = new Point(28, 33);
+            labelSoalLokal.Location = new Point(40, 55);
+            labelSoalLokal.Margin = new Padding(4, 0, 4, 0);
             labelSoalLokal.Name = "labelSoalLokal";
-            labelSoalLokal.Size = new Size(75, 16);
+            labelSoalLokal.Size = new Size(108, 24);
             labelSoalLokal.TabIndex = 0;
             labelSoalLokal.Text = "Soal Lokal";
             // 
@@ -50,9 +51,10 @@
             btnTambahSoal.BackColor = Color.OliveDrab;
             btnTambahSoal.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnTambahSoal.ForeColor = Color.White;
-            btnTambahSoal.Location = new Point(450, 25);
+            btnTambahSoal.Location = new Point(643, 42);
+            btnTambahSoal.Margin = new Padding(4, 5, 4, 5);
             btnTambahSoal.Name = "btnTambahSoal";
-            btnTambahSoal.Size = new Size(118, 33);
+            btnTambahSoal.Size = new Size(169, 55);
             btnTambahSoal.TabIndex = 1;
             btnTambahSoal.Text = "Tambah Soal";
             btnTambahSoal.UseVisualStyleBackColor = false;
@@ -62,29 +64,33 @@
             // 
             flowLayoutSoalLokal.AutoScroll = true;
             flowLayoutSoalLokal.Controls.Add(panel1);
-            flowLayoutSoalLokal.Location = new Point(28, 84);
+            flowLayoutSoalLokal.Location = new Point(40, 140);
+            flowLayoutSoalLokal.Margin = new Padding(4, 5, 4, 5);
             flowLayoutSoalLokal.Name = "flowLayoutSoalLokal";
-            flowLayoutSoalLokal.Size = new Size(540, 378);
+            flowLayoutSoalLokal.Size = new Size(771, 630);
             flowLayoutSoalLokal.TabIndex = 2;
             flowLayoutSoalLokal.Paint += flowLayoutSoalLokal_Paint;
             // 
             // panel1
             // 
-            panel1.Location = new Point(3, 3);
+            panel1.Location = new Point(4, 5);
+            panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
             panel1.Size = new Size(0, 0);
             panel1.TabIndex = 0;
             // 
-            // LihatSoalLokal
+            // KelolaSoalLokal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(flowLayoutSoalLokal);
             Controls.Add(btnTambahSoal);
             Controls.Add(labelSoalLokal);
-            Name = "LihatSoalLokal";
-            Size = new Size(596, 491);
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "KelolaSoalLokal";
+            Size = new Size(851, 818);
+            Load += KelolaSoalLokal_Load;
             flowLayoutSoalLokal.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();

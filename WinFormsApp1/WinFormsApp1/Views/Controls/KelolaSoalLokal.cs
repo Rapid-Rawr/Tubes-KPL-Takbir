@@ -37,5 +37,10 @@ namespace WinFormsApp1.Views.Controls
         {
 
         }
+
+        private void KelolaSoalLokal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -52,4 +52,5 @@ C:\Kuliah\SEM-4\Konstruksi PL\Tubes\tubesDummy\WinFormsApp1\WinFormsApp1\obj\Deb
 C:\Kuliah\SEM-4\Konstruksi PL\Tubes\tubesDummy\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
 C:\Kuliah\SEM-4\Konstruksi PL\Tubes\tubesDummy\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Kuliah\SEM-4\Konstruksi PL\Tubes\tubesDummy\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
-C:\Kuliah\SEM-4\Konstruksi PL\Tubes\tubesDummy\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Forms.Grading.resources
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\tubesDummy\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Controls.Grading.resources
+C:\Kuliah\SEM-4\Konstruksi PL\Tubes\tubesDummy\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Controls.LeaderBoard.resources
