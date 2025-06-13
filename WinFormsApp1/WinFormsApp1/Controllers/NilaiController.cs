@@ -63,5 +63,5 @@ namespace WinFormsApp1.Controllers
             return leaderboardList;
         }
 
-    }
+    }   
 }
