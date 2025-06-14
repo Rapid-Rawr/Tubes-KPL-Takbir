@@ -1,4 +1,4 @@
-# Ignore Visual Studio & C# build artifacts
+# Ignore Visual Studio files
 .vs/
 bin/
 obj/
@@ -15,7 +15,14 @@ obj/
 packages/
 *.json
 
-# Specific ignored folders (redundant but safe)
-WinFormsApp1/.vs/
-WinFormsApp1/WinFormsApp1/bin/
-WinFormsApp1/WinFormsApp1/obj/
+# Ignore cache/temp files
+*.cache
+*.db
+*.pdb
+*.exe
+*.dll
+*.log
+
+# Optional: only ignore auto-generated JSON files (not your data)
+WinFormsApp1/WinFormsApp1/bin/**/*.json
+WinFormsApp1/WinFormsApp1/obj/**/*.json

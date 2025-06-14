@@ -12,7 +12,7 @@ namespace WinFormsApp1.Views.Forms
 {
     public partial class WFUser: Form
     {
-        public WFUser()
+        public WFUser(Models.Users user)
         {
             InitializeComponent();
         }

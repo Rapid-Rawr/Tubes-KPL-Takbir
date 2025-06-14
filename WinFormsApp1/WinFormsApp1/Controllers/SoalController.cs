@@ -166,8 +166,13 @@ namespace WinFormsApp1.Controllers
             return true;
         }
 
-        public void EditSoalManual(int id, string pertanyaanBaru, List<string> opsiBaru, string jawabanBaru)
+        public bool EditSoalManual(int id, string pertanyaanBaru, List<string> opsiBaru, string jawabanBaru)
         {
+            if (!opsiBaru.Contains(jawabanBaru))
+            {
+                return false;
+            }
+
             var soal = daftarSoal.FirstOrDefault(s => s.id == id);
             if (soal != null)
             {
@@ -176,7 +181,10 @@ namespace WinFormsApp1.Controllers
                 soal.jawaban = jawabanBaru;
 
                 SimpanSoal();
+                return true;
             }
+
+            return false;
         }
 
         public void HapusSoalManual(int id)

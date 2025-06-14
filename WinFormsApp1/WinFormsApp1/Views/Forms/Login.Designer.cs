@@ -2,15 +2,8 @@
 {
     partial class Login
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,18 +15,14 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             QuizzyLogo = new PictureBox();
             QuizzyLabel = new Label();
-            tbName = new TextBox();
+            txtUsername = new TextBox();
             NameLabel = new Label();
             UsernameLabel = new Label();
-            tbUsername = new TextBox();
+            txtPassword = new TextBox();
             btnLogin = new Button();
             label1 = new Label();
             linkToRegister = new LinkLabel();
@@ -44,6 +33,7 @@
             // 
             QuizzyLogo.Image = Properties.Resources.brain;
             QuizzyLogo.Location = new Point(541, 127);
+            QuizzyLogo.Margin = new Padding(2, 3, 2, 3);
             QuizzyLogo.Name = "QuizzyLogo";
             QuizzyLogo.Size = new Size(69, 87);
             QuizzyLogo.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -57,20 +47,20 @@
             QuizzyLabel.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             QuizzyLabel.ForeColor = Color.MediumVioletRed;
             QuizzyLabel.Location = new Point(509, 235);
+            QuizzyLabel.Margin = new Padding(2, 0, 2, 0);
             QuizzyLabel.Name = "QuizzyLabel";
             QuizzyLabel.Size = new Size(149, 43);
             QuizzyLabel.TabIndex = 2;
             QuizzyLabel.Text = "QUIZZY";
             // 
-            // tbName
+            // txtUsername
             // 
-            tbName.ForeColor = SystemColors.WindowText;
-            tbName.Location = new Point(439, 387);
-            tbName.Margin = new Padding(4, 5, 4, 5);
-            tbName.Name = "tbName";
-            tbName.Size = new Size(284, 31);
-            tbName.TabIndex = 4;
-            tbName.TextChanged += tbName_TextChanged;
+            txtUsername.ForeColor = SystemColors.WindowText;
+            txtUsername.Location = new Point(439, 387);
+            txtUsername.Margin = new Padding(4, 5, 4, 5);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(284, 31);
+            txtUsername.TabIndex = 4;
             // 
             // NameLabel
             // 
@@ -79,9 +69,9 @@
             NameLabel.Location = new Point(439, 350);
             NameLabel.Margin = new Padding(4, 0, 4, 0);
             NameLabel.Name = "NameLabel";
-            NameLabel.Size = new Size(63, 24);
+            NameLabel.Size = new Size(88, 19);
             NameLabel.TabIndex = 5;
-            NameLabel.Text = "Name";
+            NameLabel.Text = "Username";
             // 
             // UsernameLabel
             // 
@@ -90,17 +80,17 @@
             UsernameLabel.Location = new Point(439, 450);
             UsernameLabel.Margin = new Padding(4, 0, 4, 0);
             UsernameLabel.Name = "UsernameLabel";
-            UsernameLabel.Size = new Size(105, 24);
+            UsernameLabel.Size = new Size(87, 19);
             UsernameLabel.TabIndex = 6;
-            UsernameLabel.Text = "Username";
+            UsernameLabel.Text = "Password";
             // 
-            // tbUsername
+            // txtPassword
             // 
-            tbUsername.Location = new Point(439, 487);
-            tbUsername.Margin = new Padding(4, 5, 4, 5);
-            tbUsername.Name = "tbUsername";
-            tbUsername.Size = new Size(284, 31);
-            tbUsername.TabIndex = 7;
+            txtPassword.Location = new Point(439, 487);
+            txtPassword.Margin = new Padding(4, 5, 4, 5);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(284, 31);
+            txtPassword.TabIndex = 7;
             // 
             // btnLogin
             // 
@@ -114,6 +104,7 @@
             btnLogin.TabIndex = 8;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // label1
             // 
@@ -140,6 +131,7 @@
             linkToRegister.TabStop = true;
             linkToRegister.Text = "Register disini";
             linkToRegister.VisitedLinkColor = Color.Orange;
+            linkToRegister.LinkClicked += linkToRegister_LinkClicked;
             // 
             // Login
             // 
@@ -150,10 +142,10 @@
             Controls.Add(linkToRegister);
             Controls.Add(label1);
             Controls.Add(btnLogin);
-            Controls.Add(tbUsername);
+            Controls.Add(txtPassword);
             Controls.Add(UsernameLabel);
             Controls.Add(NameLabel);
-            Controls.Add(tbName);
+            Controls.Add(txtUsername);
             Controls.Add(QuizzyLogo);
             Controls.Add(QuizzyLabel);
             Margin = new Padding(4, 5, 4, 5);
@@ -169,10 +161,10 @@
 
         private PictureBox QuizzyLogo;
         private Label QuizzyLabel;
-        private TextBox tbName;
+        private TextBox txtUsername;
         private Label NameLabel;
         private Label UsernameLabel;
-        private TextBox tbUsername;
+        private TextBox txtPassword;
         private Button btnLogin;
         private Label label1;
         private LinkLabel linkToRegister;

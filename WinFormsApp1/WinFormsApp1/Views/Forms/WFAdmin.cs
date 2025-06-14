@@ -50,6 +50,7 @@ namespace WinFormsApp1.Views.Forms
             kelolaSoal.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(ContentPanel, uc);
             ViewsHelper.GantiKontenPanel(ContentPanel, kelolaSoal);
         }
+
         private void ShowSoalInternet()
         {
             if (File.Exists("soalAPI.json")) File.Delete("soalAPI.json");
@@ -63,6 +64,13 @@ namespace WinFormsApp1.Views.Forms
         private void ContentPanel_Paint(object sender, PaintEventArgs e)
         {
            
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Login loginForm = new Login();
+            loginForm.Show();
+            this.Close();
         }
 
     }

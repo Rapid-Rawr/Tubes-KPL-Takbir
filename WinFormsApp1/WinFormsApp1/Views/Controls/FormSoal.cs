@@ -59,7 +59,12 @@ namespace WinFormsApp1.Views.Controls
             }
             else if (mode == ModeFormSoal.Edit && soalYangDiedit != null)
             {
-                controller.EditSoalManual(soalYangDiedit.id, pertanyaan, opsi, jawaban);
+                bool sukses = controller.EditSoalManual(soalYangDiedit.id, pertanyaan, opsi, jawaban);
+                if (!sukses)
+                {
+                    MessageBox.Show("Jawaban harus ada dalam salah satu opsi!", "Validasi Gagal", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 MessageBox.Show("Soal berhasil diedit");
             }
 
