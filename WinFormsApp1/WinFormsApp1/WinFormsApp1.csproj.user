@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
   <ItemGroup>
     <Compile Update="Views\Controls\CardSoal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Controls\FormSoal.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\Controls\Grading.cs">
@@ -10,10 +14,10 @@
     <Compile Update="Views\Controls\KelolaSoalLokal.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Controls\FormSoal.cs">
+    <Compile Update="Views\Controls\LeaderBoard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Controls\LeaderBoard.cs">
+    <Compile Update="Views\Controls\LihatSoalInternet.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\Forms\Login.cs">

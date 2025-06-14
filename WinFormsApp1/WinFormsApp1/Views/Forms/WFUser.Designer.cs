@@ -146,7 +146,7 @@
             Controls.Add(panel1);
             Margin = new Padding(4, 5, 4, 5);
             Name = "WFUser";
-            Text = "WFUser";
+            Text = "User";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)QuizzyLogo).EndInit();

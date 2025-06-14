@@ -158,6 +158,7 @@
             Controls.Add(QuizzyLabel);
             Margin = new Padding(4, 5, 4, 5);
             Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)QuizzyLogo).EndInit();
             ResumeLayout(false);

@@ -1,11 +1,9 @@
 # Ignore Visual Studio & C# build artifacts
 .vs/
-*.user
-*.suo
-
-# Ignore build outputs
 bin/
 obj/
+*.user
+*.suo
 *.dll
 *.exe
 *.pdb
@@ -13,6 +11,8 @@ obj/
 *.log
 *.v9.bin
 *.vsidx
+*.nupkg
+packages/
 *.json
 
 # Specific ignored folders (redundant but safe)
