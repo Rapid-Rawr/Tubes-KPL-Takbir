@@ -1,23 +1,23 @@
-# Build folders
-**/bin/
-**/obj/
-
-# Visual Studio
+# Ignore Visual Studio files
 .vs/
-.vscode/
 *.user
 *.suo
 
-# NuGet
-*.nupkg
-*.snupkg
-project.lock.json
-project.fragment.lock.json
+# Ignore build output
+bin/
+obj/
+[Bb]uild/
+[Rr]elease/
+[Dd]ebug/
 
-# Other temporary files
-*.log
-*.tmp
+# Ignore cache/temp files
 *.cache
+*.db
 *.pdb
 *.exe
 *.dll
+*.log
+
+# Optional: only ignore auto-generated JSON files (not your data)
+WinFormsApp1/WinFormsApp1/bin/**/*.json
+WinFormsApp1/WinFormsApp1/obj/**/*.json
