@@ -15,6 +15,7 @@ namespace WinFormsApp1.Controllers
             //ini nanti nerima paramaeter total soal sama jawaban benar
 
             int nilaiSatuan = 100 / totalSoal;
+
             return nilaiSatuan*soalBenar;
             return nilaiSatuan * soalBenar;
         }
@@ -63,6 +64,5 @@ namespace WinFormsApp1.Controllers
 
             return leaderboardList;
         }
-
-    }   
+    }
 }
