@@ -1,21 +1,23 @@
-# Ignore Visual Studio & C# build artifacts
+# Build folders
+bin/
+obj/
+
+# Visual Studio
 .vs/
+.vscode/
 *.user
 *.suo
 
-# Ignore build outputs
-bin/
-obj/
-*.dll
-*.exe
-*.pdb
-*.cache
-*.log
-*.v9.bin
-*.vsidx
-*.json
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
 
-# Specific ignored folders (redundant but safe)
-WinFormsApp1/.vs/
-WinFormsApp1/WinFormsApp1/bin/
-WinFormsApp1/WinFormsApp1/obj/
+# Other temporary files
+*.log
+*.tmp
+*.cache
+*.pdb
+*.exe
+*.dll
