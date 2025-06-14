@@ -33,6 +33,7 @@ namespace WinFormsApp1.Views.Forms
         }
         private void tbName_TextChanged(object sender, EventArgs e)
         {
+        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
