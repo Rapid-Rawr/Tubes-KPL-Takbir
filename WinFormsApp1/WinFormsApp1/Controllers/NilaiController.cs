@@ -24,12 +24,12 @@ namespace WinFormsApp1.Controllers
         public List<LeaderBoard> GetLeaderBoardFromFile(string filePath)
         {
             // Baca data JSON dan deserialisasi ke list QuizResult
-            List<QuizResult>? quizResults = JsonHelper.LoadFromFile<List<QuizResult>>(filePath);
+            List<HasilPengerjaan>? quizResults = JsonHelper.LoadFromFile<List<HasilPengerjaan>>(filePath);
 
             // Jika data null atau tidak ada, buat list kosong supaya tidak error
             if (quizResults == null)
             {
-                quizResults = new List<QuizResult>();
+                quizResults = new List<HasilPengerjaan>();
             }
 
             // Proses data menjadi leaderboard yang sudah dijumlahkan dan diurutkan
@@ -37,7 +37,7 @@ namespace WinFormsApp1.Controllers
         }
 
         // Method pengolahan leaderboard (versi sederhana)
-        private List<LeaderBoard> GetLeaderBoard(List<QuizResult> quizResults)
+        private List<LeaderBoard> GetLeaderBoard(List<HasilPengerjaan> quizResults)
         {
             Dictionary<string, LeaderBoard> leaderboardDict = new Dictionary<string, LeaderBoard>();
 
@@ -45,7 +45,7 @@ namespace WinFormsApp1.Controllers
             {
                 if (leaderboardDict.ContainsKey(result.Username))
                 {
-                    leaderboardDict[result.Username].TotalSoalBenar += result.SoalBenar;
+                    leaderboardDict[result.Username].TotalSoalBenar += result.TotalBenar;
                     leaderboardDict[result.Username].TotalSoal += result.TotalSoal;
                 }
                 else
@@ -53,7 +53,7 @@ namespace WinFormsApp1.Controllers
                     leaderboardDict[result.Username] = new LeaderBoard
                     {
                         Username = result.Username,
-                        TotalSoalBenar = result.SoalBenar,
+                        TotalSoalBenar = result.TotalBenar,
                         TotalSoal = result.TotalSoal
                     };
                 }
