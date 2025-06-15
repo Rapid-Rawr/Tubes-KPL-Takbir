@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1.Models
 {
-    class HasilPengerjaan
+    public class HasilPengerjaan
     {
         public int Id { get; set; }
         public string Username { get; set; }
