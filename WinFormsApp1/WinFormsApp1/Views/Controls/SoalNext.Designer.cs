@@ -81,9 +81,10 @@
             button1.Name = "button1";
             button1.Size = new Size(586, 49);
             button1.TabIndex = 3;
-            button1.Text = "A. Kategori 1";
+            button1.Text = "A. jwb1";
             button1.TextAlign = ContentAlignment.MiddleLeft;
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -94,7 +95,7 @@
             button2.Name = "button2";
             button2.Size = new Size(586, 49);
             button2.TabIndex = 4;
-            button2.Text = "B. Kategori 2";
+            button2.Text = "B. jwb2";
             button2.TextAlign = ContentAlignment.MiddleLeft;
             button2.UseVisualStyleBackColor = false;
             // 
@@ -107,7 +108,7 @@
             button3.Name = "button3";
             button3.Size = new Size(586, 49);
             button3.TabIndex = 5;
-            button3.Text = "C. Kategori 3";
+            button3.Text = "C. jwb 3";
             button3.TextAlign = ContentAlignment.MiddleLeft;
             button3.UseVisualStyleBackColor = false;
             // 
@@ -120,7 +121,7 @@
             button4.Name = "button4";
             button4.Size = new Size(586, 49);
             button4.TabIndex = 6;
-            button4.Text = "D. Kategori 4";
+            button4.Text = "D. jwb 4";
             button4.TextAlign = ContentAlignment.MiddleLeft;
             button4.UseVisualStyleBackColor = false;
             // 

@@ -31,5 +31,10 @@ namespace WinFormsApp1.Views.Controls
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -44,7 +44,7 @@ namespace WinFormsApp1.Views.Controls
                     Font = new Font("Arial", 9, FontStyle.Bold),
                 };
                 flowLayoutSoalInternet.Controls.Add(labelInfo);
-            } 
+            }
             else
             {
                 foreach (var soal in daftarSoalApi)
@@ -70,14 +70,19 @@ namespace WinFormsApp1.Views.Controls
                 if (!sukses)
                 {
                     MessageBox.Show(
-                        "Gagal mengambil soal dari API. Pastikan koneksi internet aktif.", 
-                        "Error", 
-                        MessageBoxButtons.OK, 
+                        "Gagal mengambil soal dari API. Pastikan koneksi internet aktif.",
+                        "Error",
+                        MessageBoxButtons.OK,
                         MessageBoxIcon.Error
                     );
                 }
                 viewLoadSoal();
             }
+        }
+
+        private void LihatSoalInternet_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

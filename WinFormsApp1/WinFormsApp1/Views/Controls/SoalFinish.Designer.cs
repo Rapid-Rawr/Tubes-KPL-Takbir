@@ -134,6 +134,7 @@
             button5.TabIndex = 8;
             button5.Text = "Finish";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // SoalFinish
             // 
