@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1.Views.Forms
 {
-    public partial class WFUser: Form
+    public partial class WFUser : Form
     {
         public WFUser(Models.Users user)
         {
             InitializeComponent();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Login loginForm = new Login();
+            loginForm.Show();
+            this.Close();
         }
     }
 }

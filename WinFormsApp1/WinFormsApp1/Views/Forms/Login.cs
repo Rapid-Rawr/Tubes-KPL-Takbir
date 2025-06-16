@@ -45,7 +45,6 @@ namespace WinFormsApp1.Views.Forms
                 return;
             }
 
-            // Cek admin (hardcoded)
             if (username == "admin" && password == "admin123")
             {
                 MessageBox.Show("Login sebagai Admin berhasil!");
