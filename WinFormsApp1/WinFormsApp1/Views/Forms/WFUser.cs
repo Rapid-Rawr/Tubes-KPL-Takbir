@@ -7,13 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static WinFormsApp1.Controllers.SoalController;
+using WinFormsApp1.Controllers;
+using WinFormsApp1.Utilities;
+using WinFormsApp1.Views.Controls;
 
 namespace WinFormsApp1.Views.Forms
 {
     public partial class WFUser : Form
     {
+        private string userName;
+
+
         public WFUser(Models.Users user)
         {
+            userName = user.Username;
             InitializeComponent();
         }
 
@@ -23,5 +31,48 @@ namespace WinFormsApp1.Views.Forms
             loginForm.Show();
             this.Close();
         }
+        private void btnToLeaderboard_Click(object sender, EventArgs e)
+        {
+            var leaderboard = new LeaderBoard();
+            leaderboard.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(panel2, uc);
+            ViewsHelper.GantiKontenPanel(panel2, leaderboard);
+            //ini harusnya kode untuk mengarah ke user controll LeaderBoard 
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            //ini konten awal, yang akan digantikan oleh userControl
+        }
+
+        private void btnToSkor_Click(object sender, EventArgs e)
+        {
+            //ini nanti mengarah ke usercontrol lihat panel, tapi belum saya buat nanti saya buat 
+        }
+
+        private void btnToQuiz_Click(object sender, EventArgs e)
+        {
+            //ini mengarah ke user control menu pemilihan kategori soal
+            var kategori = new PilihKategori();
+            //kategori.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(panel2, uc);
+            //ViewsHelper.GantiKontenPanel(panel2, kategori);
+
+            kategori.ContentDiganti += (s, uc) =>
+            {
+                // jika yang dikirim adalah SoalNext, kita perlu juga subscribe event-nya!
+                if (uc is SoalNext soalNext)
+                {
+                    soalNext.ContentDiganti += (s2, uc2) =>
+                    {
+                        ViewsHelper.GantiKontenPanel(panel2, uc2);
+                    };
+                }
+
+                ViewsHelper.GantiKontenPanel(panel2, uc);
+            };
+
+            ViewsHelper.GantiKontenPanel(panel2, kategori);
+        }
+
+     
     }
 }

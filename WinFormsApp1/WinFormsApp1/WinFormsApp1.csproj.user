@@ -20,6 +20,9 @@
     <Compile Update="Views\Controls\LihatSoalInternet.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Views\Controls\PilihKategori.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Views\Controls\SoalFinish.cs">
       <SubType>UserControl</SubType>
     </Compile>

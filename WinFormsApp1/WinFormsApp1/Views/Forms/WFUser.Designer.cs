@@ -81,6 +81,7 @@
             btnToLeaderboard.TabIndex = 0;
             btnToLeaderboard.Text = "Leaderboard";
             btnToLeaderboard.UseVisualStyleBackColor = false;
+            btnToLeaderboard.Click += btnToLeaderboard_Click;
             // 
             // btnToSkor
             // 
@@ -94,6 +95,7 @@
             btnToSkor.TabIndex = 0;
             btnToSkor.Text = "Lihat Skor";
             btnToSkor.UseVisualStyleBackColor = false;
+            btnToSkor.Click += btnToSkor_Click;
             // 
             // btnToQuiz
             // 
@@ -107,6 +109,7 @@
             btnToQuiz.TabIndex = 0;
             btnToQuiz.Text = "Kerjakan Quiz";
             btnToQuiz.UseVisualStyleBackColor = false;
+            btnToQuiz.Click += btnToQuiz_Click;
             // 
             // QuizzyLogo
             // 
@@ -139,6 +142,7 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(681, 654);
             panel2.TabIndex = 1;
+            panel2.Paint += panel2_Paint;
             // 
             // WFUser
             // 

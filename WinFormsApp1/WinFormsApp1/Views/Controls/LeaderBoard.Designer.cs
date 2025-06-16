@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            panel2 = new Panel();
-            panel3 = new Panel();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
             label6 = new Label();
+            label5 = new Label();
+            label2 = new Label();
+            panel2 = new Panel();
             label7 = new Label();
             label8 = new Label();
+            label3 = new Label();
+            panel3 = new Panel();
             label9 = new Label();
             label10 = new Label();
+            label4 = new Label();
+            label1 = new Label();
             dataGridView1 = new DataGridView();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -50,7 +50,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.DarkOrange;
+            panel1.BackColor = Color.MediumVioletRed;
             panel1.Controls.Add(label6);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label2);
@@ -58,6 +58,40 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(155, 243);
             panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
+            // 
+            // label6
+            // 
+            label6.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(52, 109);
+            label6.Name = "label6";
+            label6.Size = new Size(83, 27);
+            label6.TabIndex = 6;
+            label6.Text = "Skor:";
+            label6.Click += label6_Click;
+            // 
+            // label5
+            // 
+            label5.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(30, 82);
+            label5.Name = "label5";
+            label5.Size = new Size(92, 27);
+            label5.TabIndex = 5;
+            label5.Text = "Username:";
+            label5.Click += label5_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(57, 4);
+            label2.Name = "label2";
+            label2.Size = new Size(46, 54);
+            label2.TabIndex = 4;
+            label2.Text = "1";
             // 
             // panel2
             // 
@@ -70,6 +104,39 @@
             panel2.Size = new Size(155, 161);
             panel2.TabIndex = 1;
             // 
+            // label7
+            // 
+            label7.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(54, 85);
+            label7.Name = "label7";
+            label7.Size = new Size(83, 27);
+            label7.TabIndex = 8;
+            label7.Text = "Skor:";
+            label7.Click += label7_Click;
+            // 
+            // label8
+            // 
+            label8.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.White;
+            label8.Location = new Point(34, 58);
+            label8.Name = "label8";
+            label8.Size = new Size(100, 27);
+            label8.TabIndex = 7;
+            label8.Text = "Username:";
+            label8.Click += label8_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(56, 4);
+            label3.Name = "label3";
+            label3.Size = new Size(46, 54);
+            label3.TabIndex = 5;
+            label3.Text = "2";
+            // 
             // panel3
             // 
             panel3.BackColor = Color.YellowGreen;
@@ -81,6 +148,39 @@
             panel3.Size = new Size(155, 106);
             panel3.TabIndex = 2;
             // 
+            // label9
+            // 
+            label9.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(46, 79);
+            label9.Name = "label9";
+            label9.Size = new Size(83, 27);
+            label9.TabIndex = 10;
+            label9.Text = "Skor:";
+            label9.Click += label9_Click;
+            // 
+            // label10
+            // 
+            label10.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(28, 52);
+            label10.Name = "label10";
+            label10.Size = new Size(100, 27);
+            label10.TabIndex = 9;
+            label10.Text = "Username:";
+            label10.Click += label10_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(54, 3);
+            label4.Name = "label4";
+            label4.Size = new Size(46, 54);
+            label4.TabIndex = 5;
+            label4.Text = "3";
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -91,90 +191,6 @@
             label1.TabIndex = 3;
             label1.Text = "Leaderboard";
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(57, 4);
-            label2.Name = "label2";
-            label2.Size = new Size(46, 54);
-            label2.TabIndex = 4;
-            label2.Text = "1";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(56, 4);
-            label3.Name = "label3";
-            label3.Size = new Size(46, 54);
-            label3.TabIndex = 5;
-            label3.Text = "2";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(54, 3);
-            label4.Name = "label4";
-            label4.Size = new Size(46, 54);
-            label4.TabIndex = 5;
-            label4.Text = "3";
-            // 
-            // label5
-            // 
-            label5.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(2, 82);
-            label5.Name = "label5";
-            label5.Size = new Size(92, 27);
-            label5.TabIndex = 5;
-            label5.Text = "Username:";
-            // 
-            // label6
-            // 
-            label6.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(2, 109);
-            label6.Name = "label6";
-            label6.Size = new Size(83, 27);
-            label6.TabIndex = 6;
-            label6.Text = "Skor:";
-            // 
-            // label7
-            // 
-            label7.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(2, 85);
-            label7.Name = "label7";
-            label7.Size = new Size(83, 27);
-            label7.TabIndex = 8;
-            label7.Text = "Skor:";
-            // 
-            // label8
-            // 
-            label8.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(2, 58);
-            label8.Name = "label8";
-            label8.Size = new Size(100, 27);
-            label8.TabIndex = 7;
-            label8.Text = "Username:";
-            // 
-            // label9
-            // 
-            label9.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(3, 79);
-            label9.Name = "label9";
-            label9.Size = new Size(83, 27);
-            label9.TabIndex = 10;
-            label9.Text = "Skor:";
-            // 
-            // label10
-            // 
-            label10.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.Location = new Point(3, 52);
-            label10.Name = "label10";
-            label10.Size = new Size(100, 27);
-            label10.TabIndex = 9;
-            label10.Text = "Username:";
-            // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -184,6 +200,7 @@
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(463, 221);
             dataGridView1.TabIndex = 4;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // LeaderBoard
             // 
