@@ -51,26 +51,30 @@ namespace WinFormsApp1.Views.Forms
 
         private void btnToQuiz_Click(object sender, EventArgs e)
         {
-            //ini mengarah ke user control menu pemilihan kategori soal
-            var kategori = new PilihKategori();
-            //kategori.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(panel2, uc);
+            ////ini mengarah ke user control menu pemilihan kategori soal
+            //var kategori = new PilihKategori();
+            ////kategori.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(panel2, uc);
+            ////ViewsHelper.GantiKontenPanel(panel2, kategori);
+
+            //kategori.ContentDiganti += (s, uc) =>
+            //{
+            //    // jika yang dikirim adalah SoalNext, kita perlu juga subscribe event-nya!
+            //    if (uc is SoalNext soalNext)
+            //    {
+            //        soalNext.ContentDiganti += (s2, uc2) =>
+            //        {
+            //            ViewsHelper.GantiKontenPanel(panel2, uc2);
+            //        };
+            //    }
+
+            //    ViewsHelper.GantiKontenPanel(panel2, uc);
+            //};
+
             //ViewsHelper.GantiKontenPanel(panel2, kategori);
 
-            kategori.ContentDiganti += (s, uc) =>
-            {
-                // jika yang dikirim adalah SoalNext, kita perlu juga subscribe event-nya!
-                if (uc is SoalNext soalNext)
-                {
-                    soalNext.ContentDiganti += (s2, uc2) =>
-                    {
-                        ViewsHelper.GantiKontenPanel(panel2, uc2);
-                    };
-                }
-
-                ViewsHelper.GantiKontenPanel(panel2, uc);
-            };
-
-            ViewsHelper.GantiKontenPanel(panel2, kategori);
+            var kerjakanKuis = new PilihKategori();
+            kerjakanKuis.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(panel2, uc);
+            ViewsHelper.GantiKontenPanel(panel2, kerjakanKuis);
         }
 
      

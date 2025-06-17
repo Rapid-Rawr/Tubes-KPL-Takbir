@@ -34,11 +34,15 @@ namespace WinFormsApp1.Views.Controls
                 MessageBox.Show("Gagal mengambil soal dari API, kerjakan Soal Lokal.");
                 return;
             }
-            this.Hide();
-            //new WFUser(user).Show();
-            // navigasi ke halaman pengerjaan kuis
-            var pengerjaanKuis = new SoalNext(controller.GetDaftarSoal());
-            ContentDiganti?.Invoke(this, pengerjaanKuis);
+
+            // Sembunyikan WFUser
+            Form parentForm = this.FindForm();
+            parentForm.Hide();
+
+            // Tampilkan WFKuis
+            WFKuis formKuis = new WFKuis(controller);
+            formKuis.FormClosed += (s, e) => parentForm.Show(); // kembali ke WFUser setelah kuis selesai
+            formKuis.Show();
         }
 
 
@@ -59,8 +63,14 @@ namespace WinFormsApp1.Views.Controls
                 return;
             }
 
-            var pengerjaanKuis = new SoalNext(daftarSoal);
-            ContentDiganti?.Invoke(this, pengerjaanKuis);
+            // Sembunyikan form lama
+            Form parentForm = this.FindForm();
+            parentForm.Hide();
+
+            // Buka form kuis
+            WFKuis formKuis = new WFKuis(controller);
+            formKuis.FormClosed += (s, e) => parentForm.Show();
+            formKuis.Show();
         }
 
         private async void btnKomputer_Click(object sender, EventArgs e)
