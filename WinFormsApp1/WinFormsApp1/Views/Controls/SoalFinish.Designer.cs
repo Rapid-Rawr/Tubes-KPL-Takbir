@@ -42,10 +42,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.brain;
-            pictureBox1.Location = new Point(41, 29);
-            pictureBox1.Margin = new Padding(2, 3, 2, 3);
+            pictureBox1.Location = new Point(51, 36);
+            pictureBox1.Margin = new Padding(2, 4, 2, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(47, 57);
+            pictureBox1.Size = new Size(59, 71);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -55,19 +55,20 @@
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.MediumVioletRed;
-            label1.Location = new Point(102, 39);
+            label1.Location = new Point(128, 49);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(124, 35);
+            label1.Size = new Size(149, 43);
             label1.TabIndex = 1;
             label1.Text = "QUIZZY";
             // 
             // label2
             // 
             label2.Font = new Font("Arial", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(102, 156);
+            label2.Location = new Point(128, 195);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(586, 38);
+            label2.Size = new Size(732, 48);
             label2.TabIndex = 2;
             label2.Text = "eejhbdahkbsdhkfbaifbe";
             // 
@@ -76,9 +77,10 @@
             button1.BackColor = Color.OliveDrab;
             button1.Font = new Font("Arial", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(102, 212);
+            button1.Location = new Point(128, 265);
+            button1.Margin = new Padding(4, 4, 4, 4);
             button1.Name = "button1";
-            button1.Size = new Size(586, 49);
+            button1.Size = new Size(732, 61);
             button1.TabIndex = 3;
             button1.Text = "A. Kategori 1";
             button1.TextAlign = ContentAlignment.MiddleLeft;
@@ -89,9 +91,10 @@
             button2.BackColor = Color.DarkOrange;
             button2.Font = new Font("Arial", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(102, 280);
+            button2.Location = new Point(128, 350);
+            button2.Margin = new Padding(4, 4, 4, 4);
             button2.Name = "button2";
-            button2.Size = new Size(586, 49);
+            button2.Size = new Size(732, 61);
             button2.TabIndex = 4;
             button2.Text = "B. Kategori 2";
             button2.TextAlign = ContentAlignment.MiddleLeft;
@@ -102,9 +105,10 @@
             button3.BackColor = Color.DodgerBlue;
             button3.Font = new Font("Arial", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(102, 349);
+            button3.Location = new Point(128, 436);
+            button3.Margin = new Padding(4, 4, 4, 4);
             button3.Name = "button3";
-            button3.Size = new Size(586, 49);
+            button3.Size = new Size(732, 61);
             button3.TabIndex = 5;
             button3.Text = "C. Kategori 3";
             button3.TextAlign = ContentAlignment.MiddleLeft;
@@ -115,9 +119,10 @@
             button4.BackColor = Color.MediumVioletRed;
             button4.Font = new Font("Arial", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(102, 422);
+            button4.Location = new Point(128, 528);
+            button4.Margin = new Padding(4, 4, 4, 4);
             button4.Name = "button4";
-            button4.Size = new Size(586, 49);
+            button4.Size = new Size(732, 61);
             button4.TabIndex = 6;
             button4.Text = "D. Kategori 4";
             button4.TextAlign = ContentAlignment.MiddleLeft;
@@ -128,9 +133,10 @@
             button5.BackColor = Color.Crimson;
             button5.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button5.ForeColor = Color.White;
-            button5.Location = new Point(737, 553);
+            button5.Location = new Point(921, 691);
+            button5.Margin = new Padding(4, 4, 4, 4);
             button5.Name = "button5";
-            button5.Size = new Size(127, 48);
+            button5.Size = new Size(159, 60);
             button5.TabIndex = 8;
             button5.Text = "Finish";
             button5.UseVisualStyleBackColor = false;
@@ -138,8 +144,9 @@
             // 
             // SoalFinish
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -148,8 +155,9 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "SoalFinish";
-            Size = new Size(948, 702);
+            Size = new Size(1185, 878);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -11,6 +11,7 @@ using static WinFormsApp1.Controllers.SoalController;
 using WinFormsApp1.Controllers;
 using WinFormsApp1.Utilities;
 using WinFormsApp1.Views.Controls;
+//using WinFormsApp1.Models;
 
 namespace WinFormsApp1.Views.Forms
 {
@@ -55,6 +56,7 @@ namespace WinFormsApp1.Views.Forms
             var kategori = new PilihKategori();
             //kategori.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(panel2, uc);
             //ViewsHelper.GantiKontenPanel(panel2, kategori);
+            kategori.Dock = DockStyle.Fill;
 
             kategori.ContentDiganti += (s, uc) =>
             {

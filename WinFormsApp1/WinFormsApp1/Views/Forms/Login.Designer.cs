@@ -69,7 +69,7 @@
             NameLabel.Location = new Point(439, 350);
             NameLabel.Margin = new Padding(4, 0, 4, 0);
             NameLabel.Name = "NameLabel";
-            NameLabel.Size = new Size(88, 19);
+            NameLabel.Size = new Size(105, 24);
             NameLabel.TabIndex = 5;
             NameLabel.Text = "Username";
             // 
@@ -80,7 +80,7 @@
             UsernameLabel.Location = new Point(439, 450);
             UsernameLabel.Margin = new Padding(4, 0, 4, 0);
             UsernameLabel.Name = "UsernameLabel";
-            UsernameLabel.Size = new Size(87, 19);
+            UsernameLabel.Size = new Size(103, 24);
             UsernameLabel.TabIndex = 6;
             UsernameLabel.Text = "Password";
             // 
@@ -152,6 +152,7 @@
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            Load += Login_Load;
             ((System.ComponentModel.ISupportInitialize)QuizzyLogo).EndInit();
             ResumeLayout(false);
             PerformLayout();

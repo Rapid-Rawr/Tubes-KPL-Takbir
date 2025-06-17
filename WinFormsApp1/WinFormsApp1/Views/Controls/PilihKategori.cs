@@ -11,6 +11,7 @@ using WinFormsApp1.Controllers;
 using static WinFormsApp1.Controllers.SoalController;
 using Microsoft.VisualBasic.ApplicationServices;
 using WinFormsApp1.Views.Forms;
+using WinFormsApp1.Models;
 
 namespace WinFormsApp1.Views.Controls
 {
@@ -38,6 +39,7 @@ namespace WinFormsApp1.Views.Controls
             //new WFUser(user).Show();
             // navigasi ke halaman pengerjaan kuis
             var pengerjaanKuis = new SoalNext(controller.GetDaftarSoal());
+            pengerjaanKuis.Dock = DockStyle.Fill;
             ContentDiganti?.Invoke(this, pengerjaanKuis);
         }
 

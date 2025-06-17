@@ -193,6 +193,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             Controls.Add(labelD);
             Controls.Add(labelC);
             Controls.Add(labelB);
@@ -207,7 +208,7 @@
             Controls.Add(quizzylogo);
             Margin = new Padding(4);
             Name = "SoalNext";
-            Size = new Size(1185, 874);
+            Size = new Size(1024, 874);
             Load += skor_Load;
             ((System.ComponentModel.ISupportInitialize)quizzylogo).EndInit();
             ResumeLayout(false);

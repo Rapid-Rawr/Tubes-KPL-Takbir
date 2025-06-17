@@ -72,5 +72,10 @@ namespace WinFormsApp1.Views.Forms
             new Register().Show();
             this.Hide();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
