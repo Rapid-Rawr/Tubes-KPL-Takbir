@@ -10,6 +10,7 @@ namespace WinFormsApp1.Models
     {
         public int Id { get; set; }
         public string Username { get; set; }
+        public string Kategori { get; set; }
         public int TotalSoal { get; set; }
         public int TotalBenar { get; set; }
     }

@@ -7,23 +7,60 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp1.Controllers;
+using WinFormsApp1.Models;
+
 
 namespace WinFormsApp1.Views.Controls
 {
 
     public partial class LeaderBoard : UserControl
     {
+        private NilaiController nilaiController = new NilaiController();
         public event EventHandler<UserControl> ContentDiganti;
 
         public LeaderBoard()
         {
             InitializeComponent();
+            this.Load += LeaderBoard_Load;
         }
 
         private void LeaderBoard_Load(object sender, EventArgs e)
         {
+            //string filePath = "data/hasil.json"; // Pastikan path file sesuai
 
+            var leaderboardData = nilaiController.GetLeaderBoardFromFile();
+
+            if (leaderboardData.Count > 0)
+            {
+                lblJuara1Username.Text = leaderboardData[0].Username;
+                lblJuara1Skor.Text = $"{leaderboardData[0].TotalSoalBenar} Benar";
+            }
+
+            if (leaderboardData.Count > 1)
+            {
+                lblJuara2Username.Text = leaderboardData[1].Username;
+                lblJuara2Skor.Text = $"{leaderboardData[1].TotalSoalBenar} Benar";
+            }
+
+            if (leaderboardData.Count > 2)
+            {
+                lblJuara3Username.Text = leaderboardData[2].Username;
+                lblJuara3Skor.Text = $"{leaderboardData[2].TotalSoalBenar} Benar";
+            }
+
+            // Tampilkan sisanya di DataGridView
+            var peringkatLain = leaderboardData.Skip(3).Select((item, index) => new
+            {
+                Peringkat = index + 4,
+                item.Username,
+                Skor = item.TotalSoalBenar,
+                TotalSoal = item.TotalSoal
+            }).ToList();
+
+            dataGridView1.DataSource = peringkatLain;
         }
+
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
