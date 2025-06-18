@@ -20,6 +20,7 @@ namespace WinFormsApp1.Views.Forms
         private string userName;
 
 
+
         public WFUser(Models.Users user)
         {
             userName = user.Username;
@@ -48,6 +49,8 @@ namespace WinFormsApp1.Views.Forms
         private void btnToSkor_Click(object sender, EventArgs e)
         {
             //ini nanti mengarah ke usercontrol lihat panel, tapi belum saya buat nanti saya buat 
+            var historyUC = new History(userName, false);
+            ViewsHelper.GantiKontenPanel(panel2, historyUC);
         }
 
         private void btnToQuiz_Click(object sender, EventArgs e)

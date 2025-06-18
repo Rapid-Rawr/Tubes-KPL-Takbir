@@ -11,6 +11,9 @@
     <Compile Update="Views\Controls\Grading.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Views\Controls\History.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Views\Controls\KelolaSoalLokal.cs">
       <SubType>UserControl</SubType>
     </Compile>

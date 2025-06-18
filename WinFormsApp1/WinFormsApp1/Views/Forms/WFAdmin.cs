@@ -19,6 +19,8 @@ namespace WinFormsApp1.Views.Forms
         private SoalController controllerManual;
         private SoalController controllerAPI;
 
+
+
         public WFAdmin()
         {
             InitializeComponent();
@@ -55,7 +57,7 @@ namespace WinFormsApp1.Views.Forms
         {
             if (File.Exists("soalAPI.json")) File.Delete("soalAPI.json");
             controllerAPI = new SoalController(ModeSoal.API, false);
-            
+
             var soalInternet = new LihatSoalInternet(controllerAPI);
             soalInternet.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(ContentPanel, uc);
             ViewsHelper.GantiKontenPanel(ContentPanel, soalInternet);
@@ -63,7 +65,7 @@ namespace WinFormsApp1.Views.Forms
 
         private void ContentPanel_Paint(object sender, PaintEventArgs e)
         {
-           
+
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -73,5 +75,10 @@ namespace WinFormsApp1.Views.Forms
             this.Close();
         }
 
+        private void btnToHistoriPengerjaan_Click(object sender, EventArgs e)
+        {
+            var historyUC = new History(null, true);
+            ViewsHelper.GantiKontenPanel(ContentPanel, historyUC);
+        }
     }
 }
