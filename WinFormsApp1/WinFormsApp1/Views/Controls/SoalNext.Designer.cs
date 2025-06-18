@@ -46,7 +46,7 @@
             labelPertanyaan.Location = new Point(16, 18);
             labelPertanyaan.MaximumSize = new Size(1000, 0);
             labelPertanyaan.Name = "labelPertanyaan";
-            labelPertanyaan.Size = new Size(100, 22);
+            labelPertanyaan.Size = new Size(729, 22);
             labelPertanyaan.TabIndex = 2;
             labelPertanyaan.Text = "eejhbdahkbsdhkfbaifbe";
             labelPertanyaan.Click += label2_Click;
@@ -170,7 +170,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-
+            AutoScroll = true;
             BackColor = Color.White;
             Controls.Add(labelD);
             Controls.Add(labelC);
@@ -184,8 +184,7 @@
             Controls.Add(labelPertanyaan);
             Margin = new Padding(3, 2, 3, 2);
             Name = "SoalNext";
-
-            Size = new Size(762, 287);
+            Size = new Size(745, 287);
             Load += skor_Load;
             ResumeLayout(false);
         }

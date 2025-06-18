@@ -50,9 +50,8 @@
             panel1.Controls.Add(QuizzyLogo);
             panel1.Controls.Add(QuizzyLabel);
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(312, 818);
+            panel1.Size = new Size(219, 491);
             panel1.TabIndex = 0;
             // 
             // btnLogout
@@ -60,10 +59,9 @@
             btnLogout.BackColor = Color.MediumVioletRed;
             btnLogout.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLogout.ForeColor = Color.White;
-            btnLogout.Location = new Point(24, 362);
-            btnLogout.Margin = new Padding(4, 5, 4, 5);
+            btnLogout.Location = new Point(17, 217);
             btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(264, 58);
+            btnLogout.Size = new Size(185, 35);
             btnLogout.TabIndex = 0;
             btnLogout.Text = "Logout";
             btnLogout.UseVisualStyleBackColor = false;
@@ -74,10 +72,9 @@
             btnToLeaderboard.BackColor = Color.MediumVioletRed;
             btnToLeaderboard.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnToLeaderboard.ForeColor = Color.White;
-            btnToLeaderboard.Location = new Point(24, 298);
-            btnToLeaderboard.Margin = new Padding(4, 5, 4, 5);
+            btnToLeaderboard.Location = new Point(17, 179);
             btnToLeaderboard.Name = "btnToLeaderboard";
-            btnToLeaderboard.Size = new Size(264, 58);
+            btnToLeaderboard.Size = new Size(185, 35);
             btnToLeaderboard.TabIndex = 0;
             btnToLeaderboard.Text = "Leaderboard";
             btnToLeaderboard.UseVisualStyleBackColor = false;
@@ -88,10 +85,9 @@
             btnToSkor.BackColor = Color.MediumVioletRed;
             btnToSkor.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnToSkor.ForeColor = Color.White;
-            btnToSkor.Location = new Point(24, 230);
-            btnToSkor.Margin = new Padding(4, 5, 4, 5);
+            btnToSkor.Location = new Point(17, 138);
             btnToSkor.Name = "btnToSkor";
-            btnToSkor.Size = new Size(264, 58);
+            btnToSkor.Size = new Size(185, 35);
             btnToSkor.TabIndex = 0;
             btnToSkor.Text = "Lihat Skor";
             btnToSkor.UseVisualStyleBackColor = false;
@@ -102,10 +98,9 @@
             btnToQuiz.BackColor = Color.MediumVioletRed;
             btnToQuiz.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnToQuiz.ForeColor = Color.White;
-            btnToQuiz.Location = new Point(24, 162);
-            btnToQuiz.Margin = new Padding(4, 5, 4, 5);
+            btnToQuiz.Location = new Point(17, 97);
             btnToQuiz.Name = "btnToQuiz";
-            btnToQuiz.Size = new Size(264, 58);
+            btnToQuiz.Size = new Size(185, 35);
             btnToQuiz.TabIndex = 0;
             btnToQuiz.Text = "Kerjakan Quiz";
             btnToQuiz.UseVisualStyleBackColor = false;
@@ -114,10 +109,10 @@
             // QuizzyLogo
             // 
             QuizzyLogo.Image = Properties.Resources.brain;
-            QuizzyLogo.Location = new Point(51, 38);
-            QuizzyLogo.Margin = new Padding(2);
+            QuizzyLogo.Location = new Point(36, 23);
+            QuizzyLogo.Margin = new Padding(1, 1, 1, 1);
             QuizzyLogo.Name = "QuizzyLogo";
-            QuizzyLogo.Size = new Size(59, 72);
+            QuizzyLogo.Size = new Size(41, 43);
             QuizzyLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             QuizzyLogo.TabIndex = 3;
             QuizzyLogo.TabStop = false;
@@ -127,32 +122,31 @@
             QuizzyLabel.AutoSize = true;
             QuizzyLabel.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             QuizzyLabel.ForeColor = Color.MediumVioletRed;
-            QuizzyLabel.Location = new Point(128, 48);
-            QuizzyLabel.Margin = new Padding(2, 0, 2, 0);
+            QuizzyLabel.Location = new Point(90, 29);
+            QuizzyLabel.Margin = new Padding(1, 0, 1, 0);
             QuizzyLabel.Name = "QuizzyLabel";
-            QuizzyLabel.Size = new Size(149, 43);
+            QuizzyLabel.Size = new Size(98, 29);
             QuizzyLabel.TabIndex = 2;
             QuizzyLabel.Text = "QUIZZY";
             // 
             // panel2
             // 
             panel2.BackColor = Color.White;
-            panel2.Location = new Point(311, 0);
-            panel2.Margin = new Padding(4, 5, 4, 5);
+            panel2.Location = new Point(218, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(851, 818);
+            panel2.Size = new Size(596, 491);
             panel2.TabIndex = 1;
             panel2.Paint += panel2_Paint;
             // 
             // WFUser
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1162, 818);
+            ClientSize = new Size(814, 491);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Margin = new Padding(4, 5, 4, 5);
             Name = "WFUser";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "User";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

@@ -16,6 +16,7 @@ namespace WinFormsApp1.Views.Forms
 {
     public partial class WFKuis : Form
     {
+        private WFUser formUser;
         private SoalController controller;
         private List<Soal> daftarSoal;
         private int indeksSoal = 0;
@@ -27,37 +28,17 @@ namespace WinFormsApp1.Views.Forms
         private string currentKategori;
         private NilaiController nilaiController = new();
 
-        //public WFKuis(SoalController controller, string currentUsername)
-        //{
-        //    InitializeComponent();
-        //    this.controller = controller;
-        //    daftarSoal = controller.GetDaftarSoal();
-        //    this.currentUsername = currentUsername;
-        //    TampilkanSoalBerikutnya();
-        //}
-
-        public WFKuis(SoalController controller, string username, string kategori)
+        public WFKuis(SoalController controller, string username, string kategori, WFUser formUser)
         {
             InitializeComponent();
             this.controller = controller;
             this.currentUsername = username;
             this.currentKategori = kategori;
+            this.formUser = formUser;
 
             daftarSoal = controller.GetDaftarSoal();
             TampilkanSoalBerikutnya();
         }
-
-
-        public WFKuis(SoalController controller)
-        {
-            InitializeComponent();
-            this.controller = controller;
-            daftarSoal = controller.GetDaftarSoal();
-            TampilkanSoalBerikutnya();
-        }
-
-
-
 
         private void TampilkanSoalBerikutnya()
         {
@@ -79,10 +60,10 @@ namespace WinFormsApp1.Views.Forms
                 var grading = new Grading();
                 grading.Dock = DockStyle.Fill;
 
-                var formUser = new WFUser(new Models.Users { Username = currentUsername });
+                //var formUser = new WFUser(new Models.Users { Username = currentUsername });
                 //formUser.Load += (s, e) =>
                 //{
-                //    ViewsHelper.GantiKontenPanel(formUser.Controls["panel2"], grading); // pastikan panel2 ada dan bisa diakses
+                    //ViewsHelper.GantiKontenPanel(formUser.Controls["panel2"] as Panel, grading); // pastikan panel2 ada dan bisa diakses
                 //};
                 var panel2 = formUser.Controls["panel2"] as Panel;
                 if (panel2 != null)
@@ -91,7 +72,7 @@ namespace WinFormsApp1.Views.Forms
                 }
 
                 formUser.TampilkanGrading(daftarSoal.Count, skor);
-                formUser.Show();
+                //formUser.Show();
                 this.Close();
                 return;
             }
@@ -103,41 +84,24 @@ namespace WinFormsApp1.Views.Forms
             panelKuis.Controls.Clear();
             panelKuis.Controls.Add(currentSoalControl);
 
+            if (indeksSoal == daftarSoal.Count - 1)
+            {
+                btnNext.Text = "Finish";
+            }
+            else
+            {
+                btnNext.Text = "Next";
+            }
+
             indeksSoal++;
         }
-
-        //private void TampilkanSoalBerikutnya()
-        //{
-        //    if (indeksSoal >= daftarSoal.Count)
-        //    {
-        //        //MessageBox.Show($"Kuis selesai!\nSkor Anda: {skor}/{daftarSoal.Count}");
-
-        //        //Buka kembali form WFUser dan tampilkan user control Grading
-        //        var userForm = new WFUser(new Users { Username = currentUsername });
-        //         userForm.Show();
-
-        //        //Menampilkan nilai di panel grading di dalam WFUser
-        //        userForm.TampilkanGrading(daftarSoal.Count, skor);
-
-        //        //Tutup form kuis
-        //        this.Close();
-        //        return;
-        //    }
-
-        //    var soal = daftarSoal[indeksSoal];
-        //    currentSoalControl = new SoalNext(soal);
-        //    currentSoalControl.Dock = DockStyle.Fill;
-
-        //    panelKuis.Controls.Clear();
-        //    panelKuis.Controls.Add(currentSoalControl);
-
-        //    indeksSoal++;
-        //}
 
         private void btnNext_Click(object sender, EventArgs e)
         {
             if (currentSoalControl == null)
+            {
                 return;
+            }
 
             string jawabanUser = currentSoalControl.JawabanDipilih;
 
@@ -154,8 +118,6 @@ namespace WinFormsApp1.Views.Forms
 
             TampilkanSoalBerikutnya();
         }
-
-
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {

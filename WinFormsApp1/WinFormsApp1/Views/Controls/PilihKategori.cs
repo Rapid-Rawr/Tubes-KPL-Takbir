@@ -39,15 +39,25 @@ namespace WinFormsApp1.Views.Controls
                 return;
             }
 
-            // Sembunyikan WFUser
+            //// Sembunyikan WFUser
+            //Form parentForm = this.FindForm();
+            //parentForm.Hide();
+
+            //// Tampilkan WFKuis
+            //WFKuis formKuis = new WFKuis(controller, currentUsername, kategori.ToString());
+
+            //formKuis.FormClosed += (s, e) => parentForm.Show(); // kembali ke WFUser setelah kuis selesai
+            //formKuis.Show();
+
             Form parentForm = this.FindForm();
-            parentForm.Hide();
+            if (parentForm is WFUser wfUser)
+            {
+                parentForm.Hide();
 
-            // Tampilkan WFKuis
-            WFKuis formKuis = new WFKuis(controller, currentUsername, kategori.ToString());
-
-            formKuis.FormClosed += (s, e) => parentForm.Show(); // kembali ke WFUser setelah kuis selesai
-            formKuis.Show();
+                WFKuis formKuis = new WFKuis(controller, currentUsername, kategori.ToString(), wfUser);
+                formKuis.FormClosed += (s, e) => parentForm.Show();
+                formKuis.Show();
+            }
         }
 
 
@@ -68,14 +78,23 @@ namespace WinFormsApp1.Views.Controls
                 return;
             }
 
-            // Sembunyikan form lama
-            Form parentForm = this.FindForm();
-            parentForm.Hide();
+            //// Sembunyikan form lama
+            //Form parentForm = this.FindForm();
+            //parentForm.Hide();
 
-            // Buka form kuis
-            WFKuis formKuis = new WFKuis(controller, currentUsername, KategoriSoal.Lokal.ToString());
-            formKuis.FormClosed += (s, e) => parentForm.Show();
-            formKuis.Show();
+            //// Buka form kuis
+            //WFKuis formKuis = new WFKuis(controller, currentUsername, KategoriSoal.Lokal.ToString(), );
+            //formKuis.FormClosed += (s, e) => parentForm.Show();
+            //formKuis.Show();
+            Form parentForm = this.FindForm();
+            if (parentForm is WFUser wfUser)
+            {
+                parentForm.Hide();
+
+                WFKuis formKuis = new WFKuis(controller, currentUsername, KategoriSoal.Lokal.ToString(), wfUser);
+                formKuis.FormClosed += (s, e) => parentForm.Show();
+                formKuis.Show();
+            }
         }
 
         private async void btnKomputer_Click(object sender, EventArgs e)

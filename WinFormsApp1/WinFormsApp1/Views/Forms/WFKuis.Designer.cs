@@ -38,10 +38,10 @@
             // QuizzyLogo
             // 
             QuizzyLogo.Image = Properties.Resources.brain;
-            QuizzyLogo.Location = new Point(54, 48);
-            QuizzyLogo.Margin = new Padding(1, 3, 1, 3);
+            QuizzyLogo.Location = new Point(38, 29);
+            QuizzyLogo.Margin = new Padding(1, 2, 1, 2);
             QuizzyLogo.Name = "QuizzyLogo";
-            QuizzyLogo.Size = new Size(69, 87);
+            QuizzyLogo.Size = new Size(48, 52);
             QuizzyLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             QuizzyLogo.TabIndex = 5;
             QuizzyLogo.TabStop = false;
@@ -51,19 +51,18 @@
             QuizzyLabel.AutoSize = true;
             QuizzyLabel.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             QuizzyLabel.ForeColor = Color.MediumVioletRed;
-            QuizzyLabel.Location = new Point(146, 70);
+            QuizzyLabel.Location = new Point(102, 42);
             QuizzyLabel.Margin = new Padding(1, 0, 1, 0);
             QuizzyLabel.Name = "QuizzyLabel";
-            QuizzyLabel.Size = new Size(149, 43);
+            QuizzyLabel.Size = new Size(98, 29);
             QuizzyLabel.TabIndex = 4;
             QuizzyLabel.Text = "QUIZZY";
             // 
             // panelKuis
             // 
-            panelKuis.Location = new Point(39, 185);
-            panelKuis.Margin = new Padding(4, 5, 4, 5);
+            panelKuis.Location = new Point(27, 111);
             panelKuis.Name = "panelKuis";
-            panelKuis.Size = new Size(1089, 478);
+            panelKuis.Size = new Size(762, 287);
             panelKuis.TabIndex = 6;
             panelKuis.Paint += panelKuis_Paint;
             // 
@@ -72,10 +71,9 @@
             btnNext.BackColor = Color.OliveDrab;
             btnNext.Font = new Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnNext.ForeColor = Color.White;
-            btnNext.Location = new Point(980, 700);
-            btnNext.Margin = new Padding(4, 5, 4, 5);
+            btnNext.Location = new Point(676, 420);
             btnNext.Name = "btnNext";
-            btnNext.Size = new Size(147, 63);
+            btnNext.Size = new Size(103, 38);
             btnNext.TabIndex = 7;
             btnNext.Text = "Next";
             btnNext.UseVisualStyleBackColor = false;
@@ -83,16 +81,16 @@
             // 
             // WFKuis
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1163, 818);
+            ClientSize = new Size(814, 491);
             Controls.Add(btnNext);
             Controls.Add(panelKuis);
             Controls.Add(QuizzyLogo);
             Controls.Add(QuizzyLabel);
-            Margin = new Padding(4, 5, 4, 5);
             Name = "WFKuis";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "WFKuis";
             Load += WFKuis_Load;
             ((System.ComponentModel.ISupportInitialize)QuizzyLogo).EndInit();
