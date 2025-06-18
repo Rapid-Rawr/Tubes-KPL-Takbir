@@ -11,7 +11,7 @@ namespace WinFormsApp1.Controllers
 {
     class NilaiController
     {
-        string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "data", "hasil.json");
+        string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "hasil.json");
 
         public int menilai(int totalSoal, int soalBenar)
         {
@@ -39,7 +39,7 @@ namespace WinFormsApp1.Controllers
                 .Select(g => new HasilPengerjaan
                 {
                     Username = g.Key,
-                    TotalBenar = g.Sum(x => x.TotalBenar),
+                    TotalBenar = g.Sum(x => x.TotalBenar)*20,
                     TotalSoal = g.Sum(x => x.TotalSoal)
                 })
                 .OrderByDescending(h => h.TotalBenar)

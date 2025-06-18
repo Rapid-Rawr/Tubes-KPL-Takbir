@@ -66,9 +66,10 @@
             lblJuara1Skor.ForeColor = Color.White;
             lblJuara1Skor.Location = new Point(52, 109);
             lblJuara1Skor.Name = "lblJuara1Skor";
-            lblJuara1Skor.Size = new Size(83, 27);
+            lblJuara1Skor.Size = new Size(51, 27);
             lblJuara1Skor.TabIndex = 6;
             lblJuara1Skor.Text = "Skor:";
+            lblJuara1Skor.TextAlign = ContentAlignment.MiddleCenter;
             lblJuara1Skor.Click += label6_Click;
             // 
             // lblJuara1Username
@@ -80,6 +81,7 @@
             lblJuara1Username.Size = new Size(92, 27);
             lblJuara1Username.TabIndex = 5;
             lblJuara1Username.Text = "Username:";
+            lblJuara1Username.TextAlign = ContentAlignment.MiddleCenter;
             lblJuara1Username.Click += label5_Click;
             // 
             // label2
@@ -110,20 +112,22 @@
             lblJuara2Skor.ForeColor = Color.White;
             lblJuara2Skor.Location = new Point(54, 85);
             lblJuara2Skor.Name = "lblJuara2Skor";
-            lblJuara2Skor.Size = new Size(83, 27);
+            lblJuara2Skor.Size = new Size(48, 27);
             lblJuara2Skor.TabIndex = 8;
             lblJuara2Skor.Text = "Skor:";
+            lblJuara2Skor.TextAlign = ContentAlignment.TopCenter;
             lblJuara2Skor.Click += label7_Click;
             // 
             // lblJuara2Username
             // 
             lblJuara2Username.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblJuara2Username.ForeColor = Color.White;
-            lblJuara2Username.Location = new Point(34, 58);
+            lblJuara2Username.Location = new Point(28, 58);
             lblJuara2Username.Name = "lblJuara2Username";
             lblJuara2Username.Size = new Size(100, 27);
             lblJuara2Username.TabIndex = 7;
             lblJuara2Username.Text = "Username:";
+            lblJuara2Username.TextAlign = ContentAlignment.MiddleCenter;
             lblJuara2Username.Click += label8_Click;
             // 
             // label3
@@ -154,20 +158,22 @@
             lblJuara3Skor.ForeColor = Color.White;
             lblJuara3Skor.Location = new Point(46, 79);
             lblJuara3Skor.Name = "lblJuara3Skor";
-            lblJuara3Skor.Size = new Size(83, 27);
+            lblJuara3Skor.Size = new Size(54, 27);
             lblJuara3Skor.TabIndex = 10;
             lblJuara3Skor.Text = "Skor:";
+            lblJuara3Skor.TextAlign = ContentAlignment.MiddleCenter;
             lblJuara3Skor.Click += label9_Click;
             // 
             // lblJuara3Username
             // 
             lblJuara3Username.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblJuara3Username.ForeColor = Color.White;
-            lblJuara3Username.Location = new Point(28, 52);
+            lblJuara3Username.Location = new Point(22, 52);
             lblJuara3Username.Name = "lblJuara3Username";
             lblJuara3Username.Size = new Size(100, 27);
             lblJuara3Username.TabIndex = 9;
             lblJuara3Username.Text = "Username:";
+            lblJuara3Username.TextAlign = ContentAlignment.MiddleCenter;
             lblJuara3Username.Click += label10_Click;
             // 
             // label4

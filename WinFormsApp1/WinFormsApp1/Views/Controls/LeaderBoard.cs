@@ -21,8 +21,8 @@ namespace WinFormsApp1.Views.Controls
 
         public LeaderBoard()
         {
-            InitializeComponent();
             this.Load += LeaderBoard_Load;
+            InitializeComponent();
         }
 
         private void LeaderBoard_Load(object sender, EventArgs e)
@@ -32,19 +32,19 @@ namespace WinFormsApp1.Views.Controls
             if (leaderboardData.Count > 0)
             {
                 lblJuara1Username.Text = leaderboardData[0].Username;
-                lblJuara1Skor.Text = $"{leaderboardData[0].TotalBenar} Benar";
+                lblJuara1Skor.Text = $"{leaderboardData[0].TotalBenar} ";
             }
 
             if (leaderboardData.Count > 1)
             {
                 lblJuara2Username.Text = leaderboardData[1].Username;
-                lblJuara2Skor.Text = $"{leaderboardData[1].TotalBenar} Benar";
+                lblJuara2Skor.Text = $"{leaderboardData[1].TotalBenar} ";
             }
 
             if (leaderboardData.Count > 2)
             {
                 lblJuara3Username.Text = leaderboardData[2].Username;
-                lblJuara3Skor.Text = $"{leaderboardData[2].TotalBenar} Benar";
+                lblJuara3Skor.Text = $"{leaderboardData[2].TotalBenar}";
             }
 
             // Sisanya masuk ke DataGridView
