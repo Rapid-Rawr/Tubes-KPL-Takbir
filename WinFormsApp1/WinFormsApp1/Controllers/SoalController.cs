@@ -36,7 +36,8 @@ namespace WinFormsApp1.Controllers
             Matematika,
             IPA,
             Geografi,
-            Sejarah
+            Sejarah,
+            Lokal
         }
 
         public static class ApiKategoriTable

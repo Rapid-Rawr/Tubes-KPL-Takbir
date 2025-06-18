@@ -48,6 +48,26 @@ namespace WinFormsApp1.Controllers
             return highestPerUser;
         }
 
+
+        public void SimpanHasil(HasilPengerjaan hasil)
+        {
+            string filePath = "hasil.json"; // Pastikan path ini sesuai dengan yang kamu gunakan
+
+            // Load semua hasil dari file
+            List<HasilPengerjaan> semuaHasil = JsonHelper.LoadFromFile<List<HasilPengerjaan>>(filePath) ?? new List<HasilPengerjaan>();
+
+            // Tambahkan ID otomatis
+            hasil.Id = semuaHasil.Count > 0 ? semuaHasil.Max(h => h.Id) + 1 : 1;
+
+            // Tambahkan hasil baru
+            semuaHasil.Add(hasil);
+
+            // Simpan kembali ke file
+            JsonHelper.SaveToFile(filePath, semuaHasil);
+        }
+
+
+
         // Method pengolahan leaderboard (versi sederhana)
         //private List<LeaderBoard> GetLeaderBoard(List<HasilPengerjaan> quizResults)
         //{

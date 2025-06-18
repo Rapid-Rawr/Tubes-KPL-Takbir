@@ -19,10 +19,13 @@ namespace WinFormsApp1.Views.Controls
     {
         private SoalController controller;
         public event EventHandler<UserControl> ContentDiganti;
+        private string currentUsername;
 
-        public PilihKategori()
+
+        public PilihKategori(string currentUsername)
         {
             InitializeComponent();
+            this.currentUsername = currentUsername;
         }
 
         private async Task LoadSoalDanBukaKuisAPI(SoalController.KategoriSoal kategori)
@@ -41,7 +44,8 @@ namespace WinFormsApp1.Views.Controls
             parentForm.Hide();
 
             // Tampilkan WFKuis
-            WFKuis formKuis = new WFKuis(controller);
+            WFKuis formKuis = new WFKuis(controller, currentUsername, kategori.ToString());
+
             formKuis.FormClosed += (s, e) => parentForm.Show(); // kembali ke WFUser setelah kuis selesai
             formKuis.Show();
         }
@@ -69,7 +73,7 @@ namespace WinFormsApp1.Views.Controls
             parentForm.Hide();
 
             // Buka form kuis
-            WFKuis formKuis = new WFKuis(controller);
+            WFKuis formKuis = new WFKuis(controller, currentUsername, KategoriSoal.Lokal.ToString());
             formKuis.FormClosed += (s, e) => parentForm.Show();
             formKuis.Show();
         }

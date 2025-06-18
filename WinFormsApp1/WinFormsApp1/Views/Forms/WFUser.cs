@@ -73,7 +73,7 @@ namespace WinFormsApp1.Views.Forms
 
             //ViewsHelper.GantiKontenPanel(panel2, kategori);
 
-            var kerjakanKuis = new PilihKategori();
+            var kerjakanKuis = new PilihKategori(userName);
             kerjakanKuis.ContentDiganti += (s, uc) => ViewsHelper.GantiKontenPanel(panel2, uc);
             ViewsHelper.GantiKontenPanel(panel2, kerjakanKuis);
         }

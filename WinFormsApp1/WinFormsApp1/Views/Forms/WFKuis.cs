@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using WinFormsApp1.Models;
 using WinFormsApp1.Controllers;
 using WinFormsApp1.Views.Controls;
+using WinFormsApp1.Utilities;
 
 namespace WinFormsApp1.Views.Forms
 {
@@ -23,15 +24,29 @@ namespace WinFormsApp1.Views.Forms
         private string currentUsername;
 
         private SoalNext currentSoalControl;
+        private string currentKategori;
+        private NilaiController nilaiController = new();
 
-        public WFKuis(SoalController controller, string currentUsername)
+        //public WFKuis(SoalController controller, string currentUsername)
+        //{
+        //    InitializeComponent();
+        //    this.controller = controller;
+        //    daftarSoal = controller.GetDaftarSoal();
+        //    this.currentUsername = currentUsername;
+        //    TampilkanSoalBerikutnya();
+        //}
+
+        public WFKuis(SoalController controller, string username, string kategori)
         {
             InitializeComponent();
             this.controller = controller;
+            this.currentUsername = username;
+            this.currentKategori = kategori;
+
             daftarSoal = controller.GetDaftarSoal();
-            this.currentUsername = currentUsername;
             TampilkanSoalBerikutnya();
         }
+
 
         public WFKuis(SoalController controller)
         {
@@ -44,21 +59,39 @@ namespace WinFormsApp1.Views.Forms
 
 
 
-
         private void TampilkanSoalBerikutnya()
         {
             if (indeksSoal >= daftarSoal.Count)
             {
-                //MessageBox.Show($"Kuis selesai!\nSkor Anda: {skor}/{daftarSoal.Count}");
+                int nilaiAkhir = nilaiController.menilai(daftarSoal.Count, skor);
 
-                //Buka kembali form WFUser dan tampilkan user control Grading
-                var userForm = new WFUser(new Users { Username = currentUsername });
-                 userForm.Show();
+                // Simpan hasil ke file
+                var hasil = new HasilPengerjaan
+                {
+                    Username = currentUsername,
+                    Kategori = currentKategori,
+                    TotalSoal = daftarSoal.Count,
+                    TotalBenar = skor
+                };
+                nilaiController.SimpanHasil(hasil);
 
-                //Menampilkan nilai di panel grading di dalam WFUser
-                userForm.TampilkanGrading(daftarSoal.Count, skor);
+                // Pindah ke WFUser dan tampilkan grading
+                var grading = new Grading();
+                grading.Dock = DockStyle.Fill;
 
-                //Tutup form kuis
+                var formUser = new WFUser(new Models.Users { Username = currentUsername });
+                //formUser.Load += (s, e) =>
+                //{
+                //    ViewsHelper.GantiKontenPanel(formUser.Controls["panel2"], grading); // pastikan panel2 ada dan bisa diakses
+                //};
+                var panel2 = formUser.Controls["panel2"] as Panel;
+                if (panel2 != null)
+                {
+                    ViewsHelper.GantiKontenPanel(panel2, grading);
+                }
+
+                formUser.TampilkanGrading(daftarSoal.Count, skor);
+                formUser.Show();
                 this.Close();
                 return;
             }
@@ -72,6 +105,34 @@ namespace WinFormsApp1.Views.Forms
 
             indeksSoal++;
         }
+
+        //private void TampilkanSoalBerikutnya()
+        //{
+        //    if (indeksSoal >= daftarSoal.Count)
+        //    {
+        //        //MessageBox.Show($"Kuis selesai!\nSkor Anda: {skor}/{daftarSoal.Count}");
+
+        //        //Buka kembali form WFUser dan tampilkan user control Grading
+        //        var userForm = new WFUser(new Users { Username = currentUsername });
+        //         userForm.Show();
+
+        //        //Menampilkan nilai di panel grading di dalam WFUser
+        //        userForm.TampilkanGrading(daftarSoal.Count, skor);
+
+        //        //Tutup form kuis
+        //        this.Close();
+        //        return;
+        //    }
+
+        //    var soal = daftarSoal[indeksSoal];
+        //    currentSoalControl = new SoalNext(soal);
+        //    currentSoalControl.Dock = DockStyle.Fill;
+
+        //    panelKuis.Controls.Clear();
+        //    panelKuis.Controls.Add(currentSoalControl);
+
+        //    indeksSoal++;
+        //}
 
         private void btnNext_Click(object sender, EventArgs e)
         {
