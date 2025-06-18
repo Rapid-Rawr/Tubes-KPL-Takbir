@@ -171,7 +171,7 @@
             lblJuara3Skor.Size = new Size(38, 16);
             lblJuara3Skor.TabIndex = 10;
             lblJuara3Skor.Text = "Skor:";
-            lblJuara3Skor.TextAlign = ContentAlignment.MiddleCenter;
+            lblJuara3Skor.TextAlign = ContentAlignment.TopCenter;
             lblJuara3Skor.Click += label9_Click;
             // 
             // lblJuara3Username

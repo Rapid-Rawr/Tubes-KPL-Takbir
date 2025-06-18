@@ -47,7 +47,7 @@
             // btnLogout
             // 
             btnLogout.BackColor = Color.MediumVioletRed;
-            btnLogout.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnLogout.Font = new Font("Arial", 9.75F, FontStyle.Bold);
             btnLogout.ForeColor = Color.White;
             btnLogout.Location = new Point(24, 363);
             btnLogout.Name = "btnLogout";
@@ -60,7 +60,7 @@
             // btnToHistoriPengerjaan
             // 
             btnToHistoriPengerjaan.BackColor = Color.MediumVioletRed;
-            btnToHistoriPengerjaan.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnToHistoriPengerjaan.Font = new Font("Arial", 9.75F, FontStyle.Bold);
             btnToHistoriPengerjaan.ForeColor = Color.White;
             btnToHistoriPengerjaan.Location = new Point(24, 297);
             btnToHistoriPengerjaan.Name = "btnToHistoriPengerjaan";
@@ -68,11 +68,12 @@
             btnToHistoriPengerjaan.TabIndex = 0;
             btnToHistoriPengerjaan.Text = "Lihat Histori Pengerjaan";
             btnToHistoriPengerjaan.UseVisualStyleBackColor = false;
+            btnToHistoriPengerjaan.Click += btnToHistoriPengerjaan_Click;
             // 
             // btnToSoalInternet
             // 
             btnToSoalInternet.BackColor = Color.MediumVioletRed;
-            btnToSoalInternet.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnToSoalInternet.Font = new Font("Arial", 9.75F, FontStyle.Bold);
             btnToSoalInternet.ForeColor = Color.White;
             btnToSoalInternet.Location = new Point(24, 230);
             btnToSoalInternet.Name = "btnToSoalInternet";
@@ -85,7 +86,7 @@
             // btnToKelolaSoal
             // 
             btnToKelolaSoal.BackColor = Color.MediumVioletRed;
-            btnToKelolaSoal.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnToKelolaSoal.Font = new Font("Arial", 9.75F, FontStyle.Bold);
             btnToKelolaSoal.ForeColor = Color.White;
             btnToKelolaSoal.Location = new Point(24, 163);
             btnToKelolaSoal.Name = "btnToKelolaSoal";
@@ -108,11 +109,11 @@
             // QuizzyLabel
             // 
             QuizzyLabel.AutoSize = true;
-            QuizzyLabel.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            QuizzyLabel.Font = new Font("Arial", 18F, FontStyle.Bold);
             QuizzyLabel.ForeColor = Color.MediumVioletRed;
             QuizzyLabel.Location = new Point(127, 48);
             QuizzyLabel.Name = "QuizzyLabel";
-            QuizzyLabel.Size = new Size(149, 35);
+            QuizzyLabel.Size = new Size(149, 43);
             QuizzyLabel.TabIndex = 0;
             QuizzyLabel.Text = "QUIZZY";
             QuizzyLabel.Click += label1_Click;

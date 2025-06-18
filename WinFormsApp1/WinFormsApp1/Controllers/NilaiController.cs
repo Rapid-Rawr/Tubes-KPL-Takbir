@@ -66,6 +66,20 @@ namespace WinFormsApp1.Controllers
             JsonHelper.SaveToFile(filePath, semuaHasil);
         }
 
+        public List<HasilPengerjaan> GetAllHistory()
+        {
+            return JsonHelper.LoadFromFile<List<HasilPengerjaan>>(filePath) ?? new List<HasilPengerjaan>();
+        }
+
+        public (List<HasilPengerjaan> history, int totalNilai) GetUserHistory(string username)
+        {
+            var allData = JsonHelper.LoadFromFile<List<HasilPengerjaan>>(filePath) ?? new List<HasilPengerjaan>();
+
+            var userData = allData.Where(x => x.Username == username).ToList();
+            int totalNilai = userData.Sum(x => x.TotalBenar) * 20;
+
+            return (userData, totalNilai);
+        }
 
 
         // Method pengolahan leaderboard (versi sederhana)
