@@ -54,8 +54,8 @@
             panel1.Controls.Add(lblJuara1Skor);
             panel1.Controls.Add(lblJuara1Username);
             panel1.Controls.Add(label2);
-            panel1.Location = new Point(240, 107);
-            panel1.Margin = new Padding(2, 2, 2, 2);
+            panel1.Location = new Point(243, 107);
+            panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
             panel1.Size = new Size(108, 157);
             panel1.TabIndex = 0;
@@ -105,8 +105,8 @@
             panel2.Controls.Add(lblJuara2Skor);
             panel2.Controls.Add(lblJuara2Username);
             panel2.Controls.Add(label3);
-            panel2.Location = new Point(132, 146);
-            panel2.Margin = new Padding(2, 2, 2, 2);
+            panel2.Location = new Point(135, 146);
+            panel2.Margin = new Padding(2);
             panel2.Name = "panel2";
             panel2.Size = new Size(108, 118);
             panel2.TabIndex = 1;
@@ -155,8 +155,8 @@
             panel3.Controls.Add(lblJuara3Skor);
             panel3.Controls.Add(lblJuara3Username);
             panel3.Controls.Add(label4);
-            panel3.Location = new Point(348, 184);
-            panel3.Margin = new Padding(2, 2, 2, 2);
+            panel3.Location = new Point(351, 184);
+            panel3.Margin = new Padding(2);
             panel3.Name = "panel3";
             panel3.Size = new Size(108, 80);
             panel3.TabIndex = 2;
@@ -203,7 +203,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(229, 34);
+            label1.Location = new Point(232, 34);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(126, 25);
@@ -214,12 +214,12 @@
             // 
             dataGridView1.BackgroundColor = SystemColors.ControlLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(71, 302);
-            dataGridView1.Margin = new Padding(2, 2, 2, 2);
+            dataGridView1.Location = new Point(70, 302);
+            dataGridView1.Margin = new Padding(2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(458, 142);
+            dataGridView1.Size = new Size(458, 148);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -233,7 +233,7 @@
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "LeaderBoard";
             Size = new Size(596, 491);
             Load += LeaderBoard_Load;

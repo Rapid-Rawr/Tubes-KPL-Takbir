@@ -55,7 +55,7 @@ namespace WinFormsApp1.Views.Forms
             this.Hide();
         }
 
-        private void linkToLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void linkToLogin_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
             new Login().Show();
             this.Hide();

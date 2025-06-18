@@ -48,7 +48,6 @@ namespace WinFormsApp1.Controllers
             return highestPerUser;
         }
 
-
         public void SimpanHasil(HasilPengerjaan hasil)
         {
             string filePath = "hasil.json"; // Pastikan path ini sesuai dengan yang kamu gunakan
@@ -66,9 +65,13 @@ namespace WinFormsApp1.Controllers
             JsonHelper.SaveToFile(filePath, semuaHasil);
         }
 
-        public List<HasilPengerjaan> GetAllHistory()
+        public (List<HasilPengerjaan> allData, int totalNilai) GetAllHistory()
         {
-            return JsonHelper.LoadFromFile<List<HasilPengerjaan>>(filePath) ?? new List<HasilPengerjaan>();
+            var allData = JsonHelper.LoadFromFile<List<HasilPengerjaan>>(filePath) ?? new List<HasilPengerjaan>();
+
+            int totalNilai = allData.Sum(x => x.TotalBenar) * 20;
+
+            return (allData, totalNilai);
         }
 
         public (List<HasilPengerjaan> history, int totalNilai) GetUserHistory(string username)

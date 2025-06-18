@@ -32,10 +32,10 @@
             // QuizzyLogo
             // 
             QuizzyLogo.Image = Properties.Resources.brain;
-            QuizzyLogo.Location = new Point(541, 127);
-            QuizzyLogo.Margin = new Padding(2, 3, 2, 3);
+            QuizzyLogo.Location = new Point(379, 76);
+            QuizzyLogo.Margin = new Padding(1, 2, 1, 2);
             QuizzyLogo.Name = "QuizzyLogo";
-            QuizzyLogo.Size = new Size(69, 87);
+            QuizzyLogo.Size = new Size(48, 52);
             QuizzyLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             QuizzyLogo.TabIndex = 3;
             QuizzyLogo.TabStop = false;
@@ -46,30 +46,28 @@
             QuizzyLabel.AutoSize = true;
             QuizzyLabel.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             QuizzyLabel.ForeColor = Color.MediumVioletRed;
-            QuizzyLabel.Location = new Point(509, 235);
-            QuizzyLabel.Margin = new Padding(2, 0, 2, 0);
+            QuizzyLabel.Location = new Point(356, 141);
+            QuizzyLabel.Margin = new Padding(1, 0, 1, 0);
             QuizzyLabel.Name = "QuizzyLabel";
-            QuizzyLabel.Size = new Size(149, 43);
+            QuizzyLabel.Size = new Size(98, 29);
             QuizzyLabel.TabIndex = 2;
             QuizzyLabel.Text = "QUIZZY";
             // 
             // txtUsername
             // 
             txtUsername.ForeColor = SystemColors.WindowText;
-            txtUsername.Location = new Point(439, 387);
-            txtUsername.Margin = new Padding(4, 5, 4, 5);
+            txtUsername.Location = new Point(307, 232);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(284, 31);
+            txtUsername.Size = new Size(200, 23);
             txtUsername.TabIndex = 4;
             // 
             // NameLabel
             // 
             NameLabel.AutoSize = true;
             NameLabel.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            NameLabel.Location = new Point(439, 350);
-            NameLabel.Margin = new Padding(4, 0, 4, 0);
+            NameLabel.Location = new Point(307, 210);
             NameLabel.Name = "NameLabel";
-            NameLabel.Size = new Size(105, 24);
+            NameLabel.Size = new Size(71, 16);
             NameLabel.TabIndex = 5;
             NameLabel.Text = "Username";
             // 
@@ -77,19 +75,18 @@
             // 
             UsernameLabel.AutoSize = true;
             UsernameLabel.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            UsernameLabel.Location = new Point(439, 450);
-            UsernameLabel.Margin = new Padding(4, 0, 4, 0);
+            UsernameLabel.Location = new Point(307, 270);
             UsernameLabel.Name = "UsernameLabel";
-            UsernameLabel.Size = new Size(103, 24);
+            UsernameLabel.Size = new Size(68, 16);
             UsernameLabel.TabIndex = 6;
             UsernameLabel.Text = "Password";
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(439, 487);
-            txtPassword.Margin = new Padding(4, 5, 4, 5);
+            txtPassword.Location = new Point(307, 292);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(284, 31);
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(200, 23);
             txtPassword.TabIndex = 7;
             // 
             // btnLogin
@@ -97,10 +94,9 @@
             btnLogin.BackColor = Color.MediumVioletRed;
             btnLogin.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLogin.ForeColor = Color.White;
-            btnLogin.Location = new Point(439, 565);
-            btnLogin.Margin = new Padding(4, 5, 4, 5);
+            btnLogin.Location = new Point(307, 339);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(286, 67);
+            btnLogin.Size = new Size(200, 40);
             btnLogin.TabIndex = 8;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = false;
@@ -110,10 +106,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(437, 663);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(306, 398);
             label1.Name = "label1";
-            label1.Size = new Size(173, 23);
+            label1.Size = new Size(116, 16);
             label1.TabIndex = 9;
             label1.Text = "Tidak punya akun?";
             label1.Click += label3_Click;
@@ -123,10 +118,9 @@
             linkToRegister.AutoSize = true;
             linkToRegister.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkToRegister.LinkColor = Color.MediumVioletRed;
-            linkToRegister.Location = new Point(599, 663);
-            linkToRegister.Margin = new Padding(4, 0, 4, 0);
+            linkToRegister.Location = new Point(419, 398);
             linkToRegister.Name = "linkToRegister";
-            linkToRegister.Size = new Size(133, 23);
+            linkToRegister.Size = new Size(89, 16);
             linkToRegister.TabIndex = 10;
             linkToRegister.TabStop = true;
             linkToRegister.Text = "Register disini";
@@ -135,10 +129,10 @@
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1163, 818);
+            ClientSize = new Size(814, 491);
             Controls.Add(linkToRegister);
             Controls.Add(label1);
             Controls.Add(btnLogin);
@@ -148,7 +142,6 @@
             Controls.Add(txtUsername);
             Controls.Add(QuizzyLogo);
             Controls.Add(QuizzyLabel);
-            Margin = new Padding(4, 5, 4, 5);
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";

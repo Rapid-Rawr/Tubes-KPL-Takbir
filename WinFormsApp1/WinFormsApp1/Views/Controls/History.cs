@@ -32,12 +32,13 @@ namespace WinFormsApp1.Views.Controls
 
         private void TampilkanUntukAdmin()
         {
-            var allHistory = nilaiController.GetAllHistory();
+            var (allHistory, totalSkor) = nilaiController.GetAllHistory();
             dataGridView1.DataSource = allHistory;
 
             // Sembunyikan komponen siswa
-            labelTotalSkor.Visible = false;
-            textBoxTotalSkor.Visible = false;
+            labelTotalSkor.Text = "Total Skor Keseluruhan:";
+            labelTotalSkor.Location = new Point(labelTotalSkor.Location.X - 30, labelTotalSkor.Location.Y);
+            textBoxTotalSkor.Text = totalSkor.ToString();
         }
 
         private void TampilkanUntukSiswa(string username)
@@ -47,16 +48,7 @@ namespace WinFormsApp1.Views.Controls
 
             labelTotalSkor.Text = "Total Skor Anda:";
             textBoxTotalSkor.Text = totalSkor.ToString();
-
-            // Tampilkan komponen siswa
-            labelTotalSkor.Visible = true;
-            textBoxTotalSkor.Visible = true;
         }
-
-        //public History()
-        //{
-        //    InitializeComponent();
-        //}
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
