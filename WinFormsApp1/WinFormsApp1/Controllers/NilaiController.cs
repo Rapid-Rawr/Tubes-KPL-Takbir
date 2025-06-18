@@ -22,9 +22,11 @@ namespace WinFormsApp1.Controllers
             return nilaiSatuan * soalBenar;
         }
 
+
+
         // Metod untuk dapatkan data leaderboard dari file JSON
         public List<HasilPengerjaan> GetLeaderBoardFromFile()
-        {
+        { //fix
             if (!File.Exists(filePath))
                 return new List<HasilPengerjaan>();
 

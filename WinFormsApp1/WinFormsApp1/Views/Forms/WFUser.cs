@@ -78,6 +78,14 @@ namespace WinFormsApp1.Views.Forms
             ViewsHelper.GantiKontenPanel(panel2, kerjakanKuis);
         }
 
-     
+
+        public void TampilkanGrading(int totalSoal, int totalBenar)
+        {
+            var grading = new Grading();
+            grading.SetNilai(totalSoal, totalBenar); 
+            ViewsHelper.GantiKontenPanel(panel2, grading);
+        }
+
+
     }
 }

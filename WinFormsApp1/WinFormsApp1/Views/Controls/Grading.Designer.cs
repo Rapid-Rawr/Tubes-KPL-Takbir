@@ -32,8 +32,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            button1 = new Button();
-            label4 = new Label();
+            lblSkor = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -62,7 +61,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(348, 296);
+            label2.Location = new Point(171, 308);
             label2.Name = "label2";
             label2.Size = new Size(466, 30);
             label2.TabIndex = 2;
@@ -72,48 +71,37 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(511, 361);
+            label3.Location = new Point(334, 373);
             label3.Name = "label3";
             label3.Size = new Size(128, 30);
             label3.TabIndex = 3;
             label3.Text = "Skor anda :";
             // 
-            // button1
+            // lblSkor
             // 
-            button1.BackColor = Color.ForestGreen;
-            button1.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(502, 555);
-            button1.Name = "button1";
-            button1.Size = new Size(151, 57);
-            button1.TabIndex = 5;
-            button1.Text = "Kembali";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            label4.BackColor = Color.MediumVioletRed;
-            label4.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = SystemColors.Control;
-            label4.Location = new Point(535, 405);
-            label4.Name = "label4";
-            label4.Size = new Size(77, 45);
-            label4.TabIndex = 6;
-            label4.Text = "tes";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
+            lblSkor.BackColor = Color.MediumVioletRed;
+            lblSkor.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblSkor.ForeColor = SystemColors.Control;
+            lblSkor.Location = new Point(358, 417);
+            lblSkor.Name = "lblSkor";
+            lblSkor.Size = new Size(77, 45);
+            lblSkor.TabIndex = 6;
+            lblSkor.Text = "tes";
+            lblSkor.TextAlign = ContentAlignment.MiddleCenter;
+            lblSkor.Click += label4_Click;
             // 
             // Grading
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(label4);
-            Controls.Add(button1);
+            Controls.Add(lblSkor);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "Grading";
-            Size = new Size(1185, 874);
+            Size = new Size(851, 818);
+            Load += Grading_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -125,7 +113,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Button button1;
-        private Label label4;
+        private Label lblSkor;
     }
 }

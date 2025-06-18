@@ -20,7 +20,18 @@ namespace WinFormsApp1.Views.Forms
         private int indeksSoal = 0;
         private int skor = 0;
 
+        private string currentUsername;
+
         private SoalNext currentSoalControl;
+
+        public WFKuis(SoalController controller, string currentUsername)
+        {
+            InitializeComponent();
+            this.controller = controller;
+            daftarSoal = controller.GetDaftarSoal();
+            this.currentUsername = currentUsername;
+            TampilkanSoalBerikutnya();
+        }
 
         public WFKuis(SoalController controller)
         {
@@ -30,11 +41,24 @@ namespace WinFormsApp1.Views.Forms
             TampilkanSoalBerikutnya();
         }
 
+
+
+
+
         private void TampilkanSoalBerikutnya()
         {
             if (indeksSoal >= daftarSoal.Count)
             {
-                MessageBox.Show($"Kuis selesai!\nSkor Anda: {skor}/{daftarSoal.Count}");
+                //MessageBox.Show($"Kuis selesai!\nSkor Anda: {skor}/{daftarSoal.Count}");
+
+                //Buka kembali form WFUser dan tampilkan user control Grading
+                var userForm = new WFUser(new Users { Username = currentUsername });
+                 userForm.Show();
+
+                //Menampilkan nilai di panel grading di dalam WFUser
+                userForm.TampilkanGrading(daftarSoal.Count, skor);
+
+                //Tutup form kuis
                 this.Close();
                 return;
             }
@@ -70,6 +94,8 @@ namespace WinFormsApp1.Views.Forms
             TampilkanSoalBerikutnya();
         }
 
+
+
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             var result = MessageBox.Show("Apakah Anda yakin ingin keluar dari kuis?", "Konfirmasi", MessageBoxButtons.YesNo);
@@ -77,6 +103,16 @@ namespace WinFormsApp1.Views.Forms
             {
                 e.Cancel = true;
             }
+        }
+
+        private void panelKuis_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void WFKuis_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
