@@ -9,7 +9,7 @@ using WinFormsApp1.Utilities;
 
 namespace WinFormsApp1.Controllers
 {
-    class NilaiController
+    public class NilaiController
     {
         string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "hasil.json");
 
@@ -24,7 +24,7 @@ namespace WinFormsApp1.Controllers
 
 
 
-        // Metod untuk dapatkan data leaderboard dari file JSON
+       
         public List<HasilPengerjaan> GetLeaderBoardFromFile()
         { //fix
             if (!File.Exists(filePath))
