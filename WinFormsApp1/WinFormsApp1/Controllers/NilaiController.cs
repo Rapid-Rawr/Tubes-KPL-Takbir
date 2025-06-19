@@ -26,7 +26,7 @@ namespace WinFormsApp1.Controllers
 
        
         public List<HasilPengerjaan> GetLeaderBoardFromFile()
-        { //fix
+        { 
             if (!File.Exists(filePath))
                 return new List<HasilPengerjaan>();
 
@@ -50,18 +50,14 @@ namespace WinFormsApp1.Controllers
 
         public void SimpanHasil(HasilPengerjaan hasil)
         {
-            string filePath = "hasil.json"; // Pastikan path ini sesuai dengan yang kamu gunakan
+            string filePath = "hasil.json"; 
 
-            // Load semua hasil dari file
             List<HasilPengerjaan> semuaHasil = JsonHelper.LoadFromFile<List<HasilPengerjaan>>(filePath) ?? new List<HasilPengerjaan>();
 
-            // Tambahkan ID otomatis
             hasil.Id = semuaHasil.Count > 0 ? semuaHasil.Max(h => h.Id) + 1 : 1;
 
-            // Tambahkan hasil baru
             semuaHasil.Add(hasil);
 
-            // Simpan kembali ke file
             JsonHelper.SaveToFile(filePath, semuaHasil);
         }
 
@@ -84,34 +80,5 @@ namespace WinFormsApp1.Controllers
             return (userData, totalNilai);
         }
 
-
-        // Method pengolahan leaderboard (versi sederhana)
-        //private List<LeaderBoard> GetLeaderBoard(List<HasilPengerjaan> quizResults)
-        //{
-        //    Dictionary<string, LeaderBoard> leaderboardDict = new Dictionary<string, LeaderBoard>();
-
-        //    foreach (var result in quizResults)
-        //    {
-        //        if (leaderboardDict.ContainsKey(result.Username))
-        //        {
-        //            leaderboardDict[result.Username].TotalSoalBenar += result.TotalBenar;
-        //            leaderboardDict[result.Username].TotalSoal += result.TotalSoal;
-        //        }
-        //        else
-        //        {
-        //            leaderboardDict[result.Username] = new LeaderBoard
-        //            {
-        //                Username = result.Username,
-        //                TotalSoalBenar = result.TotalBenar,
-        //                TotalSoal = result.TotalSoal
-        //            };
-        //        }
-        //    }
-
-        //    var leaderboardList = new List<LeaderBoard>(leaderboardDict.Values);
-        //    leaderboardList.Sort((a, b) => b.TotalSoalBenar.CompareTo(a.TotalSoalBenar));
-
-        //    return leaderboardList;
-        //}
     }
 }

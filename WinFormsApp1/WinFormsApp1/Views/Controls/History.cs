@@ -38,39 +38,6 @@ namespace WinFormsApp1.Views.Controls
             labelTotalSkor.Text = isAdmin ? "Total Skor Keseluruhan:" : "Total Skor Anda:";
         }
 
-        //public History(string? username = null, bool isAdmin = false)
-        //{
-        //    InitializeComponent();
-
-        //    if (isAdmin)
-        //    {
-        //        TampilkanUntukAdmin();
-        //    }
-        //    else if (username != null)
-        //    {
-        //        TampilkanUntukSiswa(username);
-        //    }
-        //}
-
-        private void TampilkanUntukAdmin()
-        {
-            var (allHistory, totalSkor) = nilaiController.GetAllHistory();
-            dataGridView1.DataSource = allHistory;
-
-            // Sembunyikan komponen siswa
-            labelTotalSkor.Text = "Total Skor Keseluruhan:";
-            labelTotalSkor.Location = new Point(labelTotalSkor.Location.X - 30, labelTotalSkor.Location.Y);
-            textBoxTotalSkor.Text = totalSkor.ToString();
-        }
-
-        private void TampilkanUntukSiswa(string username)
-        {
-            var (history, totalSkor) = nilaiController.GetUserHistory(username);
-            dataGridView1.DataSource = history;
-
-            labelTotalSkor.Text = "Total Skor Anda:";
-            textBoxTotalSkor.Text = totalSkor.ToString();
-        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {

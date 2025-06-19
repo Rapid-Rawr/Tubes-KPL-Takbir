@@ -46,7 +46,6 @@ namespace WinFormsApp1.Views.Forms
             {
                 int nilaiAkhir = nilaiController.menilai(daftarSoal.Count, skor);
 
-                // Simpan hasil ke file
                 var hasil = new HasilPengerjaan
                 {
                     Username = currentUsername,
@@ -56,15 +55,10 @@ namespace WinFormsApp1.Views.Forms
                 };
                 nilaiController.SimpanHasil(hasil);
 
-                // Pindah ke WFUser dan tampilkan grading
                 var grading = new Grading();
                 grading.Dock = DockStyle.Fill;
 
-                //var formUser = new WFUser(new Models.Users { Username = currentUsername });
-                //formUser.Load += (s, e) =>
-                //{
-                    //ViewsHelper.GantiKontenPanel(formUser.Controls["panel2"] as Panel, grading); // pastikan panel2 ada dan bisa diakses
-                //};
+                
                 var panel2 = formUser.Controls["panel2"] as Panel;
                 if (panel2 != null)
                 {
@@ -72,7 +66,6 @@ namespace WinFormsApp1.Views.Forms
                 }
 
                 formUser.TampilkanGrading(daftarSoal.Count, skor);
-                //formUser.Show();
                 this.Close();
                 return;
             }
