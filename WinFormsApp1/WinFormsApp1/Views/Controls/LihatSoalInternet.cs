@@ -21,7 +21,11 @@ namespace WinFormsApp1.Views.Controls
             InitializeComponent();
             this.controller = controller;
             cbKategori.SelectedIndexChanged -= cbKategori_SelectedIndexChanged;
-            cbKategori.DataSource = Enum.GetValues(typeof(SoalController.KategoriSoal));
+            cbKategori.DataSource = Enum
+                .GetValues(typeof(SoalController.KategoriSoal))
+                .Cast<SoalController.KategoriSoal>()
+                .Where(k => SoalController.ApiKategoriTable.GetUrl(k) != null)
+                .ToList();
             cbKategori.SelectedIndex = -1;
             cbKategori.SelectedIndexChanged += cbKategori_SelectedIndexChanged;
             viewLoadSoal();
