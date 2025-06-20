@@ -112,14 +112,14 @@ namespace WinFormsApp1.Views.Forms
             TampilkanSoalBerikutnya();
         }
 
-        protected override void OnFormClosing(FormClosingEventArgs e)
-        {
-            var result = MessageBox.Show("Apakah Anda yakin ingin keluar dari kuis?", "Konfirmasi", MessageBoxButtons.YesNo);
-            if (result == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
-        }
+        //protected override void OnFormClosing(FormClosingEventArgs e)
+        //{
+        //    var result = MessageBox.Show("Apakah Anda yakin ingin keluar dari kuis?", "Konfirmasi", MessageBoxButtons.YesNo);
+        //    if (result == DialogResult.No)
+        //    {
+        //        e.Cancel = true;
+        //    }
+        //}
 
         private void panelKuis_Paint(object sender, PaintEventArgs e)
         {
