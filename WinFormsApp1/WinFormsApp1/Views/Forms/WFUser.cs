@@ -11,15 +11,12 @@ using static WinFormsApp1.Controllers.SoalController;
 using WinFormsApp1.Controllers;
 using WinFormsApp1.Utilities;
 using WinFormsApp1.Views.Controls;
-//using WinFormsApp1.Models;
 
 namespace WinFormsApp1.Views.Forms
 {
     public partial class WFUser : Form
     {
         private string userName;
-
-
 
         public WFUser(Models.Users user)
         {
@@ -47,7 +44,6 @@ namespace WinFormsApp1.Views.Forms
 
         private void btnToSkor_Click(object sender, EventArgs e)
         {
-            //ini nanti mengarah ke usercontrol lihat panel, tapi belum saya buat nanti saya buat 
             var historyUC = new History(userName, false);
             ViewsHelper.GantiKontenPanel(panel2, historyUC);
         }

@@ -29,6 +29,7 @@ namespace WinFormsApp1.Views.Controls
         {
             var leaderboardData = nilaiController.GetLeaderBoardFromFile();
 
+            //ambil top 3
             if (leaderboardData.Count > 0)
             {
                 lblJuara1Username.Text = leaderboardData[0].Username;
@@ -47,7 +48,7 @@ namespace WinFormsApp1.Views.Controls
                 lblJuara3Skor.Text = $"{leaderboardData[2].TotalBenar}";
             }
 
-            // Sisanya masuk ke DataGridView
+            // sisanya masuk ke DataGridView
             var peringkatLain = leaderboardData.Skip(3).Select((item, index) => new
             {
                 Peringkat = index + 4,

@@ -24,8 +24,7 @@ namespace WinFormsApp1.Views.Forms
         public WFAdmin()
         {
             InitializeComponent();
-            //controllerManual = new SoalController(ModeSoal.Manual);
-            //controllerAPI = new SoalController(ModeSoal.API, false);
+          
         }
 
         private void label1_Click(object sender, EventArgs e)

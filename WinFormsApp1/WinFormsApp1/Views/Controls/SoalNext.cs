@@ -24,7 +24,7 @@ namespace WinFormsApp1.Views.Controls
 
         private void TampilkanSoal()
         {
-            labelPertanyaan.Text = soal.pertanyaan;
+            labelSoal.Text = soal.pertanyaan;
             btnOpsiA.Text = soal.opsi[0];
             btnOpsiB.Text = soal.opsi[1];
             btnOpsiC.Text = soal.opsi[2];
@@ -66,6 +66,11 @@ namespace WinFormsApp1.Views.Controls
         private void btnOpsiD_Click(object sender, EventArgs e)
         {
             JawabanDipilih = btnOpsiD.Text;
+        }
+
+        private void labelSoal_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsApp1.Controllers;
+using System.CodeDom.Compiler;
+using WinFormsApp1.Commands;
 
 namespace WinFormsApp1.Views.Controls
 {
@@ -15,6 +17,7 @@ namespace WinFormsApp1.Views.Controls
     {
 
         private NilaiController nilaiController = new NilaiController();
+        private HistoryCommandExecutor executor = new HistoryCommandExecutor();
 
         public History(string? username = null, bool isAdmin = false)
         {
@@ -22,33 +25,19 @@ namespace WinFormsApp1.Views.Controls
 
             if (isAdmin)
             {
-                TampilkanUntukAdmin();
+                executor.SetCommand(new AdminHistoryCommand(nilaiController));
             }
             else if (username != null)
             {
-                TampilkanUntukSiswa(username);
+                executor.SetCommand(new UserHistoryCommand(nilaiController, username));
             }
-        }
 
-        private void TampilkanUntukAdmin()
-        {
-            var (allHistory, totalSkor) = nilaiController.GetAllHistory();
-            dataGridView1.DataSource = allHistory;
-
-            // Sembunyikan komponen siswa
-            labelTotalSkor.Text = "Total Skor Keseluruhan:";
-            labelTotalSkor.Location = new Point(labelTotalSkor.Location.X - 30, labelTotalSkor.Location.Y);
-            textBoxTotalSkor.Text = totalSkor.ToString();
-        }
-
-        private void TampilkanUntukSiswa(string username)
-        {
-            var (history, totalSkor) = nilaiController.GetUserHistory(username);
+            var (history, totalSkor) = executor.Execute();
             dataGridView1.DataSource = history;
-
-            labelTotalSkor.Text = "Total Skor Anda:";
             textBoxTotalSkor.Text = totalSkor.ToString();
+            labelTotalSkor.Text = isAdmin ? "Total Skor Keseluruhan:" : "Total Skor Anda:";
         }
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -61,6 +50,11 @@ namespace WinFormsApp1.Views.Controls
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void History_Load(object sender, EventArgs e)
         {
 
         }
